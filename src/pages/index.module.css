@@ -1,0 +1,133 @@
+/* Стили главной страницы */
+.heroBanner {
+  padding: clamp(1rem, 3vw, 2rem) 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  height: 280px;
+}
+
+.heroBoxes {
+  flex-shrink: 0;
+}
+
+.heroBoxes img {
+  width: clamp(120px, 20vw, 200px);
+  height: auto;
+}
+
+.heroContent {
+  flex-grow: 1;
+  text-align: left;
+  padding: 0 1rem; /* Добавляем небольшие отступы по бокам */
+  overflow-wrap: break-word; /* Гарантированный перенос слов */
+  word-break: break-word; /* Разрыв слов, если нужно */
+}
+
+h1 {
+  font-size: clamp(1.2rem, 4vw, 2.5rem);
+  text-align: left;
+  /* padding: 0 0.5rem; */ /* Чуть уменьшаем шанс выхода за пределы */
+}
+
+.heroFirstLine {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.heroAmpersand {
+  color: #33C1ED;
+}
+
+.heroBloat {
+  color: #F6575E;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+/* .getStarted {
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+} */
+
+.getStarted:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .heroContainer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .heroBoxes img {
+    width: 150px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .heroContent {
+    text-align: center;
+    /* padding: 0 1.5rem; */ /* Чуть больше отступа на мобильных */
+  }
+
+  .heroBloat {    
+    text-align: center;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__title {
+    font-size: 1.6rem;
+  }
+  
+  .heroContent {
+    padding: 0 1rem;
+  }
+
+  .heroBloat {
+    font-size: 1.1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .getStarted {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Руководство - Базовое",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "5 минут для изучения самых важных концептов Docusaurus.",
+    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Руководство - Расширенное",
+    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical specifications": {
+    "message": "Техническая спецификация",
+    "description": "The label for category Technical specifications in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical specifications.link.generated-index.description": {
+    "message": "Техническая спецификация. Структура архива. Совместимость.",
+    "description": "The generated-index page description for category Technical specifications in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.General information": {
+    "message": "Общая информация",
+    "description": "The label for category General information in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.General information.link.generated-index.description": {
+    "message": "Теория. Термины и определения.",
+    "description": "The generated-index page description for category General information in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Settings": {
+    "message": "Настройки",
+    "description": "The label for category Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Settings.link.generated-index.description": {
+    "message": "Настройки модуля. Параметры.",
+    "description": "The generated-index page description for category Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.License": {
+    "message": "Лицензия",
+    "description": "The label for category License in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.License.link.generated-index.description": {
+    "message": "О лицензированной или бесплатной версии. Действие лицензии. Установка лицензии.",
+    "description": "The generated-index page description for category License in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Module features": {
+    "message": "Функции модуля",
+    "description": "The label for category Module features in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Module features.link.generated-index.description": {
+    "message": "Возможности. Примеры.",
+    "description": "The generated-index page description for category Module features in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Integration with OpenCart": {
+    "message": "Интеграция с OpenCart",
+    "description": "The label for category Integration with OpenCart in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Integration with OpenCart.link.generated-index.description": {
+    "message": "Модификация формы товара. Дополнительные кнопки, списки и настройки.",
+    "description": "The generated-index page description for category Integration with OpenCart in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools": {
+    "message": "Инструменты",
+    "description": "The label for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools.link.generated-index.description": {
+    "message": "Инструменты для пакетной обработки атрибутов и значений.",
+    "description": "The generated-index page description for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Unify attributes": {
+    "message": "Унификация атрибутов",
+    "description": "The label for category Unify attributes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Unify attributes.link.generated-index.description": {
+    "message": "Приведение атрибутов к единой системе или форме.",
+    "description": "The generated-index page description for category Unify attributes in sidebar tutorialSidebar"
+  }
+}

@@ -1,0 +1,110 @@
+---
+sidebar_position: 19
+---
+
+# FAQ
+
+These are frequently asked questions.
+
+<details>
+  <summary>I reinstalled the license, followed all the instructions, but it's still the free version...!</summary>
+
+Possible reasons:
+
+- Incorrect domain name. `domain.ru` and `www.domain.ru` are considered different domains.
+- License key corruption during input or saving. Spaces and line breaks are ignored and removed programmatically.
+- Incorrect license storage location. The `attributico.key` file must be placed in the `/system/license/` directory.
+
+</details>
+
+<details>
+  <summary>I'm interested in purchasing the module. Will it conflict with the DreamFilter module?</summary>
+
+The module does not conflict with **DreamFilter**, **megaFilter**, or any other filter. It does not interact with the frontend or filters but only works with the database, organizing **Attributes**, which are later used by filters.
+
+</details>
+
+<details>
+  <summary>I can only specify a test domain for now. Can I add more later?</summary>
+
+Yes, you can update it at any time as long as the number of domains and their characteristics comply with the [license](/license/license-install.md) terms.
+
+</details>
+
+<details>
+  <summary>The module stopped working. I migrated to a new hosting provider. Could this be the reason?</summary>
+
+Try the following:
+
+- Clear the store cache.
+- Clear your browser cache and cookies.
+- Refresh the modifiers.
+- Reapply and save the settings.
+
+</details>
+
+<details>
+  <summary>How do I merge attribute values?</summary>
+
+The module does not support attribute value merging using Drag-and-Drop, context menus, or keyboard shortcuts.  
+This is intentional to keep the module simple, and because the same result can be achieved through regular renaming of values.
+
+In essence, merging values or templates is just batch renaming, and this feature is already implemented. Simply edit the **Value** or **Template**.
+
+For more details, see the [Editing](/module-features/editing.md) section.
+
+</details>
+
+<details>
+  <summary>What is the workflow after parsing?</summary>
+
+The module does not enforce a specific workflow but provides functionality that simplifies manual work and tools for batch processing.
+
+One such tool is [**Category Attributes**](/tools/category-attributes.md).
+
+:::info
+In the settings, set [**`Method`**](/settings/product.md) to **Add duty attributes only to empty ones**.  
+For other settings, the result is self-explanatory.
+:::
+
+### Notation:
+
+- `C` — Category
+- `P` — Product
+- `A` — Attribute
+- `V` — Attribute Value
+- `D` — Duty Template
+
+For example, in category `C1`, there is a product `P1` with **Attribute** `A1`, which has **Value** `V1`.  
+You added **Attribute** `A2` with **Value** `V2`, and after parsing, two more products `P2` and `P3` were added with their own **Attributes** and corresponding **Values**.
+
+| ![Working with empty Duty Templates](/img/tutorial/attribute_category_1.svg) |
+|:--:|
+| *Diagram 1 – Working with empty Duty Templates* |
+
+Our goal is to unify **Category Attributes**, meaning every product in category `C1` should have the same set of **Attributes**.  
+We apply the **"Category Attributes"** tool.
+
+:::warning
+Some values remain empty because the module "does not know" what to fill in.  
+For example, **Attribute** `A1` can have **Values** `V1` or `V4`. Which one should be selected?
+:::
+
+To resolve this ambiguity, **Duty Templates** are used. If they are filled, the tool will produce the following result:
+
+| ![Working with filled Duty Templates](/img/tutorial/attribute_category_2.svg) |
+|:--:|
+| *Diagram 2 – Working with filled Duty Templates* |
+
+Now all **Values** are populated.
+
+</details>
+
+<details>
+  <summary>Can the module be modified to display attributes on the homepage below the product image?</summary>
+
+No. This module is designed for the admin panel and does not interact with the frontend.  
+Some features may be available in future advanced versions.  
+For now, this request should be directed to the theme (design) developers.
+
+</details>

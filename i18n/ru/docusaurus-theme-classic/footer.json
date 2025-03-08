@@ -1,0 +1,54 @@
+{
+  "link.title.Docs": {
+    "message": "Документы",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "Больше",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Руководство",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/docusaurus"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discordapp.com/invite/docusaurus"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/docusaurus"
+  },
+  "link.item.label.Blog": {
+    "message": "Блог",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/slhome2010/new.attributico.su"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Comtronics, Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "link.title.Get": {
+    "message": "Где получить",
+    "description": "The title of the footer links column with title=Get in the footer"
+  },
+  "link.item.label.Full version": {
+    "message": "Полная версия",
+    "description": "The label of footer link with label=Full version linking to https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-co-opencart-atributyi-eto-legko"
+  },
+  "link.item.label.Free version": {
+    "message": "Free версия",
+    "description": "The label of footer link with label=Free version linking to https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-coviewer-opencart-atributyi-eto-legko"
+  }
+}
