@@ -51,7 +51,7 @@ Deactivate the module and activate it again. See [Installation](/install.md).
 
 ## Conflicts with Other Modules {#error-conflict}
 
-If you are using multiple modules that work with attributes, keep in mind that most of them, like **Attribut&co**, modify the product editing form or replace it with their own version. In such cases, **Attribut&co** integration may not function correctly, and database conflicts may occur.
+If you are using multiple modules that work with attributes, keep in mind that most of them, like **Attribut&pro**, modify the product editing form or replace it with their own version. In such cases, **Attribut&pro** integration may not function correctly, and database conflicts may occur.
 
 Additionally, compatibility issues have been identified with modules that use different versions of `jquery.ui`, such as `Admin_quick_edit_product_opencart1.5x.vqmod`. This issue has been resolved in recent versions.
 
@@ -69,7 +69,7 @@ Try reverting to a previous working state. Sometimes, re-saving affected entries
 
 :::note
 **Tip:**  
-If you have already purchased **Attribut&co**, use it to manage attributes.  
+If you have already purchased **Attribut&pro**, use it to manage attributes.  
 It’s more convenient than manually editing OpenCart’s standard forms and helps prevent database errors.
 :::
 
@@ -103,7 +103,7 @@ This error may occur in large stores due to a timeout. It can also be caused by 
 ## Modifier Installation Errors {#error-ocmod}
 
 ```php
-Two Attribut&co menu items appear...
+Two Attribut&pro menu items appear...
 ```
 
 **Cause**  

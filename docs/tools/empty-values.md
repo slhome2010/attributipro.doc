@@ -8,7 +8,7 @@ Empty **Values** typically appear due to operator mistakes. The most common caus
 
 1\. Clicking the "Save" button while manually editing a product form, when an **Attribute** has been added but no **Value** has been entered.
 
-2\. Using Attribut&co to add an **Attribute** with an empty [Duty Template](/general-info/duty.md) to a category.
+2\. Using Attribut&pro to add an **Attribute** with an empty [Duty Template](/general-info/duty.md) to a category.
 
 | ![Empty values1](/img/tutorial/empty4.jpg) |
 |:--:|

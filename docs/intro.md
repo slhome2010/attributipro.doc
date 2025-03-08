@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-The Attribut&co module is an extension for managing product attributes (referred to as "characteristics" in Russian-language versions) in online stores running on the OpenCart platform.
+The Attribut&pro module is an extension for managing product attributes (referred to as "characteristics" in Russian-language versions) in online stores running on the OpenCart platform.
 
 ## Module Mission
 

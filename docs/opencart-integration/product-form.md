@@ -14,7 +14,7 @@ Changes to the Database occur only after you click the `Save` button. Saving is 
 You are the one who decides whether to save the changes or not.
 :::
 
-If the modification is applied correctly, the **Attribut&co** menu item should appear in the *Catalog ⇒ Attributes* section of the admin panel sidebar, and additional control buttons should appear in the product form.
+If the modification is applied correctly, the **Attribut&pro** menu item should appear in the *Catalog ⇒ Attributes* section of the admin panel sidebar, and additional control buttons should appear in the product form.
 
 | ![attribute](/img/tutorial/en/service_panel_en.png) |
 |:--:|

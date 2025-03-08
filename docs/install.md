@@ -16,7 +16,7 @@ Extract the archive and open the folder corresponding to [your PHP version](/tec
 
 ### Step 3: Activate the Module
 
-In the admin panel, navigate to *Extensions ⇒ Modules*, where the "Attribut&co" module should appear. Install (activate) it.
+In the admin panel, navigate to *Extensions ⇒ Modules*, where the "Attribut&pro" module should appear. Install (activate) it.
 
 ### Step 4: Set Permissions
 
@@ -38,7 +38,7 @@ Do NOT perform this step. See the modification installation instructions below.
 
 In the admin panel, go to *Extensions ⇒ Modifications* and update the modifications.
 
-After this, a new menu item should appear: *Catalog ⇒ Attributes ⇒ Attribut&co*.
+After this, a new menu item should appear: *Catalog ⇒ Attributes ⇒ Attribut&pro*.
 
 :::warning
 **Clear the cache!**
@@ -51,7 +51,7 @@ If you previously used an older version of the module and installed modification
 Make sure the following files are NOT in the `system` folder:
 
 ```bash
-attribut&co.2.x.ocmod.xml
+Attribut&pro.2.x.ocmod.xml
 autocomplete.ocmod.xml
 ```
 

@@ -10,7 +10,7 @@ sidebar_position: 1
 
 | Option | Description |
 |--------|------------|
-| **License Key** | Enables full access to **Attribut&co** features. More details: [Licensed and Free Version](/license/free-version.md). |
+| **License Key** | Enables full access to **Attribut&pro** features. More details: [Licensed and Free Version](/license/free-version.md). |
 | **Attribute separator** | Used when a product can have multiple different values for the same attribute. More details in [Terms and Definitions](/general-info/values-templates.md). |
 | **Consider sorting order** | If enabled, trees are formed according to the user-defined order; otherwise, they are sorted alphabetically. |
 | **Smart scrolling** | Enables automatic scrolling of tree nodes within a fixed area. |

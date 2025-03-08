@@ -30,4 +30,4 @@ The license key is stored in the file:
 
 If the key file is missing, the domain names do not match, or the key is corrupted, the module will operate in [_free_](license/free-version.md) mode. In this case, the label **(free)** will appear next to the module name and version, for example:
 
-**Attribut&co v3.3.3 (free)**.
+**Attribut&pro v3.3.3 (free)**.

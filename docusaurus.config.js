@@ -102,10 +102,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Attribut&co',
+        title: 'Attribut&pro',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo-round.svg',
+          src: 'img/logo-round-pro.svg',
         },
         items: [
           {

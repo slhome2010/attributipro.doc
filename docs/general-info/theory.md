@@ -132,7 +132,7 @@ Attribute "Color" → Values "Red; Blue; Green"
    - Any product can have multiple attributes.
    - Any attribute can contain multiple values (separated in a text field).
 
-2. **Attribut&co Module**
+2. **Attribut&pro Module**
 
 ```markdown
 Attribute Group

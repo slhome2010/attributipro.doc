@@ -10,7 +10,7 @@ Events are needed to reduce interference with the OpenCart engine code through m
 
 OpenCart uses an event system that allows developers to "subscribe" to specific actions that occur in the store. When an event occurs, the system notifies all subscribers, allowing them to execute custom code.
 
-## What Handlers Attribut&co Has
+## What Handlers Attribut&pro Has
 
 | **Handler** | **Action** |
 |:---|:---|

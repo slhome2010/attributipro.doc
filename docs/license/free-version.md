@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Until you obtain and apply a valid license key, the module operates in the free version mode. Essentially, it is the same module but with limited functionality. Visually, the free version is identical to the paid version, except for the **(free)** label displayed next to the module name in the header. For example:
 
-**Attribut&co v3.3.3 (free)**.
+**Attribut&pro v3.3.3 (free)**.
 
 The limitations of the free version apply to database modifications. You can perform any actions with **Attributes** or **Values**, just like in the paid module, but changes will not be saved. After reloading the page, everything will revert to its original state.
 
