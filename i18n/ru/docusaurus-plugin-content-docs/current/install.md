@@ -6,10 +6,10 @@ sidebar_position: 2
 
 ## Шаг 1: Скачивание файлов
 
-Скачайте установочные файлы модуля с доступного вам ресурса. В результате у вас должны быть zip архив:
+Скачайте установочные файлы модуля с доступного вам ресурса. В результате у вас должен быть zip архив:
 
 ```bash
-Attributico_v3.3.3.zip
+Attributipro_v1.0.0.zip
 ```
 
 Структура архива описана в [этой](/technical-specifications/archive-content.md) статье.
@@ -33,15 +33,18 @@ Attributico_v3.3.3.zip
 
 - Перейдите в *Система ⇒ Пользователи ⇒ Группы пользователей*;
 - Установите разрешения на просмотр и редактирование для:
-  - `module/attributico` или `extension/module/attributico` (для магазинов версии >2.2);
-  - `attributico/interlink` и `attributico/unit`.
+  - `extension/module/attributipro`;
+  - `attributipro/interlink`
+  - `attributipro/unit`.
 
 ## Шаг 5: Установка модификаторов
 
 В административной панели:
 
 - Перейдите в *Расширения ⇒ Установка расширений*;
-- Загрузите файлы `attributico.3.x.ocmod.zip` для магазинов третьей версии (3.x) из папки `ocmod`.
+- Загрузите файл `attributipro3.react.ocmod.zip` для магазинов третьей версии (3.x) из папки `ocmod`.
+- Загрузите файл `attributipro3.frontend.product.ocmod.zip` если собираетесь модифицировать карточку товара на фронтенде.
+- Загрузите файл `attributipro3.frontend.filter.ocmod.zip` если собираетесь модифицировать фильтр OpenCart на фронтенде.
 
 **Для пользователей OCTEMPLATE:** Пропустите этот шаг. Инструкция по установке модификаторов приведена ниже.
 
@@ -64,6 +67,12 @@ Attributico_v3.3.3.zip
 Если вы используете шаблон OCTEMPLATE:
 
 - **Не выполняйте шаг 5**.
-- Для OpenCart 3.0.x извлеките из архива `attributico.3.x.ocmod.zip` файл `install.xml`,
-  - Переименуйте его в `attributico.3.ocmod.xml`;
+- Для OpenCart 3.0.x извлеките из архива `attributipro3.react.ocmod.zip` файл `install.xml`,
+  - Переименуйте его в `attributipro.3.ocmod.xml`;
+  - Скопируйте его в папку `/system`.
+- Если собираетесь использовать модификаторы фронтенда, проделайте тоже самое с архивом `attributipro3.frontend.product.ocmod.zip`,
+  - Переименуйте `install.xml` в `attributipro.3.product.ocmod.xml`;
+  - Скопируйте его в папку `/system`.
+- И тоже самое с архивом `attributipro3.frontend.filter.ocmod.zip`,
+  - Переименуйте `install.xml` в `attributipro.3.filter.ocmod.xml`;
   - Скопируйте его в папку `/system`.

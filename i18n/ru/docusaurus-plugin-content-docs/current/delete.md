@@ -9,19 +9,19 @@ sidebar_position: 24
 В административной панели:
 
 - Перейдите в *Расширения ⇒ Модули*;
-- Напротив модуля "Attribut&pro" нажмите "Удалить".
+- Напротив модуля **Attribut&pro** нажмите "Удалить".
 
 ## Шаг 2: Удаление модификаторов
 
-- Для OpenCart 2.x: удалите файлы:
+- Для OpenCart 3.x: удалите файлы (если копировали в `/system`):
 
 ```bash
-/system/Attribut&pro.2.x.ocmod.xml
-/system/autocomplete.ocmod.xml
+/system/attributipro.3.ocmod.xml
+/system/attributipro.3.filter.ocmod.xml
+/system/attributipro.3.product.ocmod.xml
 ```
 
-- Для OpenCart 3.x: удалите файлы `Attribut&pro.2.x.ocmod.xml` (если копировали в `/system`).
-  Либо удалите модификаторы в *Расширения ⇒ Модификаторы*.
+- Либо удалите модификаторы `Attributipro`, `Attributipro frontend product`, `Attributipro frontend filter` в *Расширения ⇒ Модификаторы*.
 
 ---
 

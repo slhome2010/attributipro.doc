@@ -23,11 +23,11 @@ sidebar_position: 1
 Лицензионный ключ хранится в файле:
 
 ```php
-/system/license/attributico.key
+/system/license/attributipro.key
 ```
 
 :::
 
 При отсутствии файла ключа, несовпадении доменных имен или повреждении ключа, модуль будет работать в режиме [_free_](license/free-version.md). В этом случае рядом с названием и версией модуля появится надпись **(free)**. Например:
 
-**Attribut&pro v3.3.3 (free)**.
+**Attribut&pro v1.0.0 (free)**.

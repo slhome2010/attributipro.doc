@@ -17,7 +17,7 @@ Notice: Undefined variable: vendor...
 Прочтите раздел документации [Лицензия](/license/license-install.md). Переустановите лицензию в соответствии с документацией.
 
 ```php
-This is not licensed copy of attributico
+This is not licensed copy of attributipro
 ```
 
 **Причина**  

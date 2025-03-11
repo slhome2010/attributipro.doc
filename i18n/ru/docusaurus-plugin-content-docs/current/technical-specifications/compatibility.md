@@ -12,4 +12,4 @@ sidebar_position: 3
 
 - english;
 - русский;
-- модуль мультиязычный, языки добавляются с помощью языковых файлов `admin/language/..../attributico.php`;
+- модуль мультиязычный, языки добавляются с помощью языковых файлов `admin/language/..../attributipro.php`;
