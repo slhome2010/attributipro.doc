@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ```bash
 
-Attributico_v3.3.2/
+Attributipro_v1.0.0/
 │── PHP7.2-7.4/
 │       └── upload_v3.x/
 │             ├── admin/
