@@ -14,6 +14,10 @@ Attributipro_v1.0.0/
 │             │    ├── language/
 │             │    ├── model/
 │             │    └── view/
+│             ├── catalog/
+│             │    ├── controller/
+│             │    ├── model/
+│             │    └── view/
 │             └── system/
 │                  └── library/
 │                       └── attributico/
