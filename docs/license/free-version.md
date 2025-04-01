@@ -13,7 +13,7 @@ The limitations of the free version apply to database modifications. You can per
 The free version is designed for evaluating the module's functionality, assessing usability when working with attributes, and verifying compatibility with your OpenCart store.
 
 :::info
-Some features remain fully functional in the free version, such as **drag-and-drop sorting** of **Groups** and **Attributes**.
+Some features remain fully functional in the free version, such as **Drag'n'Drop sorting** of **Groups** and **Attributes**.
 :::
 
 :::tip

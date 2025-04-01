@@ -8,7 +8,7 @@ The context menu is opened by right-clicking on a **Node**.
 Actions that are allowed for the selected **Nodes** in the tree will be active in the context menu.  
 These actions can also be triggered using "hotkeys."
 
-The main manipulations with **Groups** and **Attributes** are available through Drag&Drop, the context menu, and hotkeys.  
+The main manipulations with **Groups** and **Attributes** are available through Drag'n'Drop, the context menu, and hotkeys.  
 All actions are listed in the [summary table](/module-features/summary-table.md).
 
 |   | **Action** | **Hotkeys** | **Description** |

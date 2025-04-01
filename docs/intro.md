@@ -27,11 +27,11 @@ Representing the structure of attributes and values in the form of trees.
 ## Capabilities
 
 - Creating new groups and attributes in the same tree;
-- Drag-and-drop and copy-paste technologies:
+- Drag'n'Drop and copy-paste technologies:
   - Copying attributes from one group to another;
   - Moving attributes from group to group (changing the group);
-  - Drag-and-drop sorting of groups and attributes within a group;
-  - Drag-and-drop adding attributes to a category;
+  - Drag'n'Drop sorting of groups and attributes within a group;
+  - Drag'n'Drop adding attributes to a category;
   - Moving attributes from one category to another (changing the category);
   - Merging attributes (combining) without losing values and links;
 - Filtering and searching for groups, attributes and attribute values in the tree;
