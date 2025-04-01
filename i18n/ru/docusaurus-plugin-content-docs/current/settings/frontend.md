@@ -7,7 +7,7 @@ sidebar_position: 11
 Данная документация описывает интерфейс настройки отображения [метаданных](general-info/metadata.md) атрибутов и их значений на фронтенде.
 
 | ![Frontend Settings](/img/tutorial/frontend_settings.png) |
-| - |
+|:--:|
 | *Frontend metadata settings* |
 
 ## Основные элементы интерфейса

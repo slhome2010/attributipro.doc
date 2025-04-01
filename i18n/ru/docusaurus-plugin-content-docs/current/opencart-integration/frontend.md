@@ -40,7 +40,7 @@ sidebar_position: 12
 #### Результат после настройки в товаре
 
 | ![Пример карточки товара](/img/tutorial/frontend_product.png) |
-| - |
+|:--:|
 | *Frontend metadata settings* |
 
 **Особенности:**  
@@ -50,7 +50,7 @@ sidebar_position: 12
 - Единицы измерения отображаются в выбранном формате (`350 (Вт)` вместо `350 Вт`).  
 
 | ![Пример с всплывающей подсказкой](/img/tutorial/frontend_product_tooltip.png) |
-| - |
+|:--:|
 | *Frontend product tooltip* |
 
 ### Фильтр товаров категории
@@ -60,7 +60,7 @@ sidebar_position: 12
 #### Результат после настройки в фильтре
 
 | ![Пример фильтра](/img/tutorial/frontend_filter.png) |
-| - |
+|:--:|
 | *Frontend fiter* |
 
 **Особенности:**
@@ -70,7 +70,7 @@ sidebar_position: 12
 - Единицы измерения добавляют информативности и позволяют контролировать размерность (`220-240 (В)`).  
 
 | ![Пример фильтра с всплывающей подсказкой](/img/tutorial/frontend_filter_tooltip.png) |
-| - |
+|:--:|
 | *Frontend fiter tooltip* |
 
 ---
