@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 ---
 
-# Overriding the Value Insertion Method
+# Значение атрибута
 
 Until now, **Values** or **Templates** were inserted into a product according to the **`Method`** set in the settings of [Adding Attribute Values to a Product](/settings/product.md).
 
