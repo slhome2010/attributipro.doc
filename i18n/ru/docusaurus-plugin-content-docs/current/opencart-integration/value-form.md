@@ -4,21 +4,33 @@ sidebar_position: 8
 
 # Значение атрибута
 
-Until now, **Values** or **Templates** were inserted into a product according to the **`Method`** set in the settings of [Adding Attribute Values to a Product](/settings/product.md).
+Клик на клетку таблицы, где расположено **Значение** запустит модальное окно с формой редактирования самого **Значения** и его [метаданныx](/general-info/metadata.md).
 
-To avoid changing the default settings every time, an option has been added to *override* the **`Method`** of value insertion in real time.
+Редактирование **метаданныx** отличается от редактирования [**Дежурного шаблона**](/module-features/duty-features.md) только наличием поля `SEO URL`.
 
-| **Insertion Method** |
-|:--|
-| `Clear` |
-| `Do not change` |
-| `Replace with default` |
-| `Only in empty fields` |
+Поле `Значение атрибута` можно заполнить вручную или выбрать среди готовых **Значений** из выпадающего списка в самом верху формы. Формирование списка происходит в соответствии с настройками [фильтра](/opencart-integration/value-filter.md) и [вида](/opencart-integration/list-view.md).
 
-The **`Overridden Method`** takes priority but is only active while working within the product form. When the page is reloaded or another product is loaded, it resets to the [current module setting](/settings/product.md). The effect of the **`Overridden Method`** applies to **all operations** with **Default Templates** in the product form.
+| ![Value Form](/img/tutorial/value_form.png) |
+|:--:|
+| *Value Form* |
 
-Insertion of the **Default Template** is performed synchronously for all languages at the moment of category assignment or when selecting a new **Attribute**.
+## Создание ссылки
 
-If the filter is set to `Default`, and the list view switch is set to `Templates`, then only **Default Templates** will be displayed in the list. Selecting an item from the list will trigger the synchronous insertion of the corresponding **Default Templates** into other languages.
+Назначение этого поля было отмечено в общем описании [метаданных](general-info/metadata.md).
 
-If you want to protect previously entered **Values**, choose the insertion method `Only in empty fields`.
+Ссылку можно прописать вручную или сгенерировать нажав на кнопку 🔗 справа от поля. Генерация будет производиться на основании правил, прописанных в сохраненном [профиле](settings/interlink.md).
+
+## Клонирование
+
+В нижней части формы рядом с кнопками сохранения и отмены есть специальный чекбокс `Применить для всех языков`. Если он отмечен, при сохранении формы произойдет [полное копирование](/module-features/metadata-editing.md) локализуемых данных для всех языков.
+
+## Назначение Дежурного
+
+Вы можете сохранить все данные этой формы в качестве **Дежурного шаблона** для сокращения времени на его создание [в модуле](/module-features/duty-features.md).
+
+Для этого надо отметить чекбокс `Назначить дежурным`. Назначение происходит в момент сохранения формы.
+
+:::warning
+Контролируйте состояние этого чекбокса перед сохранением. Все настройки сохраняются на время сессии и чекбокс останется в таком же состоянии при вызове следующей формы, пока вы это не измените.
+Существует вероятность, что вы перезапишете уже имеющиеся данные **Дежурного шаблона**.
+:::
