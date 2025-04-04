@@ -6,7 +6,7 @@ sidebar_position: 2
 
 В этой и последующих версиях фильтр вынесен в отдельный общий для всех инструментов блок.
 
-| ![Tools filter](/img/tutorial/Tools_filter.jpg) |
+| ![Tools filter](/img/tutorial/tools_filter.png) |
 |:--:|
 | *Tools filter open* |
 
