@@ -2,60 +2,60 @@
 sidebar_position: 6
 ---
 
-# Единицы измерения
+# Units of Measurement
 
-Единицы измерения — это стандартные величины, используемые для количественного описания физических параметров объектов или явлений. Они служат универсальным языком науки, техники и торговли, позволяя точно измерять и сравнивать данные.
+Units of measurement are standard quantities used for the quantitative description of physical parameters of objects or phenomena. They serve as a universal language of science, technology, and commerce, allowing for precise measurement and comparison of data.
 
-## Примеры записи единиц измерения
+## Examples of Measurement Unit Notation
 
-1. **Градусы Цельсия**  
-   - Полная запись: Градусы Цельсия  
-   - Краткая запись: °C  
+1. **Degrees Celsius**  
+   - Full notation: Degrees Celsius  
+   - Short notation: °C  
 
-2. **Килограммы**  
-   - Полная запись: Килограммы  
-   - Краткая запись: кг  
+2. **Kilograms**  
+   - Full notation: Kilograms  
+   - Short notation: kg  
 
-3. **Метры**  
-   - Полная запись: Метры  
-   - Краткая запись: м  
+3. **Meters**  
+   - Full notation: Meters  
+   - Short notation: m  
 
-4. **Секунды**  
-   - Полная запись: Секунды  
-   - Краткая запись: с  
+4. **Seconds**  
+   - Full notation: Seconds  
+   - Short notation: s  
 
-## Международная система единиц (СИ)
+## International System of Units (SI)
 
-Международная система единиц (СИ) — это современный вариант метрической системы, принятый в качестве международного стандарта. Она включает семь основных единиц:
+The International System of Units (SI) is the modern version of the metric system, adopted as an international standard. It includes seven base units:
 
-- **метр (м)** — длина,  
-- **килограмм (кг)** — масса,  
-- **секунда (с)** — время,  
-- **ампер (А)** — сила электрического тока,  
-- **кельвин (К)** — термодинамическая температура,  
-- **моль (моль)** — количество вещества,  
-- **кандела (кд)** — сила света.  
+- **meter (m)** — length,  
+- **kilogram (kg)** — mass,  
+- **second (s)** — time,  
+- **ampere (A)** — electric current,  
+- **kelvin (K)** — thermodynamic temperature,  
+- **mole (mol)** — amount of substance,  
+- **candela (cd)** — luminous intensity.  
 
-На основе этих единиц формируются производные величины, такие как ньютон (Н), джоуль (Дж), ватт (Вт) и другие.
+Based on these units, derived quantities are formed, such as newton (N), joule (J), watt (W), and others.
 
-## Значение единиц измерения в атрибутах товаров
+## The Importance of Units of Measurement in Product Attributes
 
-Единицы измерения играют ключевую роль при описании характеристик товаров. Они обеспечивают:  
+Units of measurement play a key role in describing product characteristics. They provide:  
 
-1. **Точность**: Потребители получают четкое представление о размерах, весе, объеме и других параметрах товара. Например, указание длины в метрах или веса в килограммах помогает покупателю понять, подходит ли продукт для его нужд.  
-2. **Сравнимость**: Единые стандарты позволяют сравнивать товары разных производителей. Например, мощность бытовой техники в ваттах (Вт) позволяет легко выбрать наиболее эффективное устройство.  
-3. **Удобство использования**: В торговых онлайн-платформах и базах данных атрибуты товаров с единицами измерения упрощают фильтрацию и поиск.  
-4. **Соответствие стандартам**: Многие отрасли требуют соблюдения определенных единиц измерения для сертификации продукции.  
+1. **Accuracy**: Consumers get a clear understanding of the dimensions, weight, volume, and other parameters of a product. For example, indicating length in meters or weight in kilograms helps the buyer understand if the product suits their needs.  
+2. **Comparability**: Unified standards allow comparing products from different manufacturers. For example, the power of household appliances in watts (W) makes it easy to choose the most efficient device.  
+3. **Ease of Use**: In online trading platforms and databases, product attributes with units of measurement simplify filtering and searching.  
+4. **Compliance with Standards**: Many industries require adherence to specific units of measurement for product certification.  
 
-## Заключение
+## Conclusion
 
-Единицы измерения — это неотъемлемая часть повседневной жизни, науки и бизнеса. Их использование в атрибутах товаров обеспечивает точность, удобство и универсальность, что особенно важно в условиях глобальной торговли и цифровизации. Система СИ выступает гарантом единообразия, что делает взаимодействие между странами и культурами более эффективным.  
+Units of measurement are an integral part of everyday life, science, and business. Their use in product attributes ensures accuracy, convenience, and universality, which is especially important in global trade and digitalization. The SI system acts as a guarantor of uniformity, making interaction between countries and cultures more effective.  
 
-**Пример применения:**
+**Application Example:**
 
-- Товар: Электрочайник  
-  - Объем: 1.5 литра (л)  
-  - Мощность: 2000 ватт (Вт)  
-  - Вес: 1.2 килограмма (кг)  
+- Product: Electric kettle  
+  - Volume: 1.5 liters (L)  
+  - Power: 2000 watts (W)  
+  - Weight: 1.2 kilograms (kg)  
 
-Таким образом, единицы измерения являются важнейшим инструментом стандартизации и коммуникации в современном мире.
+Thus, units of measurement are an essential tool for standardization and communication in the modern world.

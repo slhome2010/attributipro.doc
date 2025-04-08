@@ -2,105 +2,105 @@
 sidebar_position: 1
 ---
 
-# Some Theory
+# A Bit of Theory
 
-## Difference Between Product Options and Attributes in OpenCart
+## Differences Between Options and Attributes in OpenCart
 
-In OpenCart, **options** and **attributes** serve different functions for a product. Below are the main differences between them.
+In OpenCart, **options** and **attributes** serve different functions. Below are the main differences between them.
 
 ---
 
 ### 1. Functional Purpose
 
-#### **Options**
+#### Options
 
-- Used to create product variations that affect price, stock availability, weight, or reward points.
+- Used to create product variations that affect price, inventory, weight, or bonus points.
 - Examples: size, color, delivery date, file upload.
-- Can modify the final product cost (e.g., +$10 for selecting the white color).
-- Must be selected before adding the product to the cart (if marked as "Required").
+- Can change the final product price (for example, +$10 for choosing white color).
+- Mandatory for selection before adding a product to the cart (if marked as "Required").
 
 :::tip
-Options allow the creation of variable products, such as clothing in different sizes or phones in different colors.
+Options allow you to create variable products, such as clothing in different sizes or phones in different colors.
 :::
 
-#### **Attributes**
+#### Attributes
 
-- These are static technical parameters that describe product properties but do not influence the order.
-- Examples: material, weight, screen resolution, country of origin.
-- Displayed on the product page for customer information.
+- These are static technical parameters that describe product properties but do not affect the order.
+- Examples: material, weight, screen resolution, country of manufacture.
+- Displayed on the product page to inform the customer.
 
 :::note
-Attributes help customers better understand the product specifications but do not affect the purchasing process.
+Attributes help customers better understand product characteristics but do not affect the purchasing process.
 :::
 
 ---
 
-### 2. Selection Requirement
+### 2. Selection Requirements
 
-- **Options** can be required (e.g., clothing size) or optional (e.g., name engraving). If an option is required, the user cannot add the product to the cart without selecting it.
-- **Attributes** are always optional for interaction—they are only used for describing the product.
+- **Options** can be mandatory (such as size for clothing) or optional (such as name engraving). If an option is mandatory, users cannot add the product to the cart without selecting it.
+- **Attributes** are always optional for interaction — they only serve to describe the product.
 
 ---
 
 ### 3. Data Types and Configuration
 
-#### **Options**
+#### Options {#options-overview}
 
 - Support various input types:
   - **Selection** (radio buttons, dropdown list, checkboxes),
-  - **File** (user file upload),
-  - **Date/Time**,
+  - **File** (user file uploads),
+  - **Date/time**,
   - **Text fields**.
-- Configured in *Catalog → Options* and then assigned to a product through the "Options" tab in the product page.
+- Configured in the *Catalog → Options* section, then assigned to a product via the "Options" tab in the product card.
 
-#### **Attributes**
+#### Attributes {#attributes-overview}
 
-- Only support text format.
-- Created in *Catalog → Attributes* and added to a product via the "Attributes" tab.
+- Have only text format.
+- Created in the *Catalog → Attributes* section and added to products via the "Attributes" tab.
 
 :::info
-Options are more flexible as they allow different input types.
+Options are more flexible as they allow configuration of various data input types.
 :::
 
 ---
 
 ### 4. Impact on Cart and Order
 
-- **Options** appear in the cart and affect the final price, stock quantity, or order weight. For example, selecting size 46 reduces the stock count.
-- **Attributes** do not appear in the cart and are not considered during order processing.
+- **Options** are displayed in the cart and affect the final price, stock quantity, or order weight. For example, selecting size 46 reduces stock availability.
+- **Attributes** are not displayed in the cart and are not considered during checkout.
 
 ---
 
-### 5. Flexibility of Use
+### 5. Usage Flexibility
 
-- **Options** allow linking products via modules (e.g., "Option as a Product Link"), creating linked variations without duplicating product pages.
+- **Options** allow linking products through modules (such as "Option as product link"), creating related variations without duplicating product cards.
 - **Attributes** are used for filtering products on the site, but their functionality is limited without additional modules.
 
 ---
 
 ### Example for Clarity
 
-#### **Product: Smartphone**
+#### Product: Smartphone
 
-- *Options*: color (black/white, +$20 for white), storage capacity (128GB/256GB).
-- *Attributes*: screen size (6.5 inches), weight (200g), OS (Android).
+- *Options*: color (black/white, +$20 for white), memory capacity (128GB/256GB).
+- *Attributes*: screen diagonal (6.5 inches), weight (200g), OS (Android).
 
 ---
 
 ### Summary
 
 - **Options** — a tool for managing product variability and the purchasing process.
-- **Attributes** — a way to provide detailed product information.
+- **Attributes** — a way to provide detailed information about the product.
 
 :::tip
-For advanced use (e.g., dynamically changing price based on options), additional modules may be required.
+For advanced usage (such as dynamic price changes when selecting options), additional modules may be required.
 :::
 
 ## Attribute Structure in OpenCart
 
-### Basic Hierarchy
+### Main Hierarchy
 
-OpenCart uses a three-level structure for attributes:
+OpenCart uses a three-level structure for working with attributes:
 
 ```markdown
 Attribute Group
@@ -109,7 +109,7 @@ Attribute Group
 ```
 
 :::tip Important!
-Attribute values are linked to specific products. If no value is provided, attribute analysis is not possible.
+Attribute values are linked to specific products. If a value is not specified — attribute analysis is not possible.
 :::
 
 ### Connection with Products
@@ -118,53 +118,56 @@ Structure for an individual product:
 
 ```markdown
 Product
-├── Attribute Link (from group)
-└── Attribute Value (can contain multiple values separated by a delimiter)
+  ├── Reference to attribute (from a group)
+  └── Attribute value (may contain multiple variants through a separator)
 ```
 
 :::note Example:
 Attribute "Color" → Values "Red; Blue; Green"
 :::
 
-### Attribute Functionality
+### Features of Working with Attributes
 
-1. **Multiple Values**
-   - Any product can have multiple attributes.
-   - Any attribute can contain multiple values (separated in a text field).
+1\. Multiple Values
+Any product can have multiple attributes.
 
-2. **Attribut&pro Module**
+Any attribute can contain multiple values (through a separator in the text field).
+
+2\. Attribut&pro Module
 
 ```markdown
 Attribute Group
 └── Attribute
-    └── Value 1
-    └── Value 2
-    └── Value 3
+      └── Value 1
+      └── Value 2
+      └── Value 3
 ```
 
-- Visualizes the structure as a tree list.
-- Simplifies attribute navigation and editing.
+Visualizes the structure as a tree list.
+
+Simplifies navigation and attribute editing.
 
 :::info
-The module does not change the data storage structure, only improves the admin interface.
+The module does not change the data storage structure, it only improves the administration interface.
 :::
 
-### Attribute Linking with Categories
+### Connecting Attributes to Categories
 
 Logical structure:
 
 ```markdown
-Product Category
+Product category
 └── Attribute
-    └── Attribute Value (list of values)
+     └── Value (list of values) of the attribute
 ```
 
 Implementation:
 
-- Relationships are stored in the database table `category_attribute`.
-- Allows linking specific sets of attributes to certain categories.
+The `category_attribute` database table is used to store connections.
 
-Example `category_attribute` table structure:
+Allows linking a specific set of attributes to a particular category.
+
+Example of `category_attribute` table structure:
 
 |category_id|attribute_id|
 |---|---|
@@ -172,18 +175,19 @@ Example `category_attribute` table structure:
 |15|34|
 |22|41|
 
+Columns of the `category_attribute` table
+
 :::tip Practical Application
-This allows attributes to be automatically assigned to all products in a category (e.g., "Screen Size" for the "TVs" category).
+This allows automatically assigning attributes to all products in a category (for example, "Screen Diagonal" for the "TVs" category).
 :::
 
 #### Final Scheme
 
-- **Attribute Groups** → for organization.
-- **Attributes** → technical product specifications.
+- **Attribute Groups** → for systematization.
+- **Attributes** → technical parameters of products.
 - **Values** → specific data (required for analysis).
-- **Categories** → linking attributes to product groups.
+- **Categories** → connection of attributes with product groups.
 
 :::warning
-Without assigned values, attributes remain "empty labels" and provide no useful information.
+Without filled values, attributes remain "empty labels" and do not carry useful information.
 :::
-
