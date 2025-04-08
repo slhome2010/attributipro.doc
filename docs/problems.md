@@ -2,7 +2,7 @@
 sidebar_position: 15
 ---
 
-# Problems and Errors
+# Issues and Errors
 
 ## License Installation Errors {#error-licence}
 
@@ -11,20 +11,20 @@ Notice: Undefined variable: vendor...
 ```
 
 **Cause**  
-This error occurs because the `/system/license/sllic.lic` file is missing. You may not have installed the license file, or it was installed incorrectly.
+The error occurs due to a missing `/system/license/sllic.lic` file. This might happen if the license file wasn't installed or was installed incorrectly.
 
 **Solution**  
-Read the [License](/license/license-install.md) section of the documentation and reinstall the license according to the instructions.
+Review the [License Installation](/license/license-install.md) documentation section. Reinstall the license following the instructions.
 
 ```php
-This is not a licensed copy of attributico
+This is not licensed copy of attributipro
 ```
 
 **Cause**  
-This error occurs because your domain name does not match the one registered in the license file.
+Your domain name doesn't match the license file configuration.
 
 **Solution**  
-Read the [License](/license/license-install.md) section of the documentation, verify the domain name, and reinstall the license accordingly.
+Check the [License Installation](/license/license-install.md) documentation. Verify your domain name and reinstall the license accordingly.
 
 ## Module Installation Errors {#error-install}
 
@@ -33,27 +33,27 @@ Fatal error: Uncaught exception 'Exception'...
 ```
 
 **Cause**  
-This error occurs because the `category_attribute` table is missing in the database. You may have installed the modifier but not activated the module itself.
+Missing `category_attribute` table in the database. This usually occurs when modifiers are installed but the main module remains inactive.
 
 **Solution**  
-Read the [Installation](/install.md) section of the documentation, paying special attention to step 3.
+Follow the [Installation Guide](/install.md), paying special attention to Step 3.
 
 ```php
-The module is not activated or the database structure is corrupted!  
-Activate (or re-activate) the module in Extensions → Modules.
+Module not activated or database structure corrupted!
+Reactivate the module via Extensions->Modules.
 ```
 
 **Cause**  
-This error occurs because a required database table or column is missing. It may have been accidentally deleted by you or third-party software.
+Missing database tables/columns, possibly due to accidental deletion by user/third-party software, or after module updates.
 
 **Solution**  
-Deactivate the module and activate it again. See [Installation](/install.md).
+Deactivate and reactivate the module. See [Installation Guide](/install.md).
 
 ## Conflicts with Other Modules {#error-conflict}
 
-If you are using multiple modules that work with attributes, keep in mind that most of them, like **Attribut&pro**, modify the product editing form or replace it with their own version. In such cases, **Attribut&pro** integration may not function correctly, and database conflicts may occur.
+When using multiple attribute management modules alongside **Attribut&pro**, note that most modify product edit forms or inject custom pages. This may cause integration issues and database conflicts.
 
-Additionally, compatibility issues have been identified with modules that use different versions of `jquery.ui`, such as `Admin_quick_edit_product_opencart1.5x.vqmod`. This issue has been resolved in recent versions.
+Additionally, compatibility issues have been observed with modules using different `jquery.ui` versions (e.g., `Admin_quick_edit_product_opencart1.5x.vqmod`). These are resolved in recent **Attribut&pro** versions.
 
 ## Runtime Errors {#error-run-time}
 
@@ -62,15 +62,14 @@ Load error! (SyntaxError: Unexpected token < in JSON at position 0)
 ```
 
 **Cause**  
-This is most likely a data structure issue. For example, an `attribute_id` in the `category_attribute` table might be referencing a non-existent record in another database table. The most common causes are operator errors, software failures during database queries, or conflicts with third-party modules.
+Data structure corruption. Example: `attribute_id` in `category_attribute` table references non-existent records. Typically caused by operator errors, database query failures, or third-party module conflicts.
 
 **Solution**  
-Try reverting to a previous working state. Sometimes, re-saving affected entries (such as the category where the error occurred) helps. It’s always best to have a database backup.
+Restore from backup or repair corrupted entries (e.g., re-saving affected categories). Always maintain database backups.
 
 :::note
-**Tip:**  
-If you have already purchased **Attribut&pro**, use it to manage attributes.  
-It’s more convenient than manually editing OpenCart’s standard forms and helps prevent database errors.
+**Tip**  
+If you've purchased **Attribut&pro**, use it for attribute management instead of manual OpenCart form edits. This reduces database error risks.
 :::
 
 ```php
@@ -78,10 +77,10 @@ PHP Notice: Undefined offset: 1
 ```
 
 **Cause**  
-This is a module code error. It will likely appear in the **System → Tools → Error Log** and in the browser console.
+Module code error. Check **System ⇒ Tools ⇒ Error Logs** and browser console for details.
 
 **Solution**  
-Contact the developer.
+Contact developer support.
 
 ## Server Errors {#error-server}
 
@@ -90,24 +89,24 @@ Load error! (Internal Server Error)
 ```
 
 **Cause**  
-This error may occur in large stores due to a timeout. It can also be caused by an **Ioncube Loader** version mismatch between the module and the license file.
+Common on large stores due to timeout issues or **Ioncube loader** version mismatches between module and license file.
 
 **Solution**  
 
-- Check your hosting and MySQL settings.
-- Add the following line to `.htaccess`: `php_value max_execution_time 300` (if allowed by your hosting provider).
-- Enable "Lazy Loading" and caching.
-- Disable one of the child nodes in tree settings.
-- Select the correct distribution folder from the archive [here](/technical-specifications/archive-content.md).
+- Verify hosting/MySQL configuration
+- Add to `.htaccess`: `php_value max_execution_time 300` (if allowed by host)
+- Enable lazy loading and caching
+- Disable one child node in tree configuration
+- Select correct distribution folder from [archive](/technical-specifications/archive-content.md)
 
 ## Modifier Installation Errors {#error-ocmod}
 
 ```php
-Two Attribut&pro menu items appear...
+Duplicate Attribut&pro menu items...
 ```
 
 **Cause**  
-You have two modifiers installed: one in the `system/` folder and another installed via **Extensions → Extension Installer**.
+Duplicate modifiers: one in `system/` folder, another installed via **Extensions ⇒ Installer**.
 
 **Solution**  
-Read the [Installation/Update](/install.md) section and remove the extra modifier.
+Follow the [Installation/Update Guide](/install.md). Remove redundant modifier.

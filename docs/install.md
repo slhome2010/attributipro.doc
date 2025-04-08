@@ -4,74 +4,76 @@ sidebar_position: 2
 
 # Installation
 
-## Steps
+## Step 1: Downloading Files
 
-### Step 1: Download the Module
-
-Download the installation files from the available source. You should have zip archive: `Attributico_v3.3.3.zip`. The archive structure is described in [this article](/technical-specifications/archive-content.md).
-
-### Step 2: Extract and Copy Files
-
-Extract the archive and open the folder corresponding to [your PHP version](/technical-specifications/compatibility.md). Copy the contents of the `upload.../` folder (matching your OpenCart version) over the site's folder structure.
-
-### Step 3: Activate the Module
-
-In the admin panel, navigate to *Extensions ⇒ Modules*, where the "Attribut&pro" module should appear. Install (activate) it.
-
-### Step 4: Set Permissions
-
-In the admin panel, go to *System ⇒ Users ⇒ User Groups* and set view/edit permissions for:
-
-- `module/attributico` or `extension/module/attributico` (for OpenCart >2.2)
-- `attributico/interlink`
-- `attributico/unit`
-
-### Step 5: Upload Modifications
-
-In the admin panel, go to *Extensions ⇒ Installer* and upload `attributico.3.x.ocmod.zip` (for OpenCart 3.x) from the `ocmod` folder.
-
-#### For OCTEMPLATE Users:
-
-Do NOT perform this step. See the modification installation instructions below.
-
-### Step 6: Refresh Modifications
-
-In the admin panel, go to *Extensions ⇒ Modifications* and update the modifications.
-
-After this, a new menu item should appear: *Catalog ⇒ Attributes ⇒ Attribut&pro*.
-
-:::warning
-**Clear the cache!**
-Clear both the store cache and your browser cache. The specifics of clearing the cache for OpenCart 3.x are described [here](https://shopiweb.ru/opencart-3/kesh-opencart-3-ochistka-kesha/).
-:::
-
-:::warning
-If you previously used an older version of the module and installed modifications directly in the `system` folder, remove them.
-
-Make sure the following files are NOT in the `system` folder:
+Download the module installation files from your available resource. You should receive a ZIP archive:
 
 ```bash
-Attribut&pro.2.x.ocmod.xml
-autocomplete.ocmod.xml
+Attributipro_v1.0.0.zip
 ```
 
+The archive structure is described in [this article](/technical-specifications/archive-content.md).
+
+## Step 2: File Extraction and Copying
+
+1. Extract the archive.
+2. Open the folder corresponding to [your PHP version](/technical-specifications/compatibility.md).
+3. Copy contents from the `upload.../` folder (matching your OpenCart version) over your website's directory structure.
+
+## Step 3: Module Installation
+
+In Administration Panel:
+
+- Navigate to *Extensions ⇒ Modules*
+- Find the "Attribut&pro" module
+- Install (activate) the module
+
+## Step 4: Configuring User Permissions
+
+In Administration Panel:
+
+- Navigate to *System ⇒ Users ⇒ User Groups*
+- Set view/edit permissions for:
+  - `extension/module/attributipro`
+  - `attributipro/interlink`
+  - `attributipro/unit`
+
+## Step 5: Installing Modifiers
+
+In Administration Panel:
+
+- Navigate to *Extensions ⇒ Installer*
+- Upload `attributipro3.react.ocmod.zip` for version 3.x stores from the `ocmod` folder
+- Upload `attributipro3.frontend.product.ocmod.zip` if modifying product pages on frontend
+- Upload `attributipro3.frontend.filter.ocmod.zip` if modifying OpenCart filters on frontend
+
+**OCTEMPLATE Users:** Skip this step. Modifier installation instructions are provided below.
+
+## Step 6: Updating Modifiers
+
+In Administration Panel:
+
+- Navigate to *Extensions ⇒ Modifications*
+- Click **Update**
+
+After completing all steps, the *Attribut&pro* entry will appear under *Catalog ⇒ Attributes*.
+
+:::warning
+**Clear the store and browser cache.**  
+OpenCart 3.x cache management specifics are described [here](https://shopiweb.ru/opencart-3/kesh-opencart-3-ochistka-kesha/).
 :::
 
-:::info
-Some OpenCart translations may use different terminology:
+## Special Instructions for OCTEMPLATE
 
-- "Extensions" may appear as "Add-ons."
-- "Modifications" may be listed as "Modification Manager."
-- "Attributes" might be translated as "Characteristics."
+For OCTEMPLATE users:
 
-:::
-
-:::tip
-**For OCTEMPLATE Users!**
-
-OCTEMPLATE uses many modifications, which may cause ocmod to run out of resources. To bypass this:
-
-- **Skip Step 5.**
-- Extract `install.xml` from `attributico.3.x.ocmod.zip`, rename it to `attributico.3.ocmod.xml`, and copy it to the `system` folder.
-
-:::
+- **Skip Step 5**
+- For OpenCart 3.0.x:
+  1. Extract `install.xml` from `attributipro3.react.ocmod.zip`
+  2. Rename to `attributipro.3.ocmod.xml`
+  3. Copy to `/system` folder
+- For frontend modifiers:
+  - Repeat process with `attributipro3.frontend.product.ocmod.zip` → rename to `attributipro.3.product.ocmod.xml`
+  - Repeat process with `attributipro3.frontend.filter.ocmod.zip` → rename to `attributipro.3.filter.ocmod.xml`
+  - Copy both renamed files to `/system` folder
+  

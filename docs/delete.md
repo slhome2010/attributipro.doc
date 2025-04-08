@@ -4,25 +4,31 @@ sidebar_position: 4
 
 # Uninstallation
 
-## Step 1: Remove the Module
+## Step 1: Uninstalling the Module
 
-In the admin panel, go to *Extensions ⇒ Modules* and click "Remove" next to "Attribut&pro."
+In the admin panel:
 
-## Step 2: Delete Modification Files
+- Navigate to *Extensions ⇒ Modules*
+- Click "Delete" next to the **Attribut&pro** module
 
-For OpenCart 2.x, delete the following files from `/system`:
+## Step 2: Removing Modifiers
+
+- For OpenCart 3.x: Delete these files (if copied to `/system`):
 
 ```bash
-Attribut&pro.2.x.ocmod.xml
-autocomplete.ocmod.xml
+/system/attributipro.3.ocmod.xml
+/system/attributipro.3.filter.ocmod.xml
+/system/attributipro.3.product.ocmod.xml
 ```
 
-For OpenCart 3.x, delete `Attribut&pro.2.x.ocmod.xml` (if manually copied) or remove all "Attribut&pro" modifications in *Extensions ⇒ Modifications*.
+- Or remove the `Attributipro`, `Attributipro frontend product`, and `Attributipro frontend filter` modifiers via *Extensions ⇒ Modifiers*
 
-## Database Information
+---
 
-During installation, additional [database tables](technical-specifications/database.md) are created.
+## Database
+
+The module creates additional [tables](technical-specifications/database.md) during installation.
 
 :::tip
-Uninstalling the module does **not** remove database tables or fields. If necessary, delete them manually via PhpMyAdmin.
+Database tables and fields **are not automatically removed** during uninstallation. If required, delete them manually using PhpMyAdmin.
 :::

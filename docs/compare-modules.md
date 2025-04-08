@@ -4,43 +4,45 @@ sidebar_position: 26
 
 # Attribut&pro vs Attribut&co
 
-## Сравнительная таблица
+## Feature Comparison Table
 
-|  | **Attribut&pro** | **Attribut&co** |
+| Feature | **Attribut&pro** | **Attribut&co** |
 |:--|:--|:--|
-| Создание новых групп и атрибутов в одном дереве | ✓ | ✓ |
-| Редактирование групп, атрибутов, шаблонов и значений в дереве | ✓ | ✓ |
-| Фильтрация и поиск групп, атрибутов и их значений в дереве | ✓ | ✓ |
-| Drag'n'Drop и Copy-Paste технологии: копирование, смена группы, сортировка групп и атрибутов, добавление в категорию, смена категории, слияние атрибутов | ✓ | ✓ |
-| Создание атрибутов категории и управление ими | ✓ | ✓ |
-| Подстановка "дежурного шаблона" при добавлении атрибута в товар или категорию. Управление способом добавления в товар | ✓ | ✓ |
-| Оперативный просмотр товаров, отфильтрованных по атрибуту или значению | ✓ | ✓ |
-| Поддержка одновременной работы с несколькими языками. Клонирование атрибутов, групп или значений с одного языка на другой | ✓ | ✓ |
-| Поиск и удаление пустых значений атрибутов | ✓ | ✓ |
-| Удаление ссылок на несуществующие атрибуты | ✓ | ✓ |
-| Дефрагментация атрибутов и подготовка группы парсинга | ✓ | ✓ |
-| Удаление атрибутов, не связанных ни с одним товаром | ✓ | ✓ |
-| Объединение дублей атрибутов без потери связей | ✓ | ✓ |
-| Автоматическое формирование атрибутов категорий| ✓ | ✓ |
-| Пакетная замена разделителя значений атрибута | ✓ | ✓ |
-| Смена регистра первой буквы у групп, атрибутов и их значений| ✓ | ✓ |
-| Создание фильтра на основе имеющихся атрибутов и их значений | ✓ | ❌ |
-| Экспорт и импорт данных в форматах SQL и CSV | ✓ | ❌ |
-| Метаданные для каждого атрибута или значения атрибута: описание, изображение, иконка, единицы измерения, ссылка для перелинковки | ✓ | ❌ |
-| Отображение метаданных на странице товара и фильтра на фронтенде | ✓ | ❌ |
-| Прикрепление единиц измерения к названиям атрибутов или их удаление | ✓ | ❌ |
+| Create new groups/attributes within single tree | ✓ | ✓ |
+| Edit groups, attributes, templates, and values in-tree | ✓ | ✓ |
+| Filter/search groups, attributes, and values in-tree | ✓ | ✓ |
+| Drag'n'Drop & Copy-Paste functionality: copying, group switching, sorting, category assignment/merging | ✓ | ✓ |
+| Category attribute creation/management | ✓ | ✓ |
+| Default template substitution when adding attributes to products/categories | ✓ | ✓ |
+| Quick product preview filtered by attributes/values | ✓ | ✓ |
+| Multi-language support with cloning across languages | ✓ | ✓ |
+| Empty attribute value search/removal | ✓ | ✓ |
+| Orphaned attribute reference cleanup | ✓ | ✓ |
+| Attribute defragmentation and parsing group preparation | ✓ | ✓ |
+| Removal of unused attributes | ✓ | ✓ |
+| Duplicate attribute merging with relationship preservation | ✓ | ✓ |
+| Automatic category attribute generation | ✓ | ✓ |
+| Batch attribute value separator replacement | ✓ | ✓ |
+| First-letter case modification for groups/attributes/values | ✓ | ✓ |
+| Filter creation based on existing attributes/values | ✓ | ❌ |
+| SQL/CSV data import/export | ✓ | ❌ |
+| Metadata support: descriptions, images, icons, units, internal links | ✓ | ❌ |
+| Frontend display of metadata in product pages/filters | ✓ | ❌ |
+| Unit of measurement attachment/removal | ✓ | ❌ |
 
-## Различия интеграции с OpenCart
+## OpenCart Integration Differences
 
-| **Attribut&pro** | **Attribut&co** | Решение проблемы |
+| **Attribut&pro** | **Attribut&co** | Solution |
 |:--|:--|:--|
-| Создание собственной вкладки для формы товара | Модификация имеющейся вкладки в форме товара | Нарушение HTML разметки и конфликты с другими модификаторами |
-| Загрузка форм и формирование списков по запросу | Загрузка данных и формирование списков во время загрузки формы товара | Затраты по времени загрузки формы товара |
-| Возможность использования постраничного вывода и сортировки таблицы атрибутов | Функционал ограничен возможностями движка OpenCart | Сложности навигации по таблице при большом количестве атрибутов |
-| Запись изменений сразу в Базу Данных | Запись изменений по нажатию на кнопку сохранения | Информация не теряется при выходе без сохранения или при обновлении страницы |
+| Dedicated product form tab | Modified existing product form tab | HTML markup conflicts with other modifiers |
+| On-demand form loading/lazy list generation | Full data loading during form initialization | Increased product form load times |
+| Pagination and custom table sorting | Limited to OpenCart engine capabilities | Navigation complexity with large attribute sets |
+| Real-time database updates | Save-button triggered updates | Prevents data loss on unsaved exits/page refreshes |
 
-## Совместная работа
+## Coexistence
 
-Совместная работа **Attribut&pro** и **Attribut&co** допускается, но только для версий **Attribut&co** не ранее v3.3.2.
+**Attribut&pro** and **Attribut&co** can coexist when using **Attribut&co** v3.3.2 or newer. 
 
-Одновременное использование модификаторов формы товара приводит к потере всех преимуществ **Attribut&pro**, описанных в предыдущем разделе.
+:::warning
+Simultaneous use of product form modifiers will negate all **Attribut&pro** advantages listed above.
+:::

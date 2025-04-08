@@ -4,51 +4,88 @@ sidebar_position: 1
 
 # Introduction
 
-The Attribut&pro module is an extension for managing product attributes (referred to as "characteristics" in Russian-language versions) in online stores running on the OpenCart platform.
+The **Attribut&pro** module is an extension designed for managing product attributes (referred to as "характеристики" in Russian-language versions) in online stores built on the OpenCart platform. **Attribut&pro** is an enhanced version of [**Attribut&co**](https://slhome2010.github.io/attributico.doc/).
 
 ## Module Mission
 
-To simplify working with attributes and their values. To display the structure of attributes more clearly. To apply more modern editing technologies. To replace routine manual labor with automated operations and move to batch processing of changes.
+The module is designed to:
 
-## Main Idea
+- Simplify the handling of attributes and their values;
+- Provide a clearer visual representation of the attribute structure;
+- Introduce modern editing technologies;
+- Replace tedious manual work with automated operations and batch processing;
+- Expand the structure of attributes and their values for future use on the frontend.
 
-Creating a set of attributes that are the same for a certain product category and linking this set to the category. It is assumed that products of the same category have, roughly, the same set of attributes. The structure of categories and subcategories in Opencart is quite well developed, so the link to the category was chosen, not to the manufacturer, for example. Bringing the structure of attributes and their values to the form:
+## Core Concept
 
-```bash
+The core idea is to define a consistent set of attributes for a specific product category and link this set to that category. It is assumed that products within the same category typically share a similar set of attributes. Since OpenCart has a well-developed structure of categories and subcategories, linking attributes to a category—rather than to a manufacturer or other parameter—was chosen as the most logical approach.
 
-Product Category
-    └── Attribute
-          └── Value (list of values) of the attribute
+Logical structure for linking attributes to categories:
 
+```bash  
+Product Category  
+  └── Attribute  
+    └── Value (a list of attribute values)
 ```
 
-Representing the structure of attributes and values in the form of trees.
+The module also provides:
 
-## Capabilities
+- A tree view of attributes and their values;
+- The ability to assign metadata to each attribute, its value, or default value;
+- Management of this metadata as an integral part of the attribute system.
 
-- Creating new groups and attributes in the same tree;
-- Drag'n'Drop and copy-paste technologies:
-  - Copying attributes from one group to another;
-  - Moving attributes from group to group (changing the group);
-  - Drag'n'Drop sorting of groups and attributes within a group;
-  - Drag'n'Drop adding attributes to a category;
-  - Moving attributes from one category to another (changing the category);
-  - Merging attributes (combining) without losing values and links;
-- Filtering and searching for groups, attributes and attribute values in the tree;
-- Editing groups, attributes, templates and values;
-- Substituting the "Default Template" when adding an attribute to a product;
-- Batch substitution of the "Default Template" in products, when adding an attribute to a category;
-- Managing the method of adding values ​​and templates to the product;
-- Quick viewing of products filtered by attribute or value;
-- A set of tools for ordering attributes:
-  - Finding and deleting empty attribute values;
-  - Removing links to non-existent attributes;
-  - Defragmentation of attributes. Preparing a group for parsing;
-  - Deleting attributes not associated with any product;
-  - Merging attribute duplicates without losing links;
-  - Automatic formation of category attributes;
-  - Batch replacement of the attribute value separator;
-  - Changing the case of the first letter of groups, attributes and attribute values;
-- Multilingualism, the ability to work with multiple languages in parallel;
-  - The ability to clone attributes, groups or values of one language into another;
-  
+The structure of attributes and their values is visualized as a tree:
+
+```bash
+Attribute Group  
+  └── Attribute  
+    └── Value (list of attribute values)
+```
+
+### For each element, you can define
+
+- A description (tooltip);
+- An icon;
+- An image;
+- Units of measurement.
+
+## Features
+
+- Create new groups and attributes within a unified tree structure.
+- Drag-and-drop and copy-paste support:
+  - Copy attributes from one group to another;
+  - Move attributes between groups (reassign to a different group);
+  - Reorder groups and attributes using drag-and-drop;
+  - Add attributes to a category via drag-and-drop;
+  - Move attributes between categories;
+  - Merge attributes without losing their values or links.
+- Filter and search through groups, attributes, and values within the tree.
+- Edit groups, attributes, templates, and values.
+- Use a default template when adding attributes to products.
+- Apply the default template in bulk to products when an attribute is added to a category.
+- Control how values and templates are assigned to products.
+- Instantly view products filtered by specific attributes or values.
+- Built-in tools for organizing and managing attributes:
+  - Find and remove empty attribute values;
+  - Remove links to non-existent attributes;
+  - Defragment attribute sets and prepare parsing groups;
+  - Delete attributes that are not linked to any products;
+  - Merge duplicate attributes without data loss;
+  - Automatically generate category-based attributes;
+  - Bulk-replace separators in attribute values;
+  - Change capitalization for group, attribute, and value names;
+  - Attach or remove measurement units from attribute names;
+  - Create filters based on existing attributes and values;
+  - Export and import data in SQL or CSV format.
+- Multilingual support:
+  - Work with multiple languages simultaneously;
+  - Clone groups, attributes, or values from one language to another.
+- Metadata support for each attribute or attribute value:
+  - Description;
+  - Image;
+  - Icon;
+  - Units of measurement;
+  - Internal linking URL;
+  - Status.
+- Display metadata on the product page and in frontend filters.
+- Integration with the product form without modifying the OpenCart core.
