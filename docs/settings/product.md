@@ -2,16 +2,16 @@
 sidebar_position: 5
 ---
 
-# Adding Values to a Product
+# Adding Values to Product
 
 Values are added to a product using a specific **`Method`**, depending on the settings.
 
 | **Attribute Values** | Description |
-|----------------------|------------|
-| `Clear` | All attribute values are removed. |
-| `Keep unchanged` | Existing values remain unchanged. |
-| `Replace with default` | All values are replaced with the default template. |
-| `Only if empty` | Only empty values are replaced with the default template. |
+|----------------------|-------------|
+| `Clear`              | All attribute values are deleted. |
+| `Do Not Change`      | Existing values remain unchanged. |
+| `Replace with Default` | All values are replaced with the default template. |
+| `Only If Empty`      | Only empty values are replaced with the default template. |
 
 :::note
 Substitution values are taken from the **Default Template**, if it is not empty.
@@ -22,14 +22,14 @@ Attribute values can be edited directly in the tree node using the inline editor
 :::
 
 :::warning
-If the **Add category attribute to products** option is disabled, the **Adding attribute values to a product** settings will not take effect.
+If the **Add Category Attribute to Products** option is disabled, then the **Add Attribute Values to Product** settings will not work.
 :::
 
 ## When Values Are Added
 
-Actions that trigger the addition or modification of an **Attribute Value** in a product:
+These actions lead to adding or modifying an **Attribute Value** in a product:
 
 - adding an **attribute** to a category;
-- linking a product to a category;
-- applying the **Category Attributes** tool;
-- clicking the **Category Attributes** button in the product form.
+- assigning a product to a category;
+- using the **Category Attributes** tool;
+- clicking the **Category Attributes** button in the product form;

@@ -23,6 +23,6 @@ The buttons now include a loading indicator.
 | *Button with loading indicator* |
 
 :::warning
-The buttons are only used for saving settings.  
+The buttons `Save` и `Apply` are only used for saving settings.  
 All changes in nodes are immediately and synchronously written to the database.
 :::

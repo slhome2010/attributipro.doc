@@ -1,27 +1,72 @@
----
-sidebar_position: 10
----
+# URL Profiles
 
-# Профили URL
+## Profile Management
 
-| ![Группа кнопок](/img/tutorial/button_group_3_3_2.png) |
+You can add, edit, or delete profiles. Actions are selected using the buttons to the right of the dropdown field.
+
+| ![Delete or create a profile](/img/tutorial/interlink_settings.png) |
 |:--:|
-| *Button group* |
+| *Profile manage* |
 
-**Назначение кнопок слева направо.**
+The selected profile must be saved along with other settings. It will later be used to auto-generate [links](/general-info/metadata.md).
 
-- Обновить кэш модуля;
-- Проверить наличие обновлений;
-- Применить настройки без выхода из модуля;
-- Сохранить настройки и выйти;
-- Выйти без сохранения;
+## Profile Editing
 
-Кнопки теперь имеют индикатор загрузки.
+The edit form allows you to define rules for generating links to filter landing pages or interlinking pages.
 
-| ![Группа кнопок c индикатором загрузки](/img/tutorial/buttons_group_loading.png) |
+| ![Edit profile](/img/tutorial/interlink_form.png) |
 |:--:|
-| *Button with loading indicator* |
+| *Profile form* |
 
-:::warning
-Кнопки нужны только для сохранения настроек. Все изменения в узлах сразу синхронно записываются в Базу Данных.
-:::
+### Route
+
+The site page where products will be displayed. Usually `product/category`.
+
+The full route looks like: `index.php?route=product/category`.
+
+### Filter Alias
+
+A short filter identifier to be added to the route. For example, `mfp` for Mega Filter Pro.
+
+### Arguments
+
+A set of arguments used to build the URL string. The following variables are available:
+
+| Variable | Description |
+|----------|-------------|
+| `{attribute_id}` | Attribute ID |
+| `{name}` | Attribute name |
+| `{product_id}` | Product ID |
+| `{main_category_id}` | Main category ID |
+| `{category_id}` | List of product categories separated by a delimiter |
+| `{path}` | Full category path: main_category_subcategory... |
+| `{value}` | Value or list of values separated by a delimiter |
+| `{alias}` | Filter alias (if set) |
+
+During auto-generation, variables are replaced with their values pulled from the database.
+
+### Delimiters
+
+#### Between Blocks
+
+Delimiter between filter parameter blocks.  
+Example: `Attribute1_Value/Attribute2_Value`.
+
+#### Between Attribute and Value
+
+Example: `Attribute_Value`.
+
+#### Between Values
+
+Example: `Value1,Value2,Value3`.
+
+## SQL Migration
+
+You can use ready-made tables that contain sample profiles. The tables are included in the [distribution package](/technical-specifications/archive-content.md).
+
+Import the `oc_attribute_interlink.sql` table into your database.
+
+| Profile | Purpose |
+|---------|---------|
+| **Default** | For the built-in OpenCart filter |
+| **Custom** | For Mega Filter Pro |

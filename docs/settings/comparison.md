@@ -1,76 +1,82 @@
----
-sidebar_position: 6
----
-
 # Value Comparison
 
-This setting defines the algorithm for updating **Values** after editing them. The mode names speak for themselves.
+This setting defines the update algorithm for **Values** after editing. The mode names are self-explanatory.
 
 | Mode |
-| --- |
-| **By Substring Matching** |
-| **By Exact Match** |
+|------|
+| **Substring Match** |
+| **Exact Match** |
 
-Saving or updating **Values** occurs when the single-line editor is closed unless the action is canceled with the `Esc` key. At this moment, the system searches for the edited sample among all **Values** of the given **Attribute** and replaces it with the newly edited state.  
+Saving or updating **Values** happens when the single-line editor is closed, unless canceled with the `Esc` key.  
+At that moment, the edited sample is searched among all **Values** of the given **Attribute** and replaced with the new, edited version.
 
-By default, the search and replace function updates all occurrences of the edited sample (substring) within the **Value** (string).  
+By default, all occurrences of the edited sample (substring) within the **Value** (string) are found and replaced.
 
-For example, consider the following entries:
+For example, consider these entries:
 
 ```php
 MP4/AVI, MP4-MPEG4/MP4-MPG/VOB, MP4/AVI/MKV, MP4/AVI/MKV/VOB
 ```
 
-After replacing `MP4` with `MP3`, the result will be:
+After replacing `MP4` with `MP3`, you get:
 
 ```php
 MP3/AVI, MP3-MPEG4/MP3-MPG/VOB, MP3/AVI/MKV, MP3/AVI/MKV/VOB
 ```
 
-That is, all occurrences of `MP4` are updated to `MP3`.
+In other words, all occurrences of `MP4` were updated to `MP3`.
 
-Now, let's consider a case where such an update is undesirable. Suppose an **Attribute** has a set of **Values** (**Templates**):
+Now, consider a case where this behavior is not acceptable.  
+Suppose an **Attribute** has the following **Values** (**Templates**):
 
 ```php
 50, 50-100, 50/500/500-5000, 500
 ```
 
-After replacing `50` with `50gr`, we get an unexpected result:
+After replacing `50` with `50g`, the result is unexpected:
 
 ```php
-50gr, 50gr-100, 50gr/50gr0/50gr0-50gr00, 50gr0
+50g, 50g-100, 50g/50g0/50g0-50g00, 50g0
 ```
 
-Although this is a specific case, it can be accounted for. To ensure correctness, enable the **By Exact Match** setting. With this mode, the result will be:
+Even though this is a special case, it can be accounted for.  
+To do this, enable the **Exact Match** setting. In that mode, the result will be correct:
 
 ```php
-50gr, 50-100, 50gr/500/500-5000, 500
+50g, 50-100, 50g/500/500-5000, 500
 ```
 
 ## Difference Between Editing **Templates** and **Values**
 
 :::info  
-The above setting applies to editing **Values**.  
+The setting described above applies to editing **Values**.
 
-**Templates** are always updated by exact match of the edited sample with the entire **Template**.  
+**Templates** are always updated using an exact match between the edited sample and the full **Template**.
 :::
 
 ## Impact on Product Selection
 
-This setting also affects the selection of products that contain a specific **Attribute Value**.
+This setting also affects how products are filtered by a specific **Attribute Value**.
 
-For example, if the **By Substring Matching** mode is enabled, clicking on the **Attribute Value** `20`
-will display products with **Values** `20`, `120`, `200` in the product tree.
+For example, in **Substring Match** mode, clicking on **Attribute Value** `20`  
+will show products with **Values** like `20`, `120`, `200`.
 
-If the **By Exact Match** mode is enabled, clicking on **Attribute Value** `20`
-will display only products with **Value** `20`.
+In **Exact Match** mode, clicking on `20` will only show products with that exact **Value**.
 
-## Impact on **Value** Deletion
+## Impact on Deleting **Values**
 
-This setting also affects [value deletion](/module-features/delete-value.md).
+This setting also affects [deleting values](/module-features/delete-value.md).
 
-Suppose there is a product or multiple products where the **Attribute** `Test Attribute 3.1` has a **Value** `test value 3.2.1`.
+Suppose there are products where the **Attribute** `Test Attribute 3.1` has the **Value** `test value 3.2.1`.
 
-If the **By Exact Match** mode is enabled, only **Attributes** with **Value** `test value 3.2.1` will be deleted.
-In **By Substring Matching** mode, **Attributes** with **Values** such as `test value 3.2.1/test value 3.2.2` will also be deleted.
+In **Exact Match** mode, only **Attributes** with the exact **Value** `test value 3.2.1` will be deleted.  
+In **Substring Match** mode, those with **Values** like `test value 3.2.1/test value 3.2.2` will be deleted too.
 
+## Impact of Units of Measurement
+
+All functions that use comparison take into account the possible presence of units of measurement in the content.
+
+Units are effectively *masked* so they don’t affect the comparison result.  
+This is true for cases where the compared elements contain known units from the `unit_description` table.
+
+This behavior applies to functions like split, merge, and replace.
