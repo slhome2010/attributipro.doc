@@ -2,16 +2,67 @@
 sidebar_position: 4
 ---
 
-# Редактирование метаданных
+# Metadata Editing
 
-| ![Metadata editing form](/img/tutorial/form_attribute.png) |
-| - |
-| *Metadata editing form* |
+## Accessing Metadata Editor
 
-| ![Duty autocomplete](/img/tutorial/form_duty_autocomplete.png) |
-| - |
-| *Duty autocomplete* |
+Launch the metadata form using:
 
-| ![Form image](/img/tutorial/form_duty_autocomplete.png) |
-| - |
-| *Image explore* |
+1. `Shift + Click` in single-line edit mode  
+2. `F2` key on selected node  
+3. [Context menu](/module-features/context-menu.md) → "Form"  
+
+Opens in modal window:  
+
+| ![Metadata Editing Interface](/img/tutorial/form_attribute.png) |  
+|:--:|  
+| *Attribute Metadata Editor* |  
+
+## Duty Template Configuration  
+
+### Value Input
+
+1. Edit **Duty Template** value directly in text field  
+2. Use autocomplete (magnifier icon) to load existing product values  
+   - Filters dynamically as you type (e.g., "3" → "3.0", "3.2", "3200")  
+
+| ![Duty Template Autocomplete](/img/tutorial/form_duty_autocomplete.png) |  
+|:--:|  
+| *Value Suggestions* |  
+
+:::tip Advanced Metadata  
+Configure template-specific metadata via [dedicated form](/module-features/duty-features.md)  
+:::  
+
+## Editor Features  
+
+### WYSIWYG Editing
+
+- Powered by **CKEditor** ([official docs](https://ckeditor.com/))  
+- Supports rich text formatting for tooltip descriptions  
+
+### Localization Handling
+
+| Metadata Type | Behavior |  
+|:--|:--|  
+| **Localizable** | Language-specific (above separator line) |  
+| **Global** | Applies to all languages (below separator) |  
+
+**Clone Across Languages**:  
+Enable `Apply to all languages` checkbox before saving  
+
+## Media Management  
+
+### Image Upload
+
+1. Click **Image** button  
+2. Select file via OpenCart's file manager  
+
+### Icon Implementation
+
+- Use **Font Awesome** [library](https://fontawesome.com/) classes without HTML wrappers  
+- Example: `fa fa-tablet` displays tablet icon  
+
+| ![Media Configuration](/img/tutorial/form_image.png) |  
+|:--:|  
+| *Image/Icon Setup* |  
