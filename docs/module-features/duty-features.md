@@ -2,46 +2,71 @@
 sidebar_position: 5
 ---
 
-# Duty Template
+# Duty Template Management
 
 ## Creating a Duty Template
 
-The creation of a [**Duty Template**](/general-info/duty.md) is done in the *`Attributes`* tab or the *`Category Attributes`* tab if the **Duty Template** *node* is added in the tree settings.  
+To create a [**Duty Template**](/general-info/duty.md):
 
-To proceed, select the desired node and enter the [editing mode](/module-features/editing.md), then input the required values, either separated by a delimiter or without one.  
+1. Navigate to either:
 
-## Selecting from the List {#using-duty-autocomplete}
+   - *`Attributes`* tab  
+   - *`Category Attributes`* tab (if duty template node is enabled in tree settings)  
+2. Enter edit mode on the target duty template node using:  
+   - [Standard editing](/module-features/editing.md)  
+   - `Shift + Click` on the node  
+3. Input default values use [separators](/general-info/values-templates.md) for multiple entries  
 
-There is another way to create a **Duty Template**.  
+### Accessing Metadata
 
-If you enter the editing mode and press `Alt + Shift + Click`, existing **Values** from products will be loaded. If no such **Values** exist, the list will not be generated.  
+For **Duty Template Metadata** configuration:
 
-| ![Duty dropdown select](/img/tutorial/en/duty_autocomplete_en.png) |
-|:--:|
-| *Duty autocomplete* |
+- `Shift + Click` in edit mode  
+- `F2` key on selected node  
+- [Context menu](/module-features/context-menu.md) → "Form"  
 
-| ![Duty dropdown no data](/img/tutorial/en/duty_autocomplete_category_en.png) |
-|:--:|
-| *Duty autocomplete on other tab* |
+## Duty Template Metadata  
 
----
+Each Duty Template supports [**Metadata**](general-info/metadata.md) that serves as default values for:
 
-## Deleting a Duty Template {#using-duty-del}
+- Attribute value metadata  
+- Template inheritance rules  
 
-To delete (clear) a **Duty Template**, use the [context menu](/module-features/context-menu.md) or press the `Del` key.  
+| ![Duty Metadata Interface](/img/tutorial/form_duty.png) |  
+|:--:|  
+| *Duty Template Metadata Editor* |  
 
-This action can only be performed in the *`Attributes`* tab. It does not affect products—only the **Duty Template** itself is removed.  
+Field functions mirror those described in [Metadata Editing Guide](/module-features/metadata-editing.md).  
 
----
+---  
 
-## Cloning a Duty Template {#using-duty-clone}
+## Deleting Duty Templates {#using-duty-del}  
 
-A **Duty Template** often consists of numerical values that do not require translation into other languages. For example, `20°C - 40°C` or `2G/3G (WCDMA/UMTS)/4G (LTE)`.  
+**Deletion Workflow**:
 
-Once a **Duty Template** is filled for one language, it can be cloned into other languages immediately.  
+1. Select target on *`Attributes`* tab  
+2. Execute via:  
+   - [Context menu](/module-features/context-menu.md)  
+   - `Del` key  
 
-Cloning a **Duty Template** is done via the [context menu](/module-features/context-menu.md) or by using the `Alt + C` shortcut.  
+⚠ **Important**:
 
-## Video Examples
+- Affects only template and its metadata  
+- No product data modifications  
 
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/zdL9XxdNmyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+---  
+
+## Cloning Duty Templates {#using-duty-clone}  
+
+Clone language-agnostic templates (e.g., `20°C - 40°C`, `2G/3G/4G`) across locales:  
+
+**Methods**:
+
+1. [Context menu](/module-features/context-menu.md) → "Clone"  
+2. Keyboard shortcut: `Alt + C`  
+
+✅ Metadata clones simultaneously with template content  
+
+## Implementation Demo  
+
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/zdL9XxdNmyA" title="Duty Template Cloning Process" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  

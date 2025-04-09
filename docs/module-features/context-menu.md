@@ -3,37 +3,39 @@ sidebar_position: 2
 ---
 
 # Context Menu
-The context menu is opened by right-clicking on a **Node**.
 
-Actions that are allowed for the selected **Nodes** in the tree will be active in the context menu.  
-These actions can also be triggered using "hotkeys."
+Invoke the context menu by right-clicking any **node**.
 
-The main manipulations with **Groups** and **Attributes** are available through Drag'n'Drop, the context menu, and hotkeys.  
-All actions are listed in the [summary table](/module-features/summary-table.md).
+Actions permitted for selected **nodes** in the tree will appear as active menu items.  
+These actions can also be triggered via keyboard shortcuts.
+
+Core operations with **Groups** and **Attributes** are accessible through Drag&Drop, context menu, and hotkeys.  
+All actions are summarized in the [reference table](/module-features/summary-table.md).
 
 |   | **Action** | **Hotkeys** | **Description** |
-|---|------------|------------|-----------------|
-| ✏️ | Edit | `Shift + Click` | Enables single-line editor mode. Any **Node** can be edited. |
-| 🗑️ | Delete | `Del` | Deletes the selected **Node** or multiple selected **Nodes** in the tree. |
-| ✂️ | Cut | `Ctrl + X` | Copies the selected **Node** to the clipboard. After pasting or merging, the **Node** is removed. |
-| 📄 | Copy | `Ctrl + C` | Copies the selected **Node** to the clipboard. It can be pasted elsewhere. |
-| 📋 | Paste | `Ctrl + V` | Pastes the **Node** stored in the clipboard. |
-| 🔗 | Merge | `Alt + V` | Merges the **Node** from the clipboard with the selected target **Node**. |
-| ⏩ | Clone | `Alt + C` | Fills **Default Templates** for all languages with identical content. |
-| 📂 | Expand/Collapse | `Ctrl + B` | Toggles between expanding all collapsed nodes or collapsing expanded nodes. |
-| 🔄 | Refresh | `Shift + R` | Reloads the selected tree. |
-| ⚙️ | Settings | — | Opens the tree settings dialog. Allows managing "Sorting Order" and expand/collapse mode. |
-| ➕ | New Group | `Ctrl + M` | Adds a new **Group** and enables the single-line editor. Synchronously added to all trees. |
-| ➕ | New Attribute | `Ctrl + Q` | Adds a new **Attribute** to the selected **Group** and enables the single-line editor. Synchronously added to all trees. |
+|---|------------|--------------------|--------------|
+| ✏️ | Edit | `Shift + Click` | Activates single-line editor mode. Editable for any **node**. |
+| 📰 | Form | `F2` | Opens modal window with **Metadata** editing form. |
+| 🗑️ | Delete | `Del` | Deletes selected **node(s)**. |
+| ✂️ | Cut | `Ctrl + X` | Copies **node** to clipboard. Removed after pasting/merging. |
+| 📄 | Copy | `Ctrl + C` | Copies **node** to clipboard for pasting. |
+| 📋 | Paste | `Ctrl + V` | Pastes **node** from clipboard. |
+| 🔗 | Merge | `Alt + V` | Merges clipboard **node** with target **node**. |
+| ⏩ | Clone | `Alt + C` | Populates **Default templates** with identical content across all languages. |
+| 📂 | Expand/Collapse | `Ctrl + B` | Toggle: expands all collapsed nodes or collapses expanded ones. |
+| 🔄 | Refresh | `Shift + R` | Reloads selected tree. |
+| ⚙️ | Settings | — | Opens tree configuration dialog for managing sorting order and expand/collapse behavior. |
+| ➕ | New Group | `Ctrl + M` | Adds **Group** and activates single-line editor. Added synchronously to all trees. |
+| ➕ | New Attribute | `Ctrl + Q` | Adds **Attribute** to selected **Group** and activates editor. Added synchronously to all trees. |
 
 ## Quick Settings Menu {#using-dialog}
 
-If the **"Settings"** option is selected from the *context menu*, a quick management dialog for the tree will appear.
+Selecting **"Settings"** in the context menu opens a dialog for real-time tree management.
 
 | **Option** | **Purpose** |
-|-----------|------------|
-| **Auto-collapse** | Enabled by default, meaning that when an element in the tree is expanded, the nearest related elements (on the same level) collapse. This reduces screen clutter. If multiple expanded elements need to be visible simultaneously, disable this option. This setting affects the *context menu* options **"Expand"** and **"Collapse"**. |
-| **Sorting Order** | Allows temporarily disabling sorting in a specific tree. If disabled, everything is sorted alphabetically. |
-| **Lazy Loading** | Quick control over the tree loading mode. If enabled, child nodes load on demand. If disabled, the entire tree loads fully. More details in the section [Node Loading](/general-info/lazy-load.md). |
-| **Consider Hierarchy** | Works only in the category tree. Allows managing recursive subcategory selection. |
-| **Discrepancies** | Works only in the product tree. Allows managing [product selection](/general-info/product-filter.md). |
+|-----------|--------------|
+| **Auto-collapse** | Enabled by default. Collapses sibling nodes when expanding an element to reduce visual clutter. Disable to view multiple expanded elements simultaneously. Affects **"Expand"**/**"Collapse"** context menu items. |
+| **Sorting Order** | Temporarily disables custom sorting in a tree. When disabled, alphabetical sorting applies. |
+| **Lazy Loading** | Controls tree loading mode. Enabled: child nodes load on demand. Disabled: full tree loads immediately. See [Node Loading](/general-info/lazy-load.md). |
+| **Respect Hierarchy** | Category tree only. Manages recursive selection of subcategories. |
+| **Mismatch Mode** | Applies only to the product tree. [Filters products](/general-info/product-filter.md) that do not contain the selected attribute, value, or template. |

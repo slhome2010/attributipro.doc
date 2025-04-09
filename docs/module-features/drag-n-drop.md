@@ -1,34 +1,41 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
-# Drag-and-Drop Technology
+# Drag-and-Drop Functionality
 
-This is one of the conveniences provided by Attribut&pro. For example, how much easier it is to drag an *Attribute* from one *Group* to another with a mouse instead of opening forms, adding a new *Group* name in one place, and removing it in another.
+One of Attribut&pro's key conveniences - dragging attributes between groups proves faster than manual form editing.  
 
-**Drag-and-Drop** technology capabilities:
+## Core Drag-and-Drop Capabilities
 
-- Dragging *Nodes* within a single tree.  
-- Dragging *Nodes* between trees.  
+- **Intra-tree operations**:  
+  - Reordering groups  
+  - Sorting attributes within groups  
+- **Cross-tree operations**:  
+  - Moving attributes between groups/categories  
+  - Merging attributes while preserving values/links  
 
-Applied to our tasks:
+## Use Cases
 
-- Changing the *Group* of an *Attribute*.  
-- Sorting *Groups*.  
-- Sorting *Attributes* within a *Group*.  
-- Adding an *Attribute* to a category.  
-- Changing the category of an *Attribute*.  
-- Merging *Attributes* (combining) without losing *Values* and connections.  
+1. **Group Management**:  
+   - Change attribute's parent group  
+   - Add attribute to new category  
+2. **Structural Adjustments**:  
+   - Merge duplicate attributes  
+   - Bulk reorganize attribute hierarchy  
 
-## Video Examples
+## Video Demonstrations  
 
-### Drag-and-Drop Sorting
+### Drag-and-Drop Sorting  
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/UQASi1MuLWc" title="Attribute Group Sorting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/UQASi1MuLWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Attribute Copying & Group Reassignment  
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/q6OkGi1EM2s" title="Cross-Group Attribute Transfer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-### Copying an Attribute, Changing a Group
+:::note Alternative Methods  
+All drag-and-drop actions can also be performed via:
 
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/q6OkGi1EM2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-All actions supported by **Drag-and-Drop** can also be performed using the [context menu](/module-features/context-menu.md) or hotkeys. Everyone can choose the method that suits them best. All actions are listed in the [summary table](/module-features/summary-table.md).
-
+- [Context menu](/module-features/context-menu.md)  
+- Keyboard shortcuts  
+Action parity details: [Feature Comparison Table](/module-features/summary-table.md)  
+:::  

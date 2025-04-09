@@ -1,38 +1,38 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Category Attributes
 
-Using a set of attributes for bulk assignment to similar products is a key principle of this module. **Category Attributes** can be prepared in several ways.
+Using attribute sets for bulk assignment to homogeneous products is a core principle of this module. **Category Attributes** can be configured using several methods.  
 
 ## Drag-and-Drop
 
-The simplest method is **Drag-and-Drop**. Just drag the selected **Attribute** (or multiple attributes using [multi-selection](/module-features/tree-features.md)) into the **Categories** tree or directly into the **Category Attributes** tree.
+The simplest method is **Drag-and-Drop**. Drag selected **Attributes** (or multiple attributes via [multi-selection](/module-features/tree-features.md)) to either the **Categories** tree or directly into the **Category Attributes** tree.  
 
-You can also check multiple categories and drag **Attributes** into all selected categories **in one move**.
+You can also select checkboxes for multiple categories and drag **Attributes** to all selected categories **in one action**.  
 
-For better understanding, we recommend watching the video with examples.
+For better understanding, we recommend watching the example video:
 
 <iframe width="100%" height="515" src="https://www.youtube.com/embed/FZWGr5aQIwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Tool
 
-Another method is using the [Category Attributes](/tools/category-attributes.md) tool.
+An alternative method is using the [Category Attributes](/tools/category-attributes.md) tool.  
 
-## Adding Category Attributes to a Product  
+## Adding Category Attributes to Products  
 
-Category attributes are added to a product according to the following settings:
+Category Attributes are added to products according to these settings:  
 
 - [Category Attributes](/settings/category.md)  
 - [Inheritance](/settings/inheritance.md)  
 
-For the tool, this setting is managed separately via the **"Assign category attributes to products"** checkbox.
+For the tool, this setting is separately controlled by the **"Apply category attributes to products"** checkbox.  
 
-You can also add **Category Attributes** in the **product form**. More details in the [Integration with OpenCart](/opencart-integration/category-attributes.md) section.
+**Category Attributes** can also be added via the **product form**. Learn more in the [OpenCart Integration](/opencart-integration/category-attributes.md) section.  
 
 ## Adding Attribute Values  
 
-Along with adding **Category Attributes** to a product, their **Values** or, more precisely, the **Duty Template** can also be added. This depends on the settings:
+When adding **Category Attributes** to a product, their **Values** (or more precisely, **Default templates**) may also be added. This depends on:  
 
-- [Adding attribute values to a product](/settings/product.md).
+- [Adding Attribute Values to Products](/settings/product.md)  

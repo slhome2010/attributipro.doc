@@ -16,4 +16,4 @@ If you select "Settings" from the [context menu](/module-features/context-menu.m
 | **Sort Order** | Allows temporarily disabling sort order in a specific tree. If disabled, sorting is alphabetical. |
 | **Lazy Load** | Controls tree loading mode. If enabled, child nodes load on demand. If disabled, the tree loads fully. More: [Node Loading](/general-info/lazy-load.md). |
 | **Respect Hierarchy** | Applies only to the category tree. Enables recursive selection of subcategories. |
-| **Mismatch Mode** | Applies only to the product tree. Filters products that do not contain the selected attribute, value, or template. |
+| **Mismatch Mode** | Applies only to the product tree. [Filters products](/general-info/product-filter.md) that do not contain the selected attribute, value, or template. |
