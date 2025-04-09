@@ -4,18 +4,18 @@ sidebar_position: 2
 
 # Free Version
 
-Until you obtain and apply a valid license key, the module operates in the free version mode. Essentially, it is the same module but with limited functionality. Visually, the free version is identical to the paid version, except for the **(free)** label displayed next to the module name in the header. For example:
+Until you receive and apply the license key, the module operates in the _free_ version. Essentially, it is the same module but with limited functionality. Externally, the _free_ version is indistinguishable from the paid version, except for the **(free)** label next to the module's name in the header. For example:
 
-**Attribut&pro v3.3.3 (free)**.
+**Attribut&pro v1.0.0 (free)**.
 
-The limitations of the free version apply to database modifications. You can perform any actions with **Attributes** or **Values**, just like in the paid module, but changes will not be saved. After reloading the page, everything will revert to its original state.
+The limitations of the free version concern making changes to the database. You can perform any actions with **Attributes** or **Values**, just like in the paid module, but the changes will not be saved. After reloading the page, everything will revert to its original state.
 
-The free version is designed for evaluating the module's functionality, assessing usability when working with attributes, and verifying compatibility with your OpenCart store.
+The _free_ version is designed to familiarize you with the module's functionality, evaluate the convenience of working with attributes, and check the module's compatibility with your OpenCart store.
 
 :::info
-Some features remain fully functional in the free version, such as **Drag'n'Drop sorting** of **Groups** and **Attributes**.
+Some features in the _free_ version are fully preserved, such as **Drag'n'Drop sorting** of **Groups** and **Attributes**.
 :::
 
 :::tip
-The free version **does not require** domain name registration.
+For the _free_ version, **no domain name approval** is required.
 :::
