@@ -4,9 +4,9 @@ sidebar_position: 4
 
 # Database
 
-During the module installation, database queries will be executed.
+During module installation, the following database queries will be executed:
 
-```sql
+```SQL
 CREATE TABLE IF NOT EXISTS oc_category_attribute (
   category_id INT(11) NOT NULL,
   attribute_id INT(11) NOT NULL,
@@ -16,24 +16,46 @@ CREATE TABLE IF NOT EXISTS oc_category_attribute (
 
 and
 
-```sql
+```SQL
 ALTER TABLE oc_attribute_description ADD COLUMN `duty` TEXT NOT NULL
-As a result, a new table category_attribute will be created with fields `category_id` and `attribute_id`.
 ```
 
-And in the standard OpenCart table attribute_description, a field `duty` will be added to store Default Templates.
-This field remains for backward and forward compatibility.
+This will create:
+  
+1. A new **category_attribute** table with `` `category_id` `` and `` `attribute_id` `` fields - the core table for working with [Category Attributes](/general-info/theory.md).  
+2. A `` `duty` `` column in the standard OpenCart **attribute_description** table to store [Duty Templates](general-info/duty.md).  
+   This column is maintained for backward/forward compatibility between **Attribut&pro** and **Attribut&co**.  
 
-In addition, several additional tables will be created.
-The extended set of tables is designed to work with the enhanced version of the module and is created to maintain the integrity of all connections in case of simultaneous operation of both versions.
+Additional tables will be created to support [metadata](general-info/metadata.md) functionality.
 
-:::info
-Tables are created only if they did not exist before, so there is no need to worry about deleting existing data.
-:::
+## Core Tables
 
-General Diagram of Tables and Relationships
-To avoid overloading the diagram with information, the language table is not shown on it, and relationships are shown only for attribute_id.
+| **Tables** |
+|:--:|
+| attribute_group |
+| attribute_group_description |
+| attribute |
+| attribute_pro |
+| attribute_description |
+| attribute_description_pro |
+| product_attribute |
+| product_attribute_pro |
+| category_attribute |
+| unit |
+| unit_description |
+| attribute_interlink |
+
+:::info  
+Tables are only created if they don't already exist. Your existing data will not be affected.  
+:::  
+
+## Schema Overview  
+
+To simplify the diagram:
+
+- The *`language`* table is omitted  
+- Relationships are only shown for *`attribute_id`*  
 
 | ![Database diagram](/img/tutorial/db_pro.svg) |
-|:--:|
-| *Database diagram* |
+|:--:|  
+| *Database schema visualization* |  

@@ -1,0 +1,42 @@
+### Technical Documentation Translation Protocol  
+
+#### Objective  
+Produce an English translation of Russian technical documentation that maintains Markdown structure, technical accuracy, and formal tone.  
+
+#### Formatting Requirements  
+1. Preserve all Markdown elements (headers, lists, tables, `code`, **bold**, *italic*).  
+2. Convert triple apostrophes (`'''`) to triple backticks (` ``` `) in code blocks.  
+   - Example: `'''json` → ` ```json `  
+
+#### Translation Guidelines  
+- **Natural Language**: Avoid literal translations. Prioritize clarity and fluency.  
+- **Technical Terms**: Use industry-standard equivalents (e.g., “узел” → “node” in IT contexts).  
+- **Sentence Structure**: Rephrase complex sentences for readability without losing meaning.  
+
+#### Quality Assurance  
+- **Source Text Review**: Flag spelling/grammar errors in the original Russian text.  
+- **Localization Check**: Ensure terms like “Группы” align with the product’s existing English UI.  
+
+#### Example  
+**Source (RU):**  
+Для включения модуля нажмите кнопку **Активировать**.  
+**Translation (EN):**  
+To enable the module, click **Activate**.  
+
+### Formatting Rules  
+1. **Code Block Escaping**:  
+   - If the translated content contains nested Markdown (e.g., code blocks within code blocks), wrap the entire output in quadruple backticks (` ````markdown`) to prevent premature termination.  
+   - Example:  
+     `````markdown  
+     ```bash  
+     Folder/  
+     │── Subfolder/  
+     │    └── file.txt  
+     ```  
+     `````  
+
+2. **Validation**:  
+   - Test the final output in a Markdown editor (e.g., VS Code, StackEdit) to ensure no formatting breaks occur.  
+
+3. **Edge Cases**:  
+   - If the source contains triple backticks (` ``` `), preserve them but add a warning note for the user.  

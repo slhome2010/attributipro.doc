@@ -5,7 +5,6 @@ sidebar_position: 1
 # Структура архива
 
 ```bash
-
 Attributipro_v1.0.0/
 │── PHP7.2-7.4/
 │       └── upload_v3.x/
@@ -36,7 +35,6 @@ Attributipro_v1.0.0/
 │
 ├── News1.0.0/
 └── readme.txt
-
 ```
 
 ## Назначение папок и файлов

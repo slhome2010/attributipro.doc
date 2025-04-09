@@ -5,13 +5,16 @@ sidebar_position: 1
 # Archive Structure
 
 ```bash
-
-Attributico_v3.3.2/
-│── PHP7.2/
+Attributipro_v1.0.0/
+│── PHP7.2-7.4/
 │       └── upload_v3.x/
 │             ├── admin/
 │             │    ├── controller/
 │             │    ├── language/
+│             │    ├── model/
+│             │    └── view/
+│             ├── catalog/
+│             │    ├── controller/
 │             │    ├── model/
 │             │    └── view/
 │             └── system/
@@ -19,29 +22,33 @@ Attributico_v3.3.2/
 │                       └── attributico/
 │                             ├── attributico.php
 │                             └── interlink.php
-│── PHP7.1│       
-│       └── upload_v3.x/
 │
 │── ocmod/
-│     └── attributico.3.x.ocmod.zip
+│     ├── attributipro3.react.ocmod.zip
+│     ├── attributipro3.frontend.product.ocmod.zip
+│     └── attributipro3.frontend.filter.ocmod.zip
 │
-├── News3.3.2/
+│── sql/       
+│    ├── oc_attribute_interlink.sql
+│    ├── oc_unit.sql
+│    └── oc_unit_description.sql
+│
+├── Changelog1.0.0/
 └── readme.txt
-
 ```
 
-## Folder and File Purpose
+## Folder and File Descriptions
 
-- `upload_v3.x/` folders with the module files for different OpenCart versions;
-- `ocmod/` folder with modifiers for stores version 2.x and 3.x;
-- `attributico.3.x.ocmod.zip` modifier file for stores version 3.x;
-- `News/` folders with descriptions of changes, fixes and supporting materials;
-- `readme.txt` brief instructions on installing and using the module;
+- `upload_v3.x/` – Core module files for OpenCart 3.x.
+- `ocmod/` – Modifiers for OpenCart 2.x/3.x stores.
+- `attributipro3.react.ocmod.zip` – Backend modifier for OpenCart 3.x.
+- `attributipro3.frontend.product.ocmod.zip` – Frontend product page modifier.
+- `attributipro3.frontend.filter.ocmod.zip` – Frontend filter modifier.
+- `oc_attribute_interlink.sql` – Preconfigured cross-link settings table.
+- `oc_unit.sql` & `oc_unit_description.sql` – Unit of measurement tables.
+- `Changelog/` – Version history and supplementary materials.
+- `readme.txt` – Installation and usage guide.
 
 ## Version Differences
 
-The provided archive structure corresponds to the module version > 3.3.2. The folder name like `PHP7.1/`, ..., `PHP7.2/` corresponds to the PHP version. The difference is in the ioncube-encoding of some module files for different PHP versions. Inside these folders are `upload/` folders with the OpenCart structure of the module for different store versions.
-
-:::tip
-The `PHP7.2/` folder is suitable for PHP versions 7.2 - 7.4.
-:::
+The structure corresponds to **module versions >1.0.0**. Folders like `PHP7.2/` denote PHP version compatibility (ionCube-encoded files differ per PHP version). The `upload.../` subfolders contain OpenCart module files for specific store versions.
