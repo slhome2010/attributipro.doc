@@ -9,9 +9,9 @@ Values are added to a product using a specific **`Method`**, depending on the se
 | **Attribute Values** | Description |
 |----------------------|-------------|
 | `Clear`              | All attribute values are deleted. |
-| `Do Not Change`      | Existing values remain unchanged. |
-| `Replace with Default` | All values are replaced with the default template. |
-| `Only If Empty`      | Only empty values are replaced with the default template. |
+| `Keep`               | Saves existing values ​​without changing. |
+| `Overwrite`          | All values are replaced with the default template. |
+| `Empty only`         | Protects filled fields. Only empty values are replaced with the default template. |
 
 :::note
 Substitution values are taken from the **Default Template**, if it is not empty.

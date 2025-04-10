@@ -1,23 +1,22 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Category Attribute Support
+# Category Attributes
 
-Integration with the product page allows partial automation of the process of adding **Category Attributes** to a product.
+Integration with the product page allows automating the process of adding **Category Attributes** to a product.
 
-Adding **Category Attributes** occurs at the moment the product is "linked" to a specific category or when its visibility in the category is set.
-Physically, this happens when a checkbox next to a category is selected, or when the Main Category is changed on the **Links** tab (Ocstore), or when a category is selected from the list (OpenCart).
+**Category Attributes** are added at the moment a product is “linked” to a specific category. Physically, this happens when you double-click a category in the category tree, provided that the `Add attributes automatically` checkbox is checked.
 
-Removing **Category Attributes** occurs when the product is "unlinked" from a category. The removal must be confirmed in a pop-up window.
+**Category Attributes** are removed when the product is “unlinked” from a category. Removing **Attributes** requires confirmation in a pop-up window. If the `Remove attributes automatically` checkbox is checked, removal will occur without confirmation.
 
-Adding **Category Attribute Values** to a product follows the **`Method`** set in the settings of [Adding Attribute Values to a Product](/settings/product.md) or the [**`Overridden Method`**](/opencart-integration/method-inserting.md).
+To add all **Attributes** of all categories a product is linked to, use the `Category Attributes` button.  
+![Green button](/img/tutorial/green_button.png)
 
-It is now possible to add **Attributes** from all categories to which the product is linked with a single button directly within the product form.
-The button's function is independent of the setting [Add category attributes to products](/settings/category.md).
+The addition of **Category Attribute Values**, or more precisely, their **Default Templates**, to a product follows the [**`Value Insertion Method`**](/opencart-integration/method-inserting.md).
 
 :::info
 Everything described above regarding the addition of **Category Attributes** and their **Values** applies to a single, specific, editable product.
 
-If you need to add **Category Attributes** to all products in a certain category, use the module's [Category Attributes](/module-features/category-attributes.md) feature or the [Category Attributes Tool](/tools/category-attributes.md).
+If you need to add **Category Attributes** to all products within a category, use Drag'n'Drop and other features of the [module](/module-features/category-attributes.md), or use the [Category Attributes](/tools/category-attributes.md) tool.
 :::

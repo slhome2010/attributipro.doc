@@ -1,9 +1,15 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # Group Attributes
 
-Starting from version 3.2.8, it is now possible to add all **Group Attributes** from a selected list directly within the product form.
+You can add all **Group Attributes** of a selected group directly in the product form.
 
-From the dropdown list, you can select the **Group** whose **Attributes** you want to add to the product form. Since there may be many groups, autocomplete is enabled—allowing search and filtering as you type the group's name.
+Select the **Group** from the dropdown list whose **Attributes** you want to add to the product.
+
+Since there can be many groups, autocomplete is available — the list filters dynamically as you type the group name.
+
+| ![Group Attributes](/img/tutorial/group_attributes.png) |
+|:--:|
+| *Group Attributes* |

@@ -1,24 +1,30 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # Overriding the Value Insertion Method
 
-Until now, **Values** or **Templates** were inserted into a product according to the **`Method`** set in the settings of [Adding Attribute Values to a Product](/settings/product.md).
+When working with **Values** or **Templates**, data is inserted into products according to the **`Method`** configured in [Adding Attribute Values to Products](/settings/product.md) settings.
 
-To avoid changing the default settings every time, an option has been added to *override* the **`Method`** of value insertion in real time.
+To avoid changing base settings repeatedly, you can temporarily *override* the **`Value Insertion Method`**. This setting persists for the current session only.
 
-| **Insertion Method** |
-|:--|
+| ![Values Insert Mode](/img/tutorial/value_insert_mode.png) |
+|:--:|
+| *Values Insert Mode* |
+
+The **`Method`** affects all operations with **Duty Templates** in the product form.
+
+**Duty Template** insertion occurs synchronously for all languages during:
+
+1. Category [*assignment*](/opencart-integration/category-attributes.md)
+2. New **Attribute** selection
+
+**Method options:**
 | `Clear` |
-| `Do not change` |
-| `Replace with default` |
-| `Only in empty fields` |
+| `Keep` |
+| `Overwrite` |
+| `Empty only` |
 
-The **`Overridden Method`** takes priority but is only active while working within the product form. When the page is reloaded or another product is loaded, it resets to the [current module setting](/settings/product.md). The effect of the **`Overridden Method`** applies to **all operations** with **Default Templates** in the product form.
-
-Insertion of the **Default Template** is performed synchronously for all languages at the moment of category assignment or when selecting a new **Attribute**.
-
-If the filter is set to `Default`, and the list view switch is set to `Templates`, then only **Default Templates** will be displayed in the list. Selecting an item from the list will trigger the synchronous insertion of the corresponding **Default Templates** into other languages.
-
-If you want to protect previously entered **Values**, choose the insertion method `Only in empty fields`.
+:::tip
+Use `Empty only` to add new values while protecting existing entries.
+:::

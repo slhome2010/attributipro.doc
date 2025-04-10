@@ -1,29 +1,58 @@
 ---
-sidebar_position: 2
+sidebar_position: 10
 ---
 
-# Managing List View
+# List View Management
 
-Depending on which button is pressed, either **Templates** or **Values** will be displayed in the selection field.
+This setting determines whether the dropdown list displays **Templates** or **Values**.
 
-| ![attribute](/img/tutorial/en/list_view_switch_en.png) |
+| ![attribute](/img/tutorial/list_view_mode.png) |
 |:--:|
 | *List View Switch* |
 
-More details about **Templates** and **Values** can be found in the section [Values and Templates](/general-info/values-templates.md).
+For detailed information about **Values** and **Templates**, see [Values and Templates](/general-info/values-templates.md).
 
-In this case, **Values** are *parsed* **Templates** based on a [delimiter](/general-info/values-templates.md).
+Here, **Values** represent *parsed* **Templates** divided by a [separator](/general-info/values-templates.md).
 
 ## List Generation
 
-To generate the list, the script queries the Database to collect all **Values** associated with a given **Attribute** from all products that contain this **Attribute**.
+The script generates the list by querying the Database to collect all **Values** associated with a specific **Attribute** from all products containing that **Attribute**.
 
-Imagine that you have just started working with the store. You have created a few products and several **Attributes**. When you go to the **Attributes** tab in the product form, you will see an empty page. After adding an **Attribute**, an empty text area will appear on the right. To generate at least one **Template**, you need to enter something into this field—specifically, a **Value** or multiple **Values** separated by a delimiter. For example: `Range1/Range2/Range3`.
+### Example Workflow
 
-Once you save the changes and re-enter the product form, a selection field will appear on the right, allowing you to choose a single entry. As more products are created and text fields are filled, the **Templates** list will expand.
+When starting with a new store:
 
-If the list view mode is set to `Values`, the script will split **Templates** using the delimiter, while standalone **Values** will be added directly to the list.
+1. Create several products and **Attributes**
+2. Navigate to the **Attributes** tab in the product form (initially empty)
+3. Add an **Attribute** - a blank text area appears on the right (except when applying the **Duty Template**)
+4. Input **Value(s)** using a separator, e.g., `Range1/Range2/Range3`
+
+Saved entries will appear in the list upon reopening the product form. The list grows as more products are created and text fields populated.
+
+### Template View Example
+
+| ![attribute](/img/tutorial/template_list.png) |
+|:--:|
+| *Template List Display* |
+
+### Value View Behavior
+
+When `Values` list view is selected:
+
+- Script splits **Templates** using the separator
+- Single **Values** are added directly to the list
+
+| ![attribute](/img/tutorial/value_list.png) |
+|:--:|
+| *Value List Display* |
 
 :::tip
-A new template can always be "assembled" from **Values**. The delimiter will be inserted automatically. Missing **Values** can be added manually by editing the text area.
+**Template Creation Rules:**
+
+1. New **Templates** are built from **Values**
+2. Select values sequentially - separator is auto-inserted
+3. Re-selecting a **Value** removes it from the generated string
+
+Missing **Values** can be added manually by editing the text area.  
+**Duty Templates** are applied automatically when no custom input exists.
 :::

@@ -2,38 +2,23 @@
 sidebar_position: 1
 ---
 
-# Integration with the Product Form
+# Product Form Integration
 
-The module integrates with the OpenCart engine using `ocmod` modification files. The purpose of these files is described in the section [Archive Structure](/technical-specifications/archive-content.md). Instructions for installing modifications can be found in the section [Installation](/install.md).
+The module integration with the OpenCart engine is carried out using `ocmod` modifier files. The purpose of these files is described in the [Archive Structure](/technical-specifications/archive-content.md) section. Information about modifier installation can be found in the [Installation](/install.md) section.
 
-:::danger
-All actions described below, performed using this modifier, do not make changes to the Database. All modifications occur only in the browser, on the product form page.
+If the modification has been applied correctly, the **Attribut&pro** item should appear in the sidebar of the administrative panel in the *Catalog ⇒ Characteristics* menu, and a tab with the same name should appear in the product form.
 
-Changes to the Database occur only after you click the `Save` button. Saving is carried out using OpenCart's standard mechanisms.
+By navigating to this tab, you will see a table of product **Attributes** with their **Values**.
 
-You are the one who decides whether to save the changes or not.
+The table supports sorting by any column and pagination of **Attributes**. On the left, there are checkboxes for selecting table rows to be deleted.
+
+At the top of the table, there is a special panel with control elements.
+
+:::tip
+All data manipulations in the table are immediately written to the Database.
+If you haven't made changes on other tabs, pressing the save button is optional.
 :::
 
-If the modification is applied correctly, the **Attribut&pro** menu item should appear in the *Catalog ⇒ Attributes* section of the admin panel sidebar, and additional control buttons should appear in the product form.
-
-| ![attribute](/img/tutorial/en/service_panel_en.png) |
+| ![Product Attributes Table](/img/tutorial/product_attribute_table.png) |
 |:--:|
-| *Service panel* |
-
-On the right side of the table, above the text area for each language, a **Value** selection field from a dropdown list should appear.
-
-| ![attribute](/img/tutorial/en/select_in_textarea_en.png) |
-|:--:|
-| *Modified textarea* |
-
-The following **operations** will become available:
-
-- Inserting **Templates** or **Values** from a dropdown list;
-- Inserting **Default Templates** when selecting an **Attribute**;
-- Inserting **Attributes** with their **Default Templates** when linking or relinking a product to a category on the **Links** tab;
-- Inserting all **Category Attributes** with their **Default Templates** using a single button;
-- Inserting all **Attributes** from a selected group with their **Default Templates**.
-
-## Video Examples
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/kN91LkmpN_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+| *Product Attributes Table* |

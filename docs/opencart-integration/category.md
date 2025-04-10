@@ -2,30 +2,32 @@
 sidebar_position: 2
 ---
 
-# Категории
+# Categories
 
-В левой части пенели управления находятся два окна для управления категориями. В одном из них категории и их подкатегории в виде дерева, в другом категории к которым относится товар в виде чипов.
+On the left side of the control panel, there are two windows for managing categories. One displays categories and their subcategories as a tree, and the other shows the categories associated with the product as chips.
 
 | ![Category management](/img/tutorial/product_category.png) |
 |:--:|
 | *Category management* |
 
-Привязать товар к выбранной категории можно двойным кликом на этой категории в дереве. В соседнем окне категория отобразится в виде чипа.
+To assign a product to a selected category, double-click on that category in the tree. The category will appear as a chip in the adjacent window.
 
-Если отмечен чекбокс `Добавлять атрибуты автоматически`, то в этот же момент в товар добавятся **Атрибуты категории** со своими **метаданными** и **Дежурными шаблонами**.
+If the `Add attributes automatically` checkbox is checked, **Category Attributes** along with their **metadata** and **Default Templates** will be added to the product at the same time.
 
-Добавление **Дежурных шаблонов** в товар происходит в соответствии со [**`Способом вставки значений`**](/opencart-integration/method-inserting.md).
+Adding **Default Templates** to a product is carried out according to the [**`Value Insertion Method`**](/opencart-integration/method-inserting.md).
 
-Удаление категории (отвязка) происходит при нажатии на крестик соответствующего чипа.
+A category can be removed (unlinked) by clicking the cross icon on the corresponding chip.
 
-Удалять или нет при этом **Атрибуты категории** решаете вы сами. Удаление **Атрибутов** необходимо подтвердить во всплывающем окне. Если отмечен чекбокс `Удалять атрибуты автоматически`, удаление произойдет без подтверждения.
+Whether to also remove the **Category Attributes** is up to you. Removing **Attributes** requires confirmation in a pop-up window.
+
+If the `Remove attributes automatically` checkbox is checked, the removal will happen without confirmation.
 
 :::tip
-Пользователи ocStore могут дополнительно установить главную категорию. Для этого надо сделать клик на нужном чипе.
+ocStore users can additionally set a main category. To do this, click on the desired chip.
 :::
 
 :::warning
-Все, что вы делаете на этой вкладке с категориями напрямую сохраняется в Базе Данных. Параллельно изменения вносятся на аффилированных вкладках, но такой связи при работе на других вкладках нет.
+Everything you do on this tab with categories is saved directly to the Database. At the same time, changes are reflected on affiliated tabs, but this linkage does not apply when working on other tabs.
 
-Поэтому, изменения категории, сделанные, например, на вкладке *`Связи`*, вступят в силу только после сохранения и перезагрузке страницы.
+Therefore, changes to categories made, for example, on the *`Links`* tab will take effect only after saving and refreshing the page.
 :::
