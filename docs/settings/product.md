@@ -14,7 +14,7 @@ Values are added to a product using a specific **`Method`**, depending on the se
 | `Empty only`         | Protects filled fields. Only empty values are replaced with the default template. |
 
 :::note
-Substitution values are taken from the **Default Template**, if it is not empty.
+Substitution values (default template) are taken from the **Duty Template**, if it is not empty.
 :::
 
 :::info

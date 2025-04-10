@@ -33,6 +33,6 @@ For the tool, this setting is separately controlled by the **"Apply category att
 
 ## Adding Attribute Values  
 
-When adding **Category Attributes** to a product, their **Values** (or more precisely, **Default templates**) may also be added. This depends on:  
+When adding **Category Attributes** to a product, their **Values** (or more precisely, **Duty Templates**) may also be added. This depends on:  
 
 - [Adding Attribute Values to Products](/settings/product.md)  

@@ -12,9 +12,9 @@ On the left side of the control panel, there are two windows for managing catego
 
 To assign a product to a selected category, double-click on that category in the tree. The category will appear as a chip in the adjacent window.
 
-If the `Add attributes automatically` checkbox is checked, **Category Attributes** along with their **metadata** and **Default Templates** will be added to the product at the same time.
+If the `Add attributes automatically` checkbox is checked, **Category Attributes** along with their **metadata** and **Duty Templates** will be added to the product at the same time.
 
-Adding **Default Templates** to a product is carried out according to the [**`Value Insertion Method`**](/opencart-integration/method-inserting.md).
+Adding **Duty Templates** to a product is carried out according to the [**`Value Insertion Method`**](/opencart-integration/method-inserting.md).
 
 A category can be removed (unlinked) by clicking the cross icon on the corresponding chip.
 

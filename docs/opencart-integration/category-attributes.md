@@ -13,7 +13,7 @@ Integration with the product page allows automating the process of adding **Cate
 To add all **Attributes** of all categories a product is linked to, use the `Category Attributes` button.  
 ![Green button](/img/tutorial/green_button.png)
 
-The addition of **Category Attribute Values**, or more precisely, their **Default Templates**, to a product follows the [**`Value Insertion Method`**](/opencart-integration/method-inserting.md).
+The addition of **Category Attribute Values**, or more precisely, their **Duty Templates**, to a product follows the [**`Value Insertion Method`**](/opencart-integration/method-inserting.md).
 
 :::info
 Everything described above regarding the addition of **Category Attributes** and their **Values** applies to a single, specific, editable product.

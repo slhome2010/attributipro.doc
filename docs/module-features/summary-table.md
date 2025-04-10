@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-# Feature Reference Table
+# Summary Table
 
 :::info Legend
   

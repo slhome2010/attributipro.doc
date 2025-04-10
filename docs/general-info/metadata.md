@@ -37,9 +37,9 @@ These include:
 - Interlinking reference;
 - Status (not currently used).
 
-## Default Template Metadata
+## Duty Template Metadata
 
-Default template metadata is stored in the `attribute_description_pro` DB table.
+Duty Template metadata is stored in the `attribute_description_pro` DB table.
 
 These include:
 

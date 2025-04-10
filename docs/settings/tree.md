@@ -12,4 +12,6 @@ Nodes are enabled and disabled using checkboxes.
 |:--:|
 | *Children node settings* |
 
+:::info
 The number of connected child nodes affects the tree loading speed. This can be critical in stores with a large number of products and attributes.
+:::
