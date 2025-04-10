@@ -4,20 +4,20 @@ sidebar_position: 12
 
 # Language Cloning
 
-This unification tool can be useful when adding a new language.
+This standardization tool can be useful when adding a new language. The built-in OpenCart features cannot create all the tables required for the module to function when a new language is integrated. Cloning enables synchronization of data across tables. Subsequently, information requiring translation can be edited as needed.
 
-You can clone **Groups**, **Attributes**, or **Values** separately.
+You can separately clone **Groups**, **Attributes**, or **Values**.
 
-- **`Insert` mode** — useful if some attributes have already been translated, but certain database entries are missing entirely. Missing records will be inserted and filled with data from the source language. Existing records will remain unchanged, even if they contain empty fields.
-- **`Overwrite` mode** — missing records will be inserted and filled with data from the source language. Existing records will be overwritten.
-- **`Overwrite only empty` mode** — protects filled fields, but requires additional database queries, making it a heavier operation. On large stores, this may lead to timeouts or system freezes.
+- **`Insert` mode** — Useful when some attributes are already translated, but certain elements lack records in the database entirely. Missing records will be inserted and populated with data from the source language. Existing records will remain unaffected, even if they contain empty fields.
+- **`Overwrite` mode** — Missing records will be inserted and populated with data from the source language. Existing records will be overwritten.
+- **`Empty only` mode** — Protects populated fields, but this is a resource-intensive mode that involves additional database queries. Large stores may experience timeouts or system hangs.
 
-**Duty Templates** are cloned together with attributes. You only need to check the "Duty" box if you specifically want to clone **Duty Templates** separately. The optimal mode is `Overwrite only empty`.
+**Duty Templates** are cloned simultaneously with attributes. The `*Duty*` checkbox should only be selected if they need to be cloned separately. The optimal mode for this is `Overwrite Only Empty`.
 
 | ![Clone](/img/tutorial/clone.png) |
 |:--:|
-| *Clone attributes between languages* |
+| *Clone attribute between languages* |
 
-Once the task is complete, a confirmation message should appear:
+Upon task completion, a corresponding message should appear:
 
-> ✅ Success! Operation completed. Cloned groups: 0, Cloned attributes: 20, Cloned values: 624, Cloned duty templates: 0.
+`✅ Success! Operation completed. Cloned groups: 0, Cloned attributes: 20, Cloned values: 624, Cloned duty templates: 0.`
