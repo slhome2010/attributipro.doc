@@ -4,10 +4,14 @@ sidebar_position: 4
 
 # Remove Broken Links
 
-Some database tables created by the module are not "native" to OpenCart. The platform's standard tools do not properly modify data in these tables. Although users are advised to manage attributes exclusively through **Attribut&pro**, some ignore this recommendation. Manual deletions can result in links to non-existent attributes, causing errors instead of displaying the attribute tree.
+Some database tables created by the module are not native to OpenCart.  
+The platform's standard tools cannot properly modify data in these tables, and event handlers may not always succeed either, as they lack the ability to process events from third-party extensions.
+
+If database integrity is compromised, an error may occur:
 
 ```javascript
 Load error! (SyntaxError: Unexpected token < in JSON at position 0)...
 ```
 
-To check database integrity, you can use this tool, which simply removes links to non-existent attributes—essentially cleaning up database clutter.
+To verify the integrity of database tables, you can use this tool, which simply removes links to non-existent attributes.  
+Think of it as a form of garbage cleanup.

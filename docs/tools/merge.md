@@ -4,12 +4,13 @@ sidebar_position: 8
 
 # Merge Duplicates
 
-Duplicate **Attributes** can appear due to parsing, automated price list imports, or content manager errors. This tool allows you to merge duplicates without losing links to products or categories. A filter must be applied. The action will be performed for the **Groups** selected in the filter block.
+Duplicate **Attributes** may appear as a result of parsing, automatic price list uploads, or content manager errors. This tool allows merging duplicates without losing links to products or categories.  
+Using the filter is mandatory. The operation applies only to the **Groups** selected in the filter block.
 
-Do not confuse this tool with [Attribute Merging](/module-features/merge.md).
+Do not confuse this tool with [merging](/module-features/merge.md) **Attributes**.
 
 :::info
-Merging can be performed for any **Attributes**, including _explicit_ or _implicit_ duplicates that you define manually.
+Manual merging can be performed for any **Attributes**, whether they are _obvious_ or _non-obvious_ duplicates that you identify yourself.
 
-This tool follows the same merging rules but only applies to _explicit_ duplicates, meaning those that are 100% identical.
+This tool performs merging according to the same rules but only for _obvious_ duplicates — i.e., those that match 100%.
 :::
