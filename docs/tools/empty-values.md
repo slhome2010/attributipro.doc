@@ -4,24 +4,28 @@ sidebar_position: 3
 
 # Remove Empty Values
 
-Empty **Values** typically appear due to operator mistakes. The most common causes are:
+Empty **Values** typically arise due to operator errors. The most common reasons include:
 
-1\. Clicking the "Save" button while manually editing a product form, when an **Attribute** has been added but no **Value** has been entered.
+1. During manual editing of a product form, the "Save" button is pressed after adding an **Attribute** without entering a corresponding **Value**.
 
-2\. Using Attribut&pro to add an **Attribute** with an empty [Duty Template](/general-info/duty.md) to a category.
+2. Using Attribut&pro to add an **Attribute** with an unfilled [Duty Template](/general-info/duty.md) to a category.
 
 | ![Empty values1](/img/tutorial/empty4.jpg) |
 |:--:|
-| *Empty values in the product form* |
+| *Empty values in product form* |
 
 | ![Empty values2](/img/tutorial/empty5.jpg) |
 |:--:|
-| *Empty values in the Duty Template* |
+| *Empty values in Duty Template* |
 
-As a result, products or categories with empty **Attribute Values** are created. These blanks look unappealing in store filters and can confuse customers.
+As a result, products end up with empty **Values** for attributes. These empty values look unattractive in the store’s filter and can mislead customers.
 
-Instead of manually searching the database for products with empty **Values**, you can use this tool to remove links to them.
+To avoid manually searching the entire database for products with empty **Values**, this tool can be used to remove references to such products.
 
-:::tip
-If your frontend filter automatically handles empty values, using this tool may not be necessary.
+:::info  
+The module maintains a consistent data structure synchronized across all languages. Therefore, only records where **Values** are empty for all languages will be deleted.  
+:::
+
+:::tip  
+If the frontend filter handles this issue independently, it’s better not to use this tool.  
 :::

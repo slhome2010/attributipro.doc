@@ -4,23 +4,23 @@ sidebar_position: 2
 
 # Filter Block
 
-Starting from this and future versions, the filter has been moved to a separate block shared across all tools.
+In this and subsequent versions, the filter has been moved to a separate block common for all tools.
 
-| ![Tools filter](/img/tutorial/Tools_filter.jpg) |
+| ![Tools filter](/img/tutorial/tools_filter.png) |
 |:--:|
 | *Tools filter open* |
 
-For some tools, the filter is mandatory, for others optional, and for some, it is not needed at all. The table below shows how each tool interacts with the filter and its behavior when applied.
+For some tools, the filter is mandatory, for some it is optional, and for others it is not needed at all. The table below shows the correspondence of the filter and tool behavior when it is applied.
 
 | **Tool** | **Filter** | **Tree** | **Behavior** |
 |:--|:--|:--|:--|
-| Remove Empty Values | Not needed |  |  |
-| Remove Broken Links | Not needed |  |  |
-| Attribute Defragmentation | Not needed |  |  |
-| Attribute Sorting | Not needed |  |  |
-| Remove Unlinked Attributes | Required | Attribute Groups | If nothing is selected, the task will not run |
-| Merge Duplicates | Required | Attribute Groups | If nothing is selected, the task will not run |
-| Category Attributes | Required | Categories | If nothing is selected, the task will not run |
-| Clone Language | Not needed |  |  |
-| Separator Replacement | Optional | Attribute Groups + Categories | If nothing is selected, search and replacement will run across the entire database |
-| Case Conversion | Optional | Attribute Groups + Categories | If nothing is selected, search and replacement will run across the entire database |
+| Delete empty values | Not needed |  |  |
+| Delete invalid links | Not needed |  |  |
+| Attribute defragmentation | Not needed |  |  |
+| Attribute sorting | Not needed |  |  |
+| Delete not linked to product | Mandatory | Attribute groups | If nothing is selected, the task is not performed |
+| Merge duplicates | Mandatory | Attribute groups | If nothing is selected, the task is not performed |
+| Category attributes | Mandatory | Categories | If nothing is selected, the task is not performed |
+| Clone language | Not needed |  |  |
+| Separator replacement | Optional | Attribute groups + Categories | If nothing is selected, search and replace is performed across the entire DB |
+| Case change | Optional | Attribute groups + Categories | If nothing is selected, search and replace is performed across the entire DB |

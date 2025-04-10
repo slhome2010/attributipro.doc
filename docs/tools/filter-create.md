@@ -2,18 +2,18 @@
 sidebar_position: 17
 ---
 
-# Фильтр
+# Filter
 
-В OpenCart есть встроенный модуль фильтра и все для его создания и настройки. Но это очнь трудоемкий процесс. Поэтому пользователи предпочитают использовать сторонние приложения, которые предоставляют больше удобств в плане автоматизации. Конечно, это стоит немалых денег.
+OpenCart has a built-in filter module and everything needed for its creation and configuration. However, this is a very labor-intensive process. Therefore, users prefer to use third-party applications that provide more conveniences in terms of automation. Of course, this costs a considerable amount of money.
 
-Предлагаемый инструмент позволит автоматизировать создание встроенного в OpenCart фильтра и использовать его там, где покупка дорогих приложений может быть неоправдана.
+The proposed tool will automate the creation of the filter built into OpenCart and use it where purchasing expensive applications may be unjustified.
 
-Инструмент сканирует все товары и создает структуру, в которой названия **Атрибутов** получают роль групп фильтра, а **Значения атрибутов** роль самих фильтров.
+The tool scans all products and creates a structure in which **Attribute** names take on the role of filter groups, and **Attribute Values** take on the role of the filters themselves.
 
-Внешне фильтр выглядит так, как описано в этой [статье](/opencart-integration/frontend.md).
+Visually, the filter looks as described in this [article](/opencart-integration/frontend.md).
 
-Вы можете в полной мере использовать [метаданные](/general-info/metadata.md) для повышения качества фильтра. Для этого необходимо сделать предварительную [настройку](/settings/frontend.md).
+You can fully use [metadata](/general-info/metadata.md) to improve filter quality. For this, you need to make preliminary [settings](/settings/frontend.md).
 
-Чтобы ваши метаданные отображались в фильтре необходимо установить модификатор `attributipro3.frontend.filter.ocmod.zip` из папки `ocmod`.
+To display your metadata in the filter, you need to install the modifier `attributipro3.frontend.filter.ocmod.zip` from the `ocmod` folder.
 
-Настройка видимости самого фильтра здесь не обсуждается, изучите документацию OpenCart.
+Setting the visibility of the filter itself is not discussed here; study the OpenCart documentation.

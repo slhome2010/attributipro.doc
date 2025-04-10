@@ -2,9 +2,9 @@
 sidebar_position: 18
 ---
 
-# Экспорт / Импорт
+# Export / Import
 
-Функции экспорта и импорта работают для двух форматов данных `SQL` и `CSV`.
+Export and import functions work for two data formats: `SQL` and `CSV`.
 
 | ![Export / Import Tools](/img/tutorial/export_import.png) |
 |:--:|
@@ -12,9 +12,9 @@ sidebar_position: 18
 
 ## SQL
 
-Для экспорта и импорта данных в формате SQL используются встроенные утилиты OpenCart, но список таблиц ограничен только теми, которые имеют отношение к **Атрибутам**, **Значениям** и их метаданным.
+Built-in OpenCart utilities are used for exporting and importing data in SQL format, but the list of tables is limited to only those related to **Attributes**, **Values**, and their metadata.
 
-| **Таблица** |
+| **Table** |
 |:--:|
 | attribute_group |
 | attribute_group_description |
@@ -31,6 +31,6 @@ sidebar_position: 18
 
 ## CSV
 
-Этот формат больше подходит для переноса информации между сайтами, где установлен модуль **Attribut&pro**.  При импорте будут корректно добавляться отсутствующие **Группы**, **Атрибуты** со всеми метаданными. Добавятся так же товары, в которых **Значения** будут со своими метаданными.
+This format is more suitable for transferring information between sites where the **Attribut&pro** module is installed. During import, missing **Groups** and **Attributes** with all metadata will be correctly added. Products will also be added, in which **Values** will have their metadata.
 
-Во время импорта используется автоматический *маппинг* (определение соответствия) языков.
+During import, automatic *mapping* (determining correspondence) of languages is used.

@@ -2,14 +2,18 @@
 sidebar_position: 7
 ---
 
-# Remove Unlinked Attributes
+# Remove Attributes Not Linked to Products
 
-As a result of parsing, automated price list imports, and other operations, duplicate **Attributes** or **Attributes** that are not linked to any product often appear.
+As a result of parsing, automatic price list uploads, or software errors, the database may accumulate **Attributes** that are not linked to any product. These could be duplicates, remnants from improper deletion, or attributes reserved for future use.
 
-Use this tool carefully, as deleted attributes may be needed later. Unlinked attributes do not negatively impact store performance, but they can slightly slow down search operations. If you want to keep your **Attributes** organized, this tool can help.
+While such attributes do not disrupt store operations, they may slightly slow down searches and complicate data management. If you wish to eliminate attributes not linked to products, this tool will assist you in making that decision and performing the cleanup.
 
-A filter must be applied for the tool to work. Select **Groups** by checking the corresponding box in the tree. You can select all at once by checking the topmost box.
+You must use the filter for the tool to function. Select **Groups** by checking the appropriate checkbox in the tree. You can select all groups by checking the topmost checkbox.
 
-| ![Detach](/img/tutorial/tools_filter_group.jpg) |
+:::warning  
+Deletion is irreversible. Before using the tool, ensure that attributes not linked to products won’t be needed later, such as reserves for future use.  
+:::
+
+| ![Detach](/img/tutorial/tools_detach.png) |
 |:--:|
-| *Remove unlinked attributes* |
+| *Removal of attributes not linked to products* |

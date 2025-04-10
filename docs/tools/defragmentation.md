@@ -2,9 +2,9 @@
 sidebar_position: 5
 ---
 
-# Attribute and Group Defragmentation
+# Defragmentation of Attributes and Groups
 
-During operation, **Attributes** and **Groups** are frequently added and removed. Due to the way databases work, records in a table are inserted following an auto-increment rule. As a result, large gaps can appear in the `attribute_group_id` numbering.
+During operation, it becomes necessary to delete and add **Attributes** and **Groups**. Due to the nature of database functionality, records are added to the table following an auto-increment rule. This can result in large "gaps" in the numbering of `attribute_group_id`.
 
 ## Example Table Before Defragmentation
 
@@ -20,9 +20,9 @@ During operation, **Attributes** and **Groups** are frequently added and removed
 | 364 | 6  |
 | 366 | 8  |
 
-Gaps between records are generally not an issue. However, a problem arises if `attribute_group_id = 1` is missing, as price list import modules and parsing tools rely on this identifier to store all **Attributes**.
+There’s nothing inherently problematic about gaps between adjacent records. However, an issue arises if `attribute_group_id = 1` is missing, as price list auto-upload modules and parsing modules rely on this specific identifier to place all **Attributes**.
 
-The good news is that this tool restores `attribute_group_id = 1` while preserving data integrity and reorganizing the table.
+The good news is that this tool restores `attribute_group_id = 1` without compromising data integrity, reordering the table accordingly.
 
 ## Example Table After Defragmentation
 
@@ -38,24 +38,24 @@ The good news is that this tool restores `attribute_group_id = 1` while preservi
 | 8  | 6  |
 | 9  | 8  |
 
-From this point forward, the **Group** with `attribute_group_id = 1` will be referred to as the **Parsing Group**.
+Going forward, the **Group** with `attribute_group_id = 1` will be referred to as the **Parsing Group**.
 
-Defragmentation can take a significant amount of time, especially in stores with a large number of attributes or products. If hosting resources are insufficient, timeouts may occur. The tool allows separate defragmentation of **Groups** and **Attributes**.
+The defragmentation process may take a significant amount of time, particularly for stores with a large number of attributes or products. If hosting resources are insufficient, a timeout may occur. The settings allow for separate defragmentation of **Groups** or **Attributes**.
 
 | ![Defragmentation](/img/tutorial/defrag.png) |
 |:--:|
 | *Defragmentation tools settings* |
 
-:::info
-To create a **Parsing Group**, you only need to defragment **Groups**.
+:::info  
+To obtain the **Parsing Group**, it is sufficient to defragment only the **Groups**.  
 :::
 
-After defragmentation, the **Parsing Group** should appear in all trees, marked with the 🏠 icon. If the icon does not appear, try clearing your browser cache.
+After defragmentation, the **Parsing Group** should appear in all trees, marked with a 🏠 icon. If the icon does not appear, try clearing your browser cache.
 
-:::tip
-If the **Parsing Group** is already in use and contains **Attributes**, but needs to be cleared, you can create a new group with the same name and use the Drag-and-Drop method to transfer all attributes there. Then, rename the old **Parsing Group**.
+:::tip  
+If the **Parsing Group** is already in use and contains **Attributes**, but you need to clear it, you can create a new group with the same name, transfer all attributes to it using Drag-and-Drop technology, and then rename the old **Parsing Group**.  
 :::
 
-## Defragmentation and Parsing Group Setup
+## Defragmentation and Preparation of the Parsing Group
 
 <iframe width="100%" height="515" src="https://www.youtube.com/embed/8OcO_4L7iBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
