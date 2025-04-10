@@ -24,7 +24,7 @@ sidebar_position: 3
 
 ### **В карточке товара**
 
-![Template explain1](/img/tutorial/opencart.jpg)
+![Template explain1](/img/tutorial/multi_value.png)
 
 ### **В модуле**
 

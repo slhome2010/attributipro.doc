@@ -42,10 +42,10 @@ sidebar_position: 2
 
 ### Вкладка Атрибуты Категории
 
-| ![Trees](/img/tutorial/tree3_3_3_2.png) |
+| ![Trees](/img/tutorial/tree2_3_4.png) |
 |-|
 
 ### Вкладка Товары
 
-| ![Trees](/img/tutorial/tree4_3_3_2.png) |
+| ![Trees](/img/tutorial/tree5_6.png) |
 |-|

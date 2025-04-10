@@ -37,15 +37,15 @@ A parent node or ancestor is a node that is at the first level of the hierarchy.
 
 ### Attributes Tab
 
-| ![Trees](/img/tutorial/tree1.png) |
+| ![Trees](/img/tutorial/en/tree1_en.png) |
 |-|
 
 ### Category Attributes Tab
 
-| ![Trees](/img/tutorial/tree3_3_3_2.png) |
+| ![Trees](/img/tutorial/en/tree2_3_4_en.png) |
 |-|
 
 ### Products Tab
 
-| ![Trees](/img/tutorial/tree4_3_3_2.png) |
+| ![Trees](/img/tutorial/en/tree5_6_en.png) |
 |-|
