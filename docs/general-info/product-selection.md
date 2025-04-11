@@ -14,8 +14,9 @@ Depending on the selected node in the **Product Attributes** tree and the contex
 |Template|All products that have the parent Attribute and whose characteristics field exactly matches the selected Template.|
 |Value|All products that have the parent Attribute and whose characteristics field contains the selected Value.|
 
-| ![Settings](/img/tutorial/matches.jpg) |
-|-|
+| ![Products Matched](/img/tutorial/en/matched_pro_en.png) |
+|:--:|
+| *Products Matched* |
 
 ## Mismatch Mode
 
@@ -25,7 +26,8 @@ Depending on the selected node in the **Product Attributes** tree and the contex
 |Template|All products that have the parent Attribute but whose characteristics field does not exactly match the selected Template.|
 |Value|All products that have the parent Attribute but whose characteristics field does not contain the selected Value.|
 
-| ![Settings](/img/tutorial/diver.jpg) |
-|-|
+| ![Products Mismatched](/img/tutorial/en/mismatched_pro_en.png) |
+|:--:|
+| *Products Mismatched* |
 
 In Mismatch Mode, folder icons in the product tree change color.

@@ -12,9 +12,7 @@ Of course, in practice, we enter something more meaningful, describing our produ
 From an **OpenCart** developer’s perspective, the structure *Product->Attribute->Value* is sufficient, but in practice, it is often not enough. A more common structure is *Product->Attribute->Set of Values*.
 
 :::tip
-
 A **Template** is a set of **Attribute Values** recorded using a separator. It is sometimes called "Multiple Values".
-
 :::
 
 For example, I sell **modules** for **OpenCart** and want to indicate compatibility with different versions such as `1.5.x`, `2.0.1`, `2.1.x`, while others may also be compatible with `2.3.x`, `3.0.x`. I will list these versions in the **Attribute Value** for `Compatibility` by separating them with a **separator**—comma or slash, e.g., `v1.5.x/2.0.1/2.1.x` and `v1.5.x/2.0.1/2.1.x/2.3.x/3.0.x`.
@@ -25,11 +23,12 @@ For example, I sell **modules** for **OpenCart** and want to indicate compatibil
 
 ### **In the Product Card**
 
-![Template explain1](/img/tutorial/en/multi_value_en.png)
+| ![Template explain1](/img/tutorial/en/multi_value_en.png) |
+|-|
 
 ### **In the Module**
 
-| ![Template explain2](/img/tutorial/compatibility.jpg) |
+| ![Template explain2](/img/tutorial/en/multi_value_in_tree_en.png) |
 |-|
 
 ### **In the Filter**
@@ -42,9 +41,7 @@ For example, I sell **modules** for **OpenCart** and want to indicate compatibil
 **OpenCart** does not natively support multiple **Values**, so everything is stored in the database as a single text field.
 
 :::note
-
 If a **filter** does not support multiple **Values**, it is better to avoid using them.
-
 :::
 
 ### **Separator Settings**
