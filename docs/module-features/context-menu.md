@@ -38,4 +38,4 @@ Selecting **"Settings"** in the context menu opens a dialog for real-time tree m
 | **Sort Order** | Temporarily disables custom sorting in a tree. When disabled, alphabetical sorting applies. |
 | **Lazy Load** | Controls tree loading mode. Enabled: child nodes load on demand. Disabled: full tree loads immediately. See [Node Loading](/general-info/lazy-load.md). |
 | **Given the Hierarchy** | Category tree only. Manages recursive selection of subcategories. |
-| **Mismatch Mode** | Applies only to the product tree. [Filters products](/general-info/product-filter.md) that do not contain the selected attribute, value, or template. |
+| **Mismatch Mode** | Applies only to the product tree. [Filters products](/general-info/product-selection.md) that do not contain the selected attribute, value, or template. |
