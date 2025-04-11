@@ -34,8 +34,8 @@ Selecting **"Settings"** in the context menu opens a dialog for real-time tree m
 
 | **Option** | **Purpose** |
 |-----------|--------------|
-| **Auto-collapse** | Enabled by default. Collapses sibling nodes when expanding an element to reduce visual clutter. Disable to view multiple expanded elements simultaneously. Affects **"Expand"**/**"Collapse"** context menu items. |
-| **Sorting Order** | Temporarily disables custom sorting in a tree. When disabled, alphabetical sorting applies. |
-| **Lazy Loading** | Controls tree loading mode. Enabled: child nodes load on demand. Disabled: full tree loads immediately. See [Node Loading](/general-info/lazy-load.md). |
-| **Respect Hierarchy** | Category tree only. Manages recursive selection of subcategories. |
+| **Auto Collapse** | Enabled by default. Collapses sibling nodes when expanding an element to reduce visual clutter. Disable to view multiple expanded elements simultaneously. Affects **"Expand"**/**"Collapse"** context menu items. |
+| **Sort Order** | Temporarily disables custom sorting in a tree. When disabled, alphabetical sorting applies. |
+| **Lazy Load** | Controls tree loading mode. Enabled: child nodes load on demand. Disabled: full tree loads immediately. See [Node Loading](/general-info/lazy-load.md). |
+| **Given the Hierarchy** | Category tree only. Manages recursive selection of subcategories. |
 | **Mismatch Mode** | Applies only to the product tree. [Filters products](/general-info/product-filter.md) that do not contain the selected attribute, value, or template. |
