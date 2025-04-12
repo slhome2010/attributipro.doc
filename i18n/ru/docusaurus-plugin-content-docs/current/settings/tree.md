@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Узлы включаются и отключаются с помощью чекбоксов.
 
-| ![Настройки деревьев](/img/tutorial/settings_tree.png) |
+| ![Настройки деревьев](/img/tutorial/child_settings_pro.png) |
 |:--:|
 | *Children node settings* |
 

@@ -8,7 +8,7 @@ Now you can configure child nodes for each tree. More about trees: [Glossary](..
 
 Nodes are enabled and disabled using checkboxes.
 
-| ![Tree Settings](/img/tutorial/en/child_settings_en.png) |
+| ![Tree Settings](/img/tutorial/en/child_settings_pro_en.png) |
 |:--:|
 | *Children node settings* |
 
