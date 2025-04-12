@@ -56,7 +56,7 @@ sidebar_position: 3
 
 ### **Filterpro**
 
-| ![Splitter explain2](/img/tutorial/filterprosepar.jpg) |
+| ![Splitter explain2](/img/tutorial/ocfilter_separator.png) |
 |-|
 
 Необходимо отметить, что **Значение** уникально для каждого товара. Если в каком-то товаре изменить одну букву в тексте, это не затронет остальные товары, даже если раньше **значения** совпадали. То же самое справедливо и для **Шаблонов**.

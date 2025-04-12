@@ -55,10 +55,9 @@ Here’s how the **separator** appears in popular **filters**:
 | ![Splitter explain1](/img/tutorial/megafilter.jpg) |
 |-|
 
-### **FilterPro**
+### **OCFilter**
 
-| ![Splitter explain2](/img/tutorial/filterprosepar.jpg) |
+| ![Splitter explain2](/img/tutorial/en/ocfilter_separator_en.png) |
 |-|
 
 It is important to note that each **Value** is unique to a product. If you change a single letter in a **Value** for one product, it will not affect others, even if they previously matched. The same applies to **Templates**.
-
