@@ -19,6 +19,6 @@ All data manipulations in the table are immediately written to the Database.
 If you haven't made changes on other tabs, pressing the save button is optional.
 :::
 
-| ![Product Attributes Table](/img/tutorial/product_attribute_table.png) |
+| ![Product Attributes Table](/img/tutorial/en/product_attribute_table_en.png) |
 |:--:|
 | *Product Attributes Table* |

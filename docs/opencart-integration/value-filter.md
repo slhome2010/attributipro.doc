@@ -6,7 +6,7 @@ sidebar_position: 9
 
 In stores with a large number of products and **Attributes**, the list of **Values** can be very long. This causes certain inconveniences when filling out the form. The filter allows you to limit the list.
 
-| ![attribute](/img/tutorial/value_filter.png) |
+| ![attribute](/img/tutorial/en/value_filter_en.png) |
 |:--:|
 | *List Filter* |
 

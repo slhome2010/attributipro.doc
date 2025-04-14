@@ -10,6 +10,6 @@ Select the **Group** from the dropdown list whose **Attributes** you want to add
 
 Since there can be many groups, autocomplete is available — the list filters dynamically as you type the group name.
 
-| ![Group Attributes](/img/tutorial/group_attributes.png) |
+| ![Group Attributes](/img/tutorial/en/group_attributes_en.png) |
 |:--:|
 | *Group Attributes* |

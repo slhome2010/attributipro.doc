@@ -6,7 +6,7 @@ sidebar_position: 2
 
 On the left side of the control panel, there are two windows for managing categories. One displays categories and their subcategories as a tree, and the other shows the categories associated with the product as chips.
 
-| ![Category management](/img/tutorial/product_category.png) |
+| ![Category management](/img/tutorial/en/product_category_en.png) |
 |:--:|
 | *Category management* |
 

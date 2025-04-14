@@ -8,7 +8,7 @@ When working with **Values** or **Templates**, data is inserted into products ac
 
 To avoid changing base settings repeatedly, you can temporarily *override* the **`Value Insertion Method`**. This setting persists for the current session only.
 
-| ![Values Insert Mode](/img/tutorial/value_insert_mode.png) |
+| ![Values Insert Mode](/img/tutorial/en/value_insert_mode_en.png) |
 |:--:|
 | *Values Insert Mode* |
 

@@ -11,7 +11,7 @@ Integration with the product page allows automating the process of adding **Cate
 **Category Attributes** are removed when the product is “unlinked” from a category. Removing **Attributes** requires confirmation in a pop-up window. If the `Remove attributes automatically` checkbox is checked, removal will occur without confirmation.
 
 To add all **Attributes** of all categories a product is linked to, use the `Category Attributes` button.  
-![Green button](/img/tutorial/green_button.png)
+![Green button](/img/tutorial/en/green_button_en.png)
 
 The addition of **Category Attribute Values**, or more precisely, their **Duty Templates**, to a product follows the [**`Value Insertion Method`**](/opencart-integration/method-inserting.md).
 

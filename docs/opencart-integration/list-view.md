@@ -6,7 +6,7 @@ sidebar_position: 10
 
 This setting determines whether the dropdown list displays **Templates** or **Values**.
 
-| ![attribute](/img/tutorial/list_view_mode.png) |
+| ![attribute](/img/tutorial/en/list_view_mode_en.png) |
 |:--:|
 | *List View Switch* |
 

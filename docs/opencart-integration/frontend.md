@@ -38,7 +38,7 @@ Settings for the product page allow you to create a structured feature table wit
 
 #### Result after configuration on the product page
 
-| ![Product card example](/img/tutorial/frontend_product.png) |
+| ![Product card example](/img/tutorial/en/frontend_product_en.png) |
 |:--:|
 | *Frontend metadata settings* |
 
@@ -48,7 +48,7 @@ Settings for the product page allow you to create a structured feature table wit
 - Values with hyperlinks (🔗) redirect to external pages (e.g., interface descriptions)  
 - Units of measurement appear in the selected format (`350 (W)` instead of `350 W`)  
 
-| ![Tooltip example](/img/tutorial/frontend_product_tooltip.png) |
+| ![Tooltip example](/img/tutorial/en/frontend_product_tooltip_en.png) |
 |:--:|
 | *Frontend product tooltip* |
 
@@ -58,7 +58,7 @@ Settings for filters make the selection process more intuitive and user-friendly
 
 #### Result after configuration in filters
 
-| ![Filter example](/img/tutorial/frontend_filter.png) |
+| ![Filter example](/img/tutorial/en/frontend_filter_en.png) |
 |:--:|
 | *Frontend filter* |
 
@@ -68,7 +68,7 @@ Settings for filters make the selection process more intuitive and user-friendly
 - Tooltip icons ⓘ explain parameter meanings (e.g., “Input voltage”)  
 - Measurement units add context and allow dimension control (`220–240 (V)`)  
 
-| ![Filter tooltip example](/img/tutorial/frontend_filter_tooltip.png) |
+| ![Filter tooltip example](/img/tutorial/en/frontend_filter_tooltip_en.png) |
 |:--:|
 | *Frontend filter tooltip* |
 
