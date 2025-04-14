@@ -14,7 +14,7 @@ Launch the metadata form using:
 
 Opens in modal window:  
 
-| ![Metadata Editing Interface](/img/tutorial/form_attribute.png) |  
+| ![Metadata Editing Interface](/img/tutorial/en/form_attribute_en.png) |  
 |:--:|  
 | *Attribute Metadata Editor* |  
 
@@ -26,7 +26,7 @@ Opens in modal window:
 2. Use autocomplete (magnifier icon) to load existing product values  
    - Filters dynamically as you type (e.g., "3" → "3.0", "3.2", "3200")  
 
-| ![Duty Template Autocomplete](/img/tutorial/form_duty_autocomplete.png) |  
+| ![Duty Template Autocomplete](/img/tutorial/en/form_duty_autocomplete_en.png) |  
 |:--:|  
 | *Value Suggestions* |  
 
@@ -63,6 +63,6 @@ Enable `Apply to all languages` checkbox before saving
 - Use **Font Awesome** [library](https://fontawesome.com/) classes without HTML wrappers  
 - Example: `fa fa-tablet` displays tablet icon  
 
-| ![Media Configuration](/img/tutorial/form_image.png) |  
+| ![Media Configuration](/img/tutorial/en/form_image_en.png) |  
 |:--:|  
 | *Image/Icon Setup* |  

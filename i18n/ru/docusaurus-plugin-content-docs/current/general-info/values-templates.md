@@ -27,13 +27,12 @@ sidebar_position: 3
 
 ### **В модуле**
 
-| ![Template explain2](/img/tutorial/en/multi_value_in_tree.png) |
+| ![Template explain2](/img/tutorial/multi_value_in_tree.png) |
 |-|
 
 ### **В фильтре**
 
-| ![Template explain3](/img/tutorial/en/multi_value_in_filter.png) |
-|-|
+| ![Template explain3](/img/tutorial/multi_value_in_filter.png) |
 |-|
 
 ## **Разделитель**

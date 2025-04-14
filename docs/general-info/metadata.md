@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Metadata
 
-This concept is widely used in technical documentation to denote additional information that describes the main data (in this case - attributes and their values), including images, icons, descriptions, and units of measurement.
+This concept is widely used in technical documentation to denote additional information that describes the main data (in this case - attributes and their values), including images, icons, descriptions, and units of measurement. [Metadata editing](/module-features/metadata-editing.md).
 
 :::info
 Metadata is an integral part of the main data and is considered in all operations with the main data.

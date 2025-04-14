@@ -2,8 +2,38 @@
 sidebar_position: 8
 ---
 
-# Synchronization
+# Synchronization {#synchronization}
 
-Since the module is multilingual, separate trees will be created for each language. For convenience, we will append language suffixes such as `.ru` or `.en` to tree names where necessary for explanation. To maintain database integrity, synchronization between trees is applied. For example, when a new Attribute is added to the `Attribute Groups.ru` tree, a new Attribute named "New attribute" will be synchronously added to the `Attribute Groups.en` tree. The same applies to Attribute Groups. However, Templates, Values, and Default Templates are not added synchronously.
+## Language Synchronization {#language-synchronization}
 
-Synchronization also occurs when editing Groups, Attributes, Templates, and Values. In all trees where the modified Node is present, changes happen synchronously according to the selected language.
+The module supports multilingual functionality, so separate trees are created for each language. By default, the module supports two languages: Russian and English. For convenience, a language suffix is added to tree names (e.g., `.ru` or `.en`). To ensure data consistency, a synchronization mechanism is used between the trees.
+
+:::info
+When a new attribute is added to the `.ru` tree, an attribute named "New attribute" is automatically added to the `.en` tree.
+
+When a new attribute is added to the `.en` tree, an attribute named "Новый атрибут" is automatically added to the `.ru` tree.
+:::
+
+The same applies to **Attribute Groups**.
+
+## Node Synchronization {#node-synchronization}
+
+Synchronization applies to the following elements:
+
+- Templates  
+- Values
+
+When one of these nodes is changed, the other is automatically reloaded with the updates applied.
+
+Default templates are **not synchronized**.
+
+## Tree Synchronization {#tree-synchronization}
+
+Changes are synchronized across all trees where the modified node is present.  
+Only the affected nodes are reloaded, not the entire tree.
+
+Language synchronization also applies to all trees.
+
+:::warning
+If synchronization is not working, check the multilingual settings and the integrity of the database.
+:::
