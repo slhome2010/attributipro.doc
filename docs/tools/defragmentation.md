@@ -42,7 +42,7 @@ Going forward, the **Group** with `attribute_group_id = 1` will be referred to a
 
 The defragmentation process may take a significant amount of time, particularly for stores with a large number of attributes or products. If hosting resources are insufficient, a timeout may occur. The settings allow for separate defragmentation of **Groups** or **Attributes**.
 
-| ![Defragmentation](/img/tutorial/defrag.png) |
+| ![Defragmentation](/img/tutorial/en/defrag_en.png) |
 |:--:|
 | *Defragmentation tools settings* |
 

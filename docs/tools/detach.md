@@ -14,6 +14,6 @@ You must use the filter for the tool to function. Select **Groups** by checking 
 Deletion is irreversible. Before using the tool, ensure that attributes not linked to products won’t be needed later, such as reserves for future use.  
 :::
 
-| ![Detach](/img/tutorial/tools_detach.png) |
+| ![Detach](/img/tutorial/en/tools_detach_en.png) |
 |:--:|
 | *Removal of attributes not linked to products* |

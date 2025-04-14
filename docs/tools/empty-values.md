@@ -10,11 +10,11 @@ Empty **Values** typically arise due to operator errors. The most common reasons
 
 2. Using Attribut&pro to add an **Attribute** with an unfilled [Duty Template](/general-info/duty.md) to a category.
 
-| ![Empty values1](/img/tutorial/empty4.jpg) |
+| ![Empty values1](/img/tutorial/en/empty_value_en.png) |
 |:--:|
 | *Empty values in product form* |
 
-| ![Empty values2](/img/tutorial/empty5.jpg) |
+| ![Empty values2](/img/tutorial/en/empty_value_dnd_en.png) |
 |:--:|
 | *Empty values in Duty Template* |
 

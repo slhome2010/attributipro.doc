@@ -17,7 +17,7 @@ Category filtering is available only for **Values**.
 
 To enable the tool for **Groups** or other nodes, select the corresponding checkbox. Once activated, you can choose between uppercase or lowercase conversion.
 
-| ![Case](/img/tutorial/case_change.png) |
+| ![Case](/img/tutorial/en/case_change_en.png) |
 |:--:|
 | *Change first-letter case to uppercase or lowercase* |
 

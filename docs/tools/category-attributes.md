@@ -6,7 +6,7 @@ sidebar_position: 9
 
 This tool is particularly useful for those installing the module on an active store, especially one with a large number of categories and products, as well as for those involved in parsing. Manually creating **Category Attributes** is a time-consuming process, and during parsing, it’s often unclear which **Attributes** a product will include.
 
-| ![Category attributes](/img/tutorial/tools_category_settings.png) |
+| ![Category attributes](/img/tutorial/en/tools_category_settings_en.png) |
 |:--:|
 | *Create category attributes* |
 

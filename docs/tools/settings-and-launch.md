@@ -9,7 +9,7 @@ The `Command` column features the button used to launch a given tool (task). Whi
 
 Additional settings are located in the *`Settings`* column and vary depending on the selected task.
 
-| ![Tools tab](/img/tutorial/tools_menu.png) |
+| ![Tools tab](/img/tutorial/en/tools_menu_en.png) |
 |:--:|
 | *Tools tab and table* |
 
@@ -17,13 +17,13 @@ If required by the tool's algorithm, a warning will appear while the task is run
 This means you must not switch tabs, reload the page, etc., until the task completes.  
 Otherwise, database integrity cannot be guaranteed.
 
-| ![Warning message](/img/tutorial/tools_warning.png) |
+| ![Warning message](/img/tutorial/en/tools_warning_en.png) |
 |:--:|
 | *Warning Message* |
 
 Once the task finishes, a message will appear with the result.
 
-| ![Success message](/img/tutorial/tools_success.png) |
+| ![Success message](/img/tutorial/en/tools_success_en.png) |
 |:--:|
 | *Success Message* |
 

@@ -8,19 +8,19 @@ This tool allows you to attach units of measurement directly to the names of **A
 
 The display style for units of measurement is selected from a dropdown list.
 
-| ![Tools Unit](/img/tutorial/tools_unit.png) |
+| ![Tools Unit](/img/tutorial/en/tools_unit_en.png) |
 |:--:|
 | *Tools for Unit unification* |
 
 ## Attributes Before Applying the Tool
 
-| ![Tools Unit](/img/tutorial/tools_unit_before_value.png) |
+| ![Tools Unit](/img/tutorial/en/tools_unit_before_value_en.png) |
 |:--:|
 | *Display before attaching units* |
 
 ## Example for Values and Duty Templates
 
-| ![Tools Unit](/img/tutorial/tools_unit_after_value.png) |
+| ![Tools Unit](/img/tutorial/en/tools_unit_after_value_en.png) |
 |:--:|
 | *Display after attaching units* |
 
@@ -36,7 +36,7 @@ Units of measurement must be stored in the metadata; otherwise, there will be no
 
 You can avoid *overloading* the view with information by attaching units of measurement only to the attribute.
 
-| ![Tools Unit](/img/tutorial/tools_unit_after_attribute.png) |
+| ![Tools Unit](/img/tutorial/en/tools_unit_after_attribute_en.png) |
 |:--:|
 | *Display in Attribute name* |
 

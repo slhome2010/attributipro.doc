@@ -14,7 +14,7 @@ You can separately clone **Groups**, **Attributes**, or **Values**.
 
 **Duty Templates** are cloned simultaneously with attributes. The `*Duty*` checkbox should only be selected if they need to be cloned separately. The optimal mode for this is `Overwrite Only Empty`.
 
-| ![Clone](/img/tutorial/clone.png) |
+| ![Clone](/img/tutorial/en/clone_en.png) |
 |:--:|
 | *Clone attribute between languages* |
 

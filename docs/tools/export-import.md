@@ -6,7 +6,7 @@ sidebar_position: 18
 
 Export and import functions work for two data formats: `SQL` and `CSV`.
 
-| ![Export / Import Tools](/img/tutorial/export_import.png) |
+| ![Export / Import Tools](/img/tutorial/en/export_import_en.png) |
 |:--:|
 | *Export / Import Tools* |
 
