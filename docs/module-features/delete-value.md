@@ -2,64 +2,64 @@
 sidebar_position: 6
 ---
 
-# Value Deletion
+# Deleting Values
 
-This operation can be performed via [context menu](/module-features/context-menu.md) or using the `Del` key. You may delete **Values**, **Templates**, or multiple items simultaneously (using [batch selection](/module-features/tree-features.md)).
+The operation can be performed via the [context menu](/module-features/context-menu.md) or by pressing the `Del` key. You can delete a **Value**, a **Template**, or several at once (using [multi-selection](/module-features/tree-features.md)).
 
-## Underlying Mechanism
+This operation is not as simple as it seems. You should have a good understanding of the mechanism behind pressing that single key.
 
-**Values** (product attribute entries) are text fields tied to specific products without unique IDs. They exist as raw text in database records. Deleting a **Value** equates to removing the entire **Attribute** from products if their **Value** matches the target pattern.
+Keep in mind that **Values** — the product characteristic descriptions — are plain text fields linked to individual products. They do not have unique IDs. In the database, they are stored as text within each product. This means they can only be deleted from the products themselves.
 
-### Example Scenario
-
-1. Product(s) with **Attribute** `Test Attribute 3.1` → **Value** `test value 3.2.1`  
-2. Product(s) with **Attribute** `Test Attribute 3.1` → **Value** `test value 3.2.2`  
-
-**Goal**: Remove `Test Attribute 3.1` from all products where its **Value** equals `test value 3.2.1`.
-
-## Manual vs Automated Deletion
-
-| ![Manual Value Deletion](/img/tutorial/product1.jpg) |
-|:--:|
-| *Manual Attribute Removal* |
-
-| ![Attribute Retention](/img/tutorial/product2.jpg) |
-|:--:|
-| *Attribute Preservation* |
-
-**Automation Benefit**: Execute bulk deletions in one action instead of manual product-by-product edits.
-
-## Complex Cases
-
-When products contain **multiple values** for the same attribute (e.g., `test value 3.2.1/test value 3.2.2`):
-
-| ![Multi-Value Deletion](/img/tutorial/product3.jpg) |
-|:--:|
-| *Multi-Value Handling* |
-
-## Deletion Modes
-
-1. **Template Deletion** (nodes under **Templates**):  
-   Requires exact match between product field and template.  
-
-2. **Value Deletion** (nodes under **Values**):  
-   Depends on [Value Comparison](/settings/comparison.md) settings.  
-   Performs substring matching against values separated by delimiters.
-
-| ![Template Deletion](/img/tutorial/product4.jpg) |
-|:--:|
-| *Exact Match Mode* |
-
-| ![Value Deletion](/img/tutorial/product5.jpg) |
-|:--:|
-| *Substring Match Mode* |
-
-:::tip Key Difference
-
-- **Template Deletion**: Removes attributes with **exact** value matches  
-- **Value Deletion**: Removes attributes containing **partial** value matches  
+:::info
+Deleting **Values** is essentially the operation of removing an **Attribute** from a product if its **Value** matches the specified sample.
 :::
 
-:::danger Critical Warning
-Deleting **Values** will also remove all **Templates** containing those values. Verify selections before confirmation!
+Suppose some products have the **Attribute** `Test attribute 3.1` with the **Value** `test value 3.2.1`.
+
+And other products have the same **Attribute** `Test attribute 3.1` but with the **Value** `test value 3.2.2`.
+
+You need to remove the **Attribute** `Test attribute 3.1` from all products where it has the **Value** `test value 3.2.1`.
+
+If you were doing this manually, you would need to open each product, review the list of **Attributes** and **Values**, and press the **Delete** button if the value matches `test value 3.2.1`.
+
+| ![Manually deleting Values](/img/tutorial/en/delete_value_1_en.png) |
+|:--:|
+| *Manually deleting Values* |
+
+| ![Manually no deleting Values](/img/tutorial/en/delete_value_2_en.png) |
+|:--:|
+| *Manually not deleting Values* |
+
+Now this operation can be performed with a single click for all products.
+
+## Deleting Multiple Values {#deleting-multiple-values}
+
+Attributes often contain [multiple **Values**](/general-info/values-templates.md), for example: the **Attribute** `Test attribute 3.1` has the **Value** `test value 3.2.1/test value 3.2.2`.
+
+To prevent ambiguity, the module provides several deletion modes.
+
+Deletion of **Templates** (nodes under the **Templates** parent) is always based on an exact match between the product’s field and the entire **Template**.
+
+Deletion of **Values** (nodes under the **Values** parent) depends on the [Value Comparison](/settings/comparison.md) setting.
+
+This setting allows each **Value** separated by a delimiter to be compared individually with the sample.
+
+| ![Auto deleting Template](/img/tutorial/en/delete_value_3_en.png) |
+|:--:|
+| *By Exact Match* |
+
+| ![Auto deleting Value](/img/tutorial/en/delete_value_4_en.png) |
+|:--:|
+| *By Substring Matching* |
+
+## Difference Between Deleting **Templates** and **Values** {#difference-between-deleting-templates-and-values}
+
+:::tip
+Deleting a **Template** means removing the product field if it exactly matches the sample.
+
+Deleting a **Value** means removing the field if the sample is found within it.
+:::
+
+:::danger
+⚠ **Caution!** If you delete a **Value**, all **Templates** containing that **Value** will also be deleted.
 :::
