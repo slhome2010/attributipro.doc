@@ -1,6 +1,10 @@
+---
+sidebar_position: 1
+---
+
 # General Settings
 
-| ![Attributico general settings](/img/tutorial/settings_general_pro.png) |
+| ![Attributico general settings](/img/tutorial/en/settings_general_pro_en.png) |
 |:--:|
 | *Attributico general settings* |
 

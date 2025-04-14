@@ -14,13 +14,13 @@ Uniformity of units of measurement can be ensured if they are selected from a si
 
 You can add, modify, and delete units of measurement. Actions are selected using the buttons to the right of the selection field.
 
-| ![Deleting or creating units](/img/tutorial/unit_settings.png) |
+| ![Deleting or creating units](/img/tutorial/en/unit_settings_en.png) |
 |:--:|
 | *Unit manage* |
 
 The editing form allows you to change the full and short notation of the unit of measurement, and also takes into account localization for multilingual stores.
 
-| ![Editing units](/img/tutorial/unit_form.png) |
+| ![Editing units](/img/tutorial/en/unit_form_en.png) |
 |:--:|
 | *Unit form* |
 

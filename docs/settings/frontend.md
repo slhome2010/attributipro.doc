@@ -2,7 +2,7 @@
 
 This documentation describes the interface for configuring the display of [metadata](general-info/metadata.md) for attributes and their values on the frontend.
 
-| ![Frontend Settings](/img/tutorial/frontend_settings.png) |
+| ![Frontend Settings](/img/tutorial/en/frontend_settings_en.png) |
 |:--:|
 | *Frontend metadata settings* |
 
