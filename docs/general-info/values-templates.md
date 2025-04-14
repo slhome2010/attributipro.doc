@@ -33,7 +33,7 @@ For example, I sell **modules** for **OpenCart** and want to indicate compatibil
 
 ### **In the Filter**
 
-| ![Template explain3](/img/tutorial/filterpro.jpg) |
+| ![Template explain3](/img/tutorial/en/multi_value_in_filter_en.png) |
 |-|
 
 ## **Separator**
