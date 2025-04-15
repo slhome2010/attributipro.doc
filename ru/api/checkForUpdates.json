@@ -1,0 +1,7 @@
+{
+  "latest_version": "3.3.3",
+  "news": "<h4>Updates available!</h4><p class='lead'>Version 3.3.3.</p><p>The most important change is the modification of the licensing system. Now, the license key obtained upon request is stored along with the settings. This offers several advantages:</p><ul><li>No need to download and extract an additional archive;</li><li>No need to upload and overwrite files on the server;</li><li>he license key is no longer dependent on the PHP version or Ioncube.</li></ul>",
+  "well": "<p class='lead'>You are using the latest version of the <span>Attribut<b style='color: #2199C7;'>&</b>co</span> module!</p>",
+  "links": "<div class='form-group'><h4>Updates will be available at the following links:</h4><ul class='list-group'><li class='list-group-item'><a class='link' target='_blanc' href='https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-co-opencart-atributyi-eto-legko'><span class='txt_orange'>Liveopencart.ru</span></a></li></ul></div>",
+  "copyright": "<div class='form-group'><h4>Documentation:</h4><ul class='list-group'><li class='list-group-item'><a class='link' target='_blanc' href='https://slhome2010.github.io/attributico.doc/ru/'><span class='txt_orange'>https://slhome2010.github.io/attributico.doc/</span></a></li></ul></div><br/><p>Copyright &copy; 2016-2025&nbsp; Comtronics</p>"
+}
