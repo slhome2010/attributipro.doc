@@ -311,7 +311,7 @@
     "description": "The title of the tag list page"
   },
   "homepage.banner.slogan": {
-    "message": "АТРИБУТЫ - ЭТО ЛЕГКО!",
+    "message": "АТРИБУТЫ - НОВЫЕ ВОЗМОЖНОСТИ!",
     "description": "The homepage slogan message"
   },
   "homepage.banner.link": {
@@ -336,40 +336,40 @@
     "message": "Начать установку 🚀",
     "description": "The homepage link label"
   },
-  "​Tree view": {
-    "message": "В виде дерева"
+  "Tree Structure, Drag-and-Drop and Copy-Paste nodes": {
+    "message": "Древовидная структура, перетаскивание и копирование узлов"
   },
-  "​Visual representation of groups, attributes and attribute values ​​in the form of a tree. Editing, adding, deleting directly in the tree.": {
-    "message": "​Визуальное представление групп, атрибутов и значений атрибутов в виде дерева. Редактирование, добавление, удаление непосредственно в дереве."
+  "Visual representation of groups, attributes, and values in a tree view. Edit, add, delete, drag and drop, and copy nodes.": {
+    "message": "​Визуальное представление групп, атрибутов и значений в виде дерева. Редактирование, добавление, удаление перетаскивание и копирование узлов."
   },
-  "Drag-and-drop": {
-    "message": "Drag-and-Drop"
+  "Metadata": {
+    "message": "Метаданные"
   },
-  "Drag and drop attributes or groups using the mouse. Now, attributes and groups can be sorted using drag and drop.": {
-    "message": "​Перетаскивайте атрибуты или группы с помощью мыши. Теперь атрибуты и группы можно сортировать с помощью перетаскивания."
+  "Images, descriptions for tooltips, and other metadata for attributes and values. Using metadata on the frontend.": {
+    "message": "Изображения, описания для всплывающих подсказок и другие метаданные для атрибутов и значений. Использование метаданных на фронтенде."
   },
-  "Category Attributes": {
-    "message": "Атрибуты категории"
+  "Category Attributes and Duty Templates": {
+    "message": "Атрибуты категории и Дежурные шаблоны"
   },
-  "Binding a set of attributes to a product category for quick assignment to similar products. Preparing a set of Category Attributes using Drag-and-Drop or the auto-creation tool.": {
-    "message": "Привязка набора атрибутов к категории продукта для быстрого назначения похожим продуктам. Подготовка набора атрибутов категории с помощью Drag-and-Drop или инструмента авто создания."
+  "Binding a set of attributes to a product category for quick assignment to similar products. Default template for each attribute and its substitution when adding a category attribute.": {
+    "message": "Привязка набора атрибутов к категории продукта для быстрого назначения похожим продуктам. Шаблон по умолчанию для каждого атрибута и его подстановка при добавлении атрибута категории."
   },
-  "Duty templates": {
-    "message": "Дежурные шаблоны"
+  "Units of measurement": {
+    "message": "Единицы измерения"
   },
-  "It is possible to set a default template for each attribute and substitute it into the value when adding an attribute or category attribute to a product.": {
-    "message": "Можно задать шаблон по умолчанию для каждого атрибута и подставить его в значение при добавлении атрибута или атрибута категории к товару."
+  "Using measurement units in product attributes ensures accuracy, convenience, and versatility. Creating a custom dictionary of units.": {
+    "message": "Использование единиц измерения в атрибутах товаров обеспечивает точность, удобство и универсальность. Создание собственного справочника."
   },
   "Merging Duplicates": {
     "message": "Объединение дублей"
   },
-  "Merging duplicate attributes without losing the links between their values ​​and products.": {
-    "message": "Объединение дублирующихся атрибутов без потери связей между их значениями и товарами."
+  "Manual and automatic merging of duplicate attributes without losing connections between their values and products.": {
+    "message": "Ручное и автоматическое объединение дублирующихся атрибутов без потери связей между их значениями и товарами."
   },
   "Batch processing": {
     "message": "Пакетная обработка"
   },
-  "Batch replacement of the value separator, letter case replacement, and language cloning.": {
-    "message": "Пакетная замена разделителя значений, замена регистра букв и клонирование языка."
+  "Batch replacement of value separators, changing letter case, and cloning a language. Substitution and removal of measurement units in attributes and values.": {
+    "message": "Пакетная замена разделителя значений, замена регистра букв и клонирование языка. Подстановка и удаление единиц измерения в атрибутах и значениях."
   }
 }

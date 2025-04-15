@@ -5,60 +5,56 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: <Translate>​Tree view</Translate>, //'Easy to Use',
-    Svg: require('@site/static/img/undraw_attributico_tree.svg').default,
+    title: <Translate>Tree Structure, Drag-and-Drop and Copy-Paste nodes</Translate>, 
+    Svg: require('@site/static/img/attributipro_tree.svg').default,
     description: (
       <Translate>
-        ​Visual representation of groups, attributes and attribute values ​​in the form of a tree. 
-        Editing, adding, deleting directly in the tree.
+        Visual representation of groups, attributes, and values in a tree view. Edit, add, delete, drag and drop, and copy nodes.
       </Translate>
     ),
   },
   {
-    title: <Translate>Drag-and-drop</Translate>, //'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_attributico_mountain.svg').default,
+    title: <Translate>Category Attributes and Duty Templates</Translate>, //'Powered by React',
+    Svg: require('@site/static/img/attributipro_category.svg').default,
     description: (
       <Translate>
-        Drag and drop attributes or groups using the mouse. 
-        Now, attributes and groups can be sorted using drag and drop.
+        Binding a set of attributes to a product category for quick assignment to similar products. Default template for each attribute and its substitution when adding a category attribute.
       </Translate>
     ),
   },
   {
-    title: <Translate>Category Attributes</Translate>, //'Powered by React',
-    Svg: require('@site/static/img/undraw_attributico_category.svg').default,
+    title: <Translate>Metadata</Translate>, //'Focus on What Matters',
+    Svg: require('@site/static/img/attributipro_metadata.svg').default,
     description: (
       <Translate>
-        Binding a set of attributes to a product category for quick assignment to similar products. 
-        Preparing a set of Category Attributes using Drag-and-Drop or the auto-creation tool.
+        Images, descriptions for tooltips, and other metadata for attributes and values. Using metadata on the frontend.
       </Translate>
     ),
   },
   {
-    title: <Translate>Duty templates</Translate>, //'Powered by React',
-    Svg: require('@site/static/img/undraw_attributico_monitor.svg').default,
+    title: <Translate>Units of measurement</Translate>,
+    Svg: require('@site/static/img/attributipro_units_4.svg').default,
     description: (
       <Translate>
-        It is possible to set a default template for each attribute and 
-        substitute it into the value when adding an attribute or category attribute to a product.
+        Using measurement units in product attributes ensures accuracy, convenience, and versatility. Creating a custom dictionary of units.
       </Translate>
     ),
   },
   {
-    title: <Translate>Merging Duplicates</Translate>, //'Powered by React',
-    Svg: require('@site/static/img/undraw_attributico_double.svg').default,
+    title: <Translate>Merging Duplicates</Translate>,
+    Svg: require('@site/static/img/attributipro_merge.svg').default,
     description: (
       <Translate>
-        Merging duplicate attributes without losing the links between their values ​​and products.
+        Manual and automatic merging of duplicate attributes without losing connections between their values and products.
       </Translate>
     ),
   },
   {
-    title: <Translate>Batch processing</Translate>, //'Powered by React',
-    Svg: require('@site/static/img/undraw_attributico_react.svg').default,
+    title: <Translate>Batch processing</Translate>, 
+    Svg: require('@site/static/img/attributipro_tools_2.svg').default,
     description: (
       <Translate>
-        Batch replacement of the value separator, letter case replacement, and language cloning.
+        Batch replacement of value separators, changing letter case, and cloning a language. Substitution and removal of measurement units in attributes and values.
       </Translate>
     ),
   },

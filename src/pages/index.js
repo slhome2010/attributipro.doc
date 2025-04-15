@@ -43,7 +43,7 @@ function HomepageHeader() {
           <p className={clsx("hero__subtitle", styles.heroBloat)}>
             <Translate id="homepage.banner.slogan"
               description="The homepage slogan message">
-              ATTRIBUTES - IT IS EASY!
+              ATTRIBUTES - NEW FEATURES!
             </Translate>
           </p>
           <div className={styles.buttons}>
