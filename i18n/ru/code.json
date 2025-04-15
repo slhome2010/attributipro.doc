@@ -369,7 +369,7 @@
   "Batch processing": {
     "message": "Пакетная обработка"
   },
-  "Batch replacement of value separators, changing letter case, and cloning a language. Substitution and removal of measurement units in attributes and values.": {
-    "message": "Пакетная замена разделителя значений, замена регистра букв и клонирование языка. Подстановка и удаление единиц измерения в атрибутах и значениях."
+  "Batch replacement of value separators, changing letter case, and cloning a language. Standardization of measurement units in attributes and values. Export and import attributes in CSV and SQL formats.": {
+    "message": "Пакетная замена разделителя значений, замена регистра букв и клонирование языка. Унификация единиц измерения в атрибутах и значениях. Экспорт и импорт атрибутов в формате CSV и SQL."
   }
 }

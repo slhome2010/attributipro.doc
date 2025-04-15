@@ -54,7 +54,7 @@ const FeatureList = [
     Svg: require('@site/static/img/attributipro_tools_2.svg').default,
     description: (
       <Translate>
-        Batch replacement of value separators, changing letter case, and cloning a language. Substitution and removal of measurement units in attributes and values.
+        Batch replacement of value separators, changing letter case, and cloning a language. Standardization of measurement units in attributes and values. Export and import attributes in CSV and SQL formats.
       </Translate>
     ),
   },
