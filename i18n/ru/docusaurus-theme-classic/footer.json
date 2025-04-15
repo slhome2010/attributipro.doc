@@ -33,7 +33,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/slhome2010/new.attributico.su"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/slhome2010/attributipro.doc"
   },
   "copyright": {
     "message": "Copyright © 2025 Comtronics, Built with Docusaurus.",
@@ -45,7 +45,7 @@
   },
   "link.item.label.Full version": {
     "message": "Полная версия",
-    "description": "The label of footer link with label=Full version linking to https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-co-opencart-atributyi-eto-legko"
+    "description": "The label of footer link with label=Full version linking to https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-pro-opencart-atributyi-eto-legko"
   },
   "link.item.label.Free version": {
     "message": "Free версия",
