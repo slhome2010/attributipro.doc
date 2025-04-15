@@ -152,11 +152,7 @@ const config = {
               {
                 label: 'Full version',
                 href: 'https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-pro-opencart-atributyi-eto-legko',
-              },
-              {
-                label: 'Free version',
-                href: 'https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-coviewer-opencart-atributyi-eto-legko',
-              },
+              },              
             ],
           },
           /* {
