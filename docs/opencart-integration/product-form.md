@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Product Form Integration
 
-The module integration with the OpenCart engine is carried out using `ocmod` modifier files. The purpose of these files is described in the [Archive Structure](/technical-specifications/archive-content.md) section. Information about modifier installation can be found in the [Installation](/install.md) section.
+The module integration with the OpenCart engine is carried out using `ocmod` modifier files. The purpose of these files is described in the [Archive Structure](/technical-specifications/archive-content.md) section. Information about modifier installation can be found in the [Installation](/install-update/install.md) section.
 
 If the modification has been applied correctly, the **Attribut&pro** item should appear in the sidebar of the administrative panel in the *Catalog ⇒ Characteristics* menu, and a tab with the same name should appear in the product form.
 
