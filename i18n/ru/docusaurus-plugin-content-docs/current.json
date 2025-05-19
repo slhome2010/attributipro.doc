@@ -15,6 +15,14 @@
     "message": "Руководство - Расширенное",
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Installation and update": {
+    "message": "Установка и обновление",
+    "description": "The label for category Installation and update in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installation and update.link.generated-index.description": {
+    "message": "Установка. Обновление. Удаление.",
+    "description": "The generated-index page description for category Installation and update in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Technical specifications": {
     "message": "Техническая спецификация",
     "description": "The label for category Technical specifications in sidebar tutorialSidebar"
