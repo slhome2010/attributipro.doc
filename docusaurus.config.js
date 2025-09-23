@@ -84,7 +84,7 @@ const config = {
               label: "v3.0.3",              
             },
           },
-           includeCurrentVersion: false,
+           includeCurrentVersion: false, // Закомментировать при разработке
         },        
         blog: false,
         theme: {
