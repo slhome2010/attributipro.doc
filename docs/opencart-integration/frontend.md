@@ -105,10 +105,15 @@ Settings for filters make the selection process more intuitive and user-friendly
 
 ## Technical Implementation Details
 
-To apply changes, use the modifier files from the `ocmod/` folder:
+Product card and filter modifiers are automatically enabled when the module is installed through event handlers.
 
-- `attributipro3.frontend.product.ocmod.zip` — for the product page  
-- `attributipro3.frontend.filter.ocmod.zip` — for filters  
+| **Handler** | **Action** |
+|:--|:--|
+| `attributipro_frontend_product` | Connects the script for modifying the product card |
+| `attributipro_frontend_filter` | Connects the script for modifying the filter |
+
+If frontend modification is not required, you can disable any of these handlers.  
+To do so, go to the *Extensions ⇒ Events* menu.
 
 **Important**: All modifiers are adapted to the native OpenCart 3.x design. When using third-party themes or plugins, additional adjustments may be required.
 
