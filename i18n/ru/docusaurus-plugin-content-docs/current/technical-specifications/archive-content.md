@@ -6,7 +6,7 @@ sidebar_position: 1
 
 
 ```bash
-Attributipro_v3.0.0/
+Attributipro_v3.0.3/
     │── PHP7.2-7.4/
     │     └── attributipro.3.x.ocmod.zip
     │             ├── install.xml
@@ -25,28 +25,21 @@ Attributipro_v3.0.0/
     │                              └── attributico/
     │                                     ├── attributico.php
     │                                     ├── interlink.php
-    │                                     └── ...
-    │
-    │── ocmod/    
-    │     ├── attributipro3.frontend.product.ocmod.zip
-    │     └── attributipro3.frontend.filter.ocmod.zip
+    │                                     └── ...    
     │
     │── sql/       
     │    ├── oc_attribute_interlink.sql
     │    ├── oc_unit.sql
     │    └── oc_unit_description.sql
     │
-    ├── News3.0.0/
+    ├── News3.0.3/
     └── README.md
 ```
 
 ## Назначение папок и файлов
   
 - `upload/` папки с файлами собственно модуля для OpenCart версии 3.х;
-- `ocmod/` папка с модификаторами для магазинов версии 3.x;
 - `attributipro.3.x.ocmod.zip` установочный архив для магазинов версии 3.x;
-- `attributipro3.frontend.product.ocmod.zip` файл модификатор карточки товара на фронтенде для магазинов версии 3.x;
-- `attributipro3.frontend.filter.ocmod.zip` файл модификатор фильтра на фронтенде для магазинов версии 3.x;
 - `oc_attribute_interlink.sql` файл таблицы с некоторыми заранее подготовленными настройками для кросс-ссылок;
 - `oc_unit.sql` и `oc_unit_description.sql` файлы таблиц для основных единиц измерения;
 - `News/` папки с описанием изменений, исправлений и вспомогательными материалами;

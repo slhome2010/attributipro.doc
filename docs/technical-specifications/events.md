@@ -22,6 +22,10 @@ OpenCart utilizes an event-driven system that allows developers to "subscribe" t
 | `attributipro_edit_attribute_before` | Data synchronization before editing an attribute |
 | `attributipro_edit_product_after` | Data synchronization after editing a product |
 | `attributipro_edit_product_before` | Data synchronization before editing a product |
+| `attributipro_add_menu` | Adding a link to the module in the side menu |
+| `attributipro_add_script` | Connecting the module to the product form in the admin panel |
+| `attributipro_frontend_product` | Enabling the script for modifying the product card |
+| `attributipro_frontend_filter` | Enabling a script to modify the filter |
 
 :::warning
 Changes made by third-party extensions are not tracked or processed by the system.

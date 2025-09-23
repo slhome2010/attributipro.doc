@@ -15,14 +15,18 @@ OpenCart использует систему событий, которая по
 
 | **Обработчик** | **Действие** |
 |:--|:--|
-| `attributipro_add_attribute_after` | синхронизация данных после добавления нового атрибута |
-| `attributipro_add_product_after` | синхронизация данных после добавления нового товара |
-| `attributipro_copy_product_after` | синхронизация данных после добавления нового товара методом копирования |
-| `attributipro_delete_attribute_after` | синхронизация данных после удаления товара |
-| `attributipro_edit_attribute_after` | синхронизация данных после редактирования атрибута |
-| `attributipro_edit_attribute_before` | синхронизация данных перед редактированием атрибута |
-| `attributipro_edit_product_after` | синхронизация данных после редактирования товара |
-| `attributipro_edit_product_before` | синхронизация данных перед редактированием товара |
+| `attributipro_add_attribute_after` | Синхронизация данных после добавления нового атрибута |
+| `attributipro_add_product_after` | Синхронизация данных после добавления нового товара |
+| `attributipro_copy_product_after` | Синхронизация данных после добавления нового товара методом копирования |
+| `attributipro_delete_attribute_after` | Синхронизация данных после удаления товара |
+| `attributipro_edit_attribute_after` | Синхронизация данных после редактирования атрибута |
+| `attributipro_edit_attribute_before` | Синхронизация данных перед редактированием атрибута |
+| `attributipro_edit_product_after` | Синхронизация данных после редактирования товара |
+| `attributipro_edit_product_before` | Синхронизация данных перед редактированием товара |
+| `attributipro_add_menu` | Добавление ссылки на модуль в боковое меню |
+| `attributipro_add_script` | Подключение модуля в форме товара |
+| `attributipro_frontend_product` | Подключение скрипта для модификации карточки товара |
+| `attributipro_frontend_filter` | Подключение скрипта для модификации фильтра |
 
 :::warning
 Изменения, сделанные сторонними расширениями не отслеживаются и не обрабатываются.

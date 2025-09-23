@@ -9,7 +9,7 @@ sidebar_position: 2
 Скачайте установочные файлы модуля с доступного вам ресурса. В результате у вас должны быть zip архив:
 
 ```bash
-Attributipro_v3.0.0.zip
+Attributipro_v3.0.3.zip
 ```
 
 Структура архива описана в [этой](/technical-specifications/archive-content.md) статье.
@@ -22,8 +22,6 @@ Attributipro_v3.0.0.zip
 
 - Перейдите в *Расширения ⇒ Установка расширений*;
 - Загрузите файл `attributipro.3.x.ocmod.zip` для магазинов третьей версии (3.x) из этой папки;
-- Загрузите файл `attributipro3.frontend.product.ocmod.zip` если собираетесь модифицировать карточку товара на фронтенде;
-- Загрузите файл `attributipro3.frontend.filter.ocmod.zip` если собираетесь модифицировать фильтр OpenCart на фронтенде.
 
 **Для пользователей OCTEMPLATE:** Пропустите этот шаг и последующие. Инструкция по установке приведена ниже.
 
@@ -69,12 +67,6 @@ Attributipro_v3.0.0.zip
 - **Не выполняйте шаг 2**.
   - Для OpenCart 3.0.x извлеките из архива `attributipro.3.x.ocmod.zip` файл `install.xml` и папку `upload/`;
   - Переименуйте `install.xml` в `attributipro.3.ocmod.xml`;
-  - Скопируйте его в папку `/system`.
-  - Если собираетесь использовать модификаторы фронтенда, проделайте тоже самое с архивом `attributipro3.frontend.product.ocmod.zip`,
-  - Переименуйте `install.xml` в `attributipro.3.product.ocmod.xml`;
-  - Скопируйте его в папку `/system`.
-  - И тоже самое с архивом `attributipro3.frontend.filter.ocmod.zip`,
-  - Переименуйте `install.xml` в `attributipro.3.filter.ocmod.xml`;
   - Скопируйте его в папку `/system`.
   - Откройте папку `upload/`. Содержимое папки `upload/`, соответствующей вашей версии OpenCart, скопируйте поверх структуры папок сайта;
   - Пройдите шаги 3, 4, 5.

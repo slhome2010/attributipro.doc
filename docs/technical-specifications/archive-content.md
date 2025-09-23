@@ -5,7 +5,7 @@ sidebar_position: 1
 # Archive Structure
 
 ```bash
-Attributipro_v3.0.0/
+Attributipro_v3.0.3/
     │── PHP7.2-7.4/
     │     └── attributipro.3.x.ocmod.zip
     │             ├── install.xml
@@ -25,27 +25,21 @@ Attributipro_v3.0.0/
     │                                     ├── attributico.php
     │                                     ├── interlink.php
     │                                     └── ...
-    │
-    │── ocmod/    
-    │     ├── attributipro3.frontend.product.ocmod.zip
-    │     └── attributipro3.frontend.filter.ocmod.zip
+    │    
     │
     │── sql/       
     │    ├── oc_attribute_interlink.sql
     │    ├── oc_unit.sql
     │    └── oc_unit_description.sql
     │
-    ├── News3.0.0/
+    ├── News3.0.3/
     └── README.md
 ```
 
 ## Folder and File Descriptions
 
 - `upload/` – Core module files for OpenCart 3.x;
-- `ocmod/` – Modifiers for OpenCart 3.x stores;
 - `attributipro.3.x.ocmod.zip` – The installation archive for the OpenCart versions 3.x;
-- `attributipro3.frontend.product.ocmod.zip` – Frontend product page modifier;
-- `attributipro3.frontend.filter.ocmod.zip` – Frontend filter modifier;
 - `oc_attribute_interlink.sql` – Preconfigured cross-link settings table;
 - `oc_unit.sql` & `oc_unit_description.sql` – Unit of measurement tables;
 - `News/` - Folders with descriptions of changes, fixes and supporting materials;

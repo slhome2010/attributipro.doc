@@ -9,7 +9,7 @@ sidebar_position: 2
 Download the module installation files from your available source. You should receive a ZIP archive:
 
 ```bash
-Attributipro_v3.0.0.zip
+Attributipro_v3.0.3.zip
 ```
 
 The archive structure is described in [this article](/technical-specifications/archive-content.md).
@@ -22,8 +22,6 @@ In the admin panel:
 
 - Navigate to *Extensions ⇒ Extension Installer*;  
 - Upload the file `attributipro.3.x.ocmod.zip` for OpenCart version 3.x from the appropriate folder;
-- Upload `attributipro3.frontend.product.ocmod.zip` if modifying product pages on frontend;
-- Upload `attributipro3.frontend.filter.ocmod.zip` if modifying OpenCart filters on frontend.
 
 **For OCTEMPLATE users:** Skip this step and the following ones. A separate installation guide is provided below.
 
@@ -69,10 +67,6 @@ If you are using the OCTEMPLATE theme:
 - **Do not perform Step 2**
   - For OpenCart 3.0.x, extract the file `install.xml` and the `upload/` folder from `attributipro.3.x.ocmod.zip`;
   - Rename `install.xml` to `attributipro.3.ocmod.xml`;
-  - Copy it to the `/system` directory;
-  - For frontend modifiers:
-    - Repeat process with `attributipro3.frontend.product.ocmod.zip` → rename to `attributipro.3.product.ocmod.xml`;
-    - Repeat process with `attributipro3.frontend.filter.ocmod.zip` → rename to `attributipro.3.filter.ocmod.xml`;
-    - Copy both renamed files to `/system` folder.
+  - Copy it to the `/system` directory;  
   - Open the `upload/` folder. Copy the contents corresponding to your OpenCart version over your site's folder structure;
   - Proceed with Steps 3, 4, and 5.
