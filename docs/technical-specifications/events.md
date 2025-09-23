@@ -35,3 +35,7 @@ Changes made by third-party extensions are not tracked or processed by the syste
 When using Attribut&pro and Attribut&co together, only the handlers from the last installed module will remain active.  
 This prevents duplication since both modules share identical event handlers.
 :::
+
+:::info
+Any handler can be enabled or disabled via *Extensions ⇒ Events*.
+:::
