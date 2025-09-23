@@ -80,11 +80,11 @@ const config = {
             "3.0.0": {
               label: "v3.0.0",             
             },
-            /* "3.3.3": {
-              label: "v3.3.3",              
-            }, */
+            "3.0.3": {
+              label: "v3.0.3",              
+            },
           },
-          // includeCurrentVersion: false,
+           includeCurrentVersion: false,
         },        
         blog: false,
         theme: {
