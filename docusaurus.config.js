@@ -27,13 +27,15 @@ const config = {
 
   onBrokenLinks: 'warn',
   //onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
+  
   markdown: {
     format: 'detect',
     mermaid: true,
     mdx1Compat: {
       // comments: false,
+    },
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // Переносим сюда!
     },
   },
 

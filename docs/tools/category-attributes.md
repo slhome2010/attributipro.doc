@@ -12,8 +12,34 @@ This tool is particularly useful for those installing the module on an active st
 
 Be sure to select categories in the filter tree. The tool will retrieve all **Attributes** from the specified category across all products belonging to that category and group them as **Category Attributes**.
 
-:::warning  
-If a product belongs to multiple categories, the **Attributes** from all those categories will be aggregated for each one. Ensure your category structure is organized, or remember to remove unnecessary attributes from categories after completing the task.  
+:::warning
+
+**About Possible “Attribute Spillover” Between Categories**
+
+If the same product belongs to several categories at once, its **Attributes** will be counted in *all* of those categories when running the `“Create category attributes”` operation.
+
+Example:  
+The product “iPhone 15” is placed in categories:  
+→ Smartphones (main)  
+→ New arrivals  
+→ Promotions  
+
+After running the tool, the attributes of this phone (color, memory, processor, etc.) will also appear in the “New arrivals” and “Promotions” categories — even if they are not needed there.
+
+This is a specific behavior of OpenCart and all attribute-related modules.
+
+## How to reduce spillover (recommended method)
+
+1. On ocStore and all its builds — the module automatically detects this and collects attributes ONLY from the product’s main category. Spillover is almost eliminated!  
+2. On clean OpenCart — organize your category structure and leave each product only in one (main) category.
+
+## Recommendations for using the tool
+
+- After the module is installed or after mass importing products — run it **once** for sure.  
+- Then run it only when necessary (new products, new attributes, changing the main category).
+
+Don’t forget to remove unnecessary attributes from categories after the task is completed.
+
 :::
 
 If the **Assign category attributes to products** option is selected, the tool will also add **Attributes** and their **Values** to all products in the chosen category.
@@ -34,10 +60,10 @@ If you’ve already created **Category Attributes**, for example, using the [Dra
 
 :::danger  
 For large stores:  
-Do not select too many categories at once. There’s a risk that hosting restrictions on script execution time could cause the server to interrupt the operation due to a timeout.  
+Do not select too many categories at once. There’s a risk that hosting restrictions on script execution time could cause the server to interrupt the operation due to a timeout.
 :::
 
-Upon completion, a corresponding message will be displayed, for example:
+Once the task is completed, a confirmation message will be displayed, for example:
 
 `✅ Success! Operation completed. Category attributes generated: 12. Attributes added to products: 758.`
 
