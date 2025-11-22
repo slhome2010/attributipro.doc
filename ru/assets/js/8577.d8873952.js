@@ -1,1 +1,0 @@
-(self.webpackChunknew_attributico_su=self.webpackChunknew_attributico_su||[]).push([[8577],{549:(t,s,u)=>{"use strict";u.d(s,{A:()=>c});var e=u(8291);u(6121)(e),u(2550)(e),u(6106)(e);const c=e},5741:()=>{}}]);
