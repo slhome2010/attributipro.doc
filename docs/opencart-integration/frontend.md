@@ -58,7 +58,7 @@ Settings for the product page allow you to create a structured feature table wit
 
 **Templates**, or in other words multiple values of the form Value1/Value2/Value3, are displayed as an unordered list.
 
-| ![Example of a multiple value](/img/tutorial/value_split_en.png) |
+| ![Example of a multiple value](/img/tutorial/en/value_split_en.png) |
 | :-----------------------------------------------------------: |
 |                 *Frontend product multiple value*             |
 

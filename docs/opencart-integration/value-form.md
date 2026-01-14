@@ -37,4 +37,4 @@ There is a possibility that you may overwrite existing **Duty Template** data.
 
 ## Fill form from Duty Template
 
-Click the 📋 button at the top of the header to auto‑fill all fields with **Duty Template** data.
+Click the 📄 button at the top of the header to auto‑fill all fields with **Duty Template** data.
