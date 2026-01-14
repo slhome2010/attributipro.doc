@@ -10,11 +10,11 @@ Editing **metadata** differs from editing the [**Duty Template**](/module-featur
 
 The `Attribute Value` field can be filled in manually or selected from ready-made **Values** in the dropdown list at the very top of the form. The list is formed according to [filter](/opencart-integration/value-filter.md) and [view](/opencart-integration/list-view.md) settings.
 
-| ![Value Form](/img/tutorial/en/value_form_en.png) |
+| ![Value Form](/img/tutorial/en/value_form_305_en.png) |
 |:--:|
 | *Value Form* |
 
-## Creating a Link
+## Creating a Link (URL)
 
 The purpose of this field was noted in the general description of [metadata](general-info/metadata.md).
 
@@ -34,3 +34,7 @@ To do this, check the `Set as duty template` checkbox. The assignment happens wh
 Control the state of this checkbox before saving. All settings are saved for the duration of the session, and the checkbox will remain in the same state when the next form is called, until you change it.
 There is a possibility that you may overwrite existing **Duty Template** data.
 :::
+
+## Fill form from Duty Template
+
+Click the 📋 button at the top of the header to auto‑fill all fields with **Duty Template** data.
