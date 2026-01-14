@@ -60,6 +60,7 @@ const config = {
       keywords: { boost: 3 }
     } */
   }]],
+  staticDirectories: ['static'],
   presets: [
     [
       'classic',
