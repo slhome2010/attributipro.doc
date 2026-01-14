@@ -49,9 +49,37 @@ sidebar_position: 12
 - Значения с гиперссылками (🔗) переходят на внешние страницы (например, описание интерфейсов).  
 - Единицы измерения отображаются в выбранном формате (`350 (Вт)` вместо `350 Вт`).  
 
+#### Всплывающая подсказка
+
 | ![Пример с всплывающей подсказкой](/img/tutorial/frontend_product_tooltip.png) |
 |:--:|
 | *Frontend product tooltip* |
+
+#### Форматирование множественного значения
+
+**Шаблоны** или иначе множественные значения типа Значение1/Значение2/Значение3 представляются в виде ненумерованного списка
+
+| ![Пример множественного значения](/img/tutorial/value_split.png) |
+|:--:|
+| *Frontend product multiple value* |
+
+Вы можете изменить CSS свойства по своему усмотрению в файле `\catalog\controller\extension\module` отредактировав фрагмент кода:
+
+```CSS
+td span[data-toggle='tooltip']:after {
+   font-family: FontAwesome;
+   color: #1E91CF;
+   content: '\f059';
+   margin-left: 4px;
+}
+.attributipro-multi-values {
+   padding-left: 10px;
+   list-style-type: none;
+}
+.attributipro-multi-values li {
+   line-height: 1.4;
+} 
+```
 
 ### Фильтр товаров категории
 

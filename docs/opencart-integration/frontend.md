@@ -48,9 +48,37 @@ Settings for the product page allow you to create a structured feature table wit
 - Values with hyperlinks (🔗) redirect to external pages (e.g., interface descriptions)  
 - Units of measurement appear in the selected format (`350 (W)` instead of `350 W`)  
 
+#### Tooltip example
+
 | ![Tooltip example](/img/tutorial/en/frontend_product_tooltip_en.png) |
 |:--:|
 | *Frontend product tooltip* |
+
+#### Formatting Multiple Values
+
+**Templates**, or in other words multiple values of the form Value1/Value2/Value3, are displayed as an unordered list.
+
+| ![Example of a multiple value](/img/tutorial/value_split_en.png) |
+| :-----------------------------------------------------------: |
+|                 *Frontend product multiple value*             |
+
+You can customize the CSS properties as needed in the file \catalog\controller\extension\module by editing the following code snippet:
+
+```CSS
+td span[data-toggle='tooltip']:after {
+   font-family: FontAwesome;
+   color: #1E91CF;
+   content: '\f059';
+   margin-left: 4px;
+}
+.attributipro-multi-values {
+   padding-left: 10px;
+   list-style-type: none;
+}
+.attributipro-multi-values li {
+   line-height: 1.4;
+} 
+```
 
 ### Category Filter
 

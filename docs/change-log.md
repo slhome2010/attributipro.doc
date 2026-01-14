@@ -4,10 +4,6 @@ sidebar_position: 25
 
 # What's New in This Version
 
-1. Changes in the operation algorithm of several tools. The updates affected:
-
-- Removing empty values;
-- Defragmentation;
-- Category attributes;
-
-During real-world use it turned out that on some websites these tools function incorrectly.
+1. A button for automatically filling in attribute value fields with data from the Duty Template in the product form.
+2. Conversion of multiple values into an unordered list in the product card on the frontend.
+3. Fixes for issues with value list generation and null values in the Duty Template.
