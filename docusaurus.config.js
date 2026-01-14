@@ -88,8 +88,11 @@ const config = {
             "3.0.4": {
               label: "v3.0.4",              
             },
+            "3.0.5": {
+              label: "v3.0.5",              
+            },
           },
-           //includeCurrentVersion: false, // Закомментировать при разработке
+           includeCurrentVersion: false, // Закомментировать при разработке
         },        
         blog: false,
         theme: {
