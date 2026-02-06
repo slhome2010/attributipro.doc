@@ -1,3 +1,7 @@
+---
+sidebar_position: 11
+---
+
 # Frontend
 
 This documentation describes the interface for configuring the display of [metadata](general-info/metadata.md) for attributes and their values on the frontend.
