@@ -8,13 +8,14 @@ Starting with the current module version, **settings export and import** functio
 This feature allows you to quickly transfer configuration between stores, create backups before making changes, and restore a known working setup when needed.
 
 | ![Settings Backup Tab](/img/tutorial/en/v306/settings_backup_306_en.png) |
+|:--:|
 | *Settings backup tab* |
 
 ## Location
 
 The feature is available under:
 
-**Settings → Configuration**
+*`Settings → Configuration`*
 
 The interface is divided into two sections:
 
@@ -80,7 +81,7 @@ Metadata is used to validate compatibility during restore.
 
 Restore loads settings from a previously saved JSON file and overwrites the current module configuration.
 
-| ![Settings Restore](/img/tutorial/en/v306/settings_backup_306_en.png) |
+| ![Settings Restore](/img/tutorial/en/v306/settings_restore_306_en.png) |
 |:--:|
 | *Selecting a file and restoring settings* |
 

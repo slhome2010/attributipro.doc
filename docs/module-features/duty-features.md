@@ -32,7 +32,7 @@ Each Duty Template supports [**Metadata**](general-info/metadata.md) that serves
 - Attribute value metadata  
 - Template inheritance rules  
 
-| ![Duty Metadata Interface](/img/tutorial/en/form_duty_en.png) |  
+| ![Duty Metadata Interface](/img/tutorial/en/v306/duty_form_306_en.png) |  
 |:--:|  
 | *Duty Template Metadata Editor* |  
 

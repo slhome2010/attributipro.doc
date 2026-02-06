@@ -14,7 +14,7 @@ Launch the metadata form using:
 
 Opens in modal window:  
 
-| ![Metadata Editing Interface](/img/tutorial/en/form_attribute_en.png) |  
+| ![Metadata Editing Interface](/img/tutorial/en/v306/attribute_form_306_en.png) |  
 |:--:|  
 | *Attribute Metadata Editor* |  
 

@@ -18,7 +18,7 @@ The selected profile must be saved along with other settings. It will later be u
 
 The edit form allows you to define rules for generating links to filter landing pages or interlinking pages.
 
-| ![Edit profile](/img/tutorial/en/interlink_form_en.png) |
+| ![Edit profile](/img/tutorial/en/v306/url_form_306_en.png) |
 |:--:|
 | *Profile form* |
 

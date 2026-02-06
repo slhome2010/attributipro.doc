@@ -18,7 +18,7 @@ sidebar_position: 5
 
 Так выглядит форма **Метаданных дежурного шаблона**:  
 
-| ![Duty metadata form](/img/tutorial/form_duty.png) |
+| ![Duty metadata form](/img/tutorial/v306/duty_form_306.png) |
 |:--:|
 | *Duty metadata form* |  
 

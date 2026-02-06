@@ -20,7 +20,7 @@ You can add, modify, and delete units of measurement. Actions are selected using
 
 The editing form allows you to change the full and short notation of the unit of measurement, and also takes into account localization for multilingual stores.
 
-| ![Editing units](/img/tutorial/en/unit_form_en.png) |
+| ![Editing units](/img/tutorial/en/v306/unit_form_306_en.png) |
 |:--:|
 | *Unit form* |
 
