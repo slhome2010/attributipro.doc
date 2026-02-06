@@ -76,10 +76,7 @@ const config = {
             /*  current: {
                label: 'v1.0.0',
                path: '1.0.0',
-             }, */           
-            "1.0.0": {
-              label: 'v1.0.0',             
-            },
+             }, */         
             "3.0.0": {
               label: "v3.0.0",             
             },
