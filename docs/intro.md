@@ -22,9 +22,9 @@ The core idea is to define a consistent set of attributes for a specific product
 
 Logical structure for linking attributes to categories:
 
-```bash  
-Product Category  
-  └── Attribute  
+```bash
+Product Category
+  └── Attribute
     └── Value (a list of attribute values)
 ```
 
@@ -37,8 +37,8 @@ The module also provides:
 The structure of attributes and their values is visualized as a tree:
 
 ```bash
-Attribute Group  
-  └── Attribute  
+Attribute Group
+  └── Attribute
     └── Value (list of attribute values)
 ```
 
@@ -76,6 +76,7 @@ Attribute Group
   - Change capitalization for group, attribute, and value names;
   - Attach or remove measurement units from attribute names;
   - Create filters based on existing attributes and values;
+  - Redistribute and sort attributes to matching groups using AI, exact or fuzzy matching;
   - Export and import data in SQL or CSV format.
 - Multilingual support:
   - Work with multiple languages simultaneously;
