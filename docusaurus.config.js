@@ -27,7 +27,7 @@ const config = {
 
   onBrokenLinks: 'warn',
   //onBrokenLinks: 'throw',
-  
+
   markdown: {
     format: 'detect',
     mermaid: true,
@@ -44,14 +44,14 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru'],
+    locales: [ 'en', 'ru' ],
   },
-  plugins: [[require.resolve('docusaurus-lunr-search'), {
-    languages: ['en', 'ru'], // language codes
+  plugins: [ [ require.resolve('docusaurus-lunr-search'), {
+    languages: [ 'en', 'ru' ], // language codes
     highlightResult: true,
     indexBaseUrl: true,
     maxHits: 10,          // Пример других опций
-    excludeRoutes: ['/blog']
+    excludeRoutes: [ '/blog' ]
     //includeRoutes: ['/docs/**'],
     //excludeTags: ['nav', 'footer'],
     /* fields: {
@@ -59,8 +59,8 @@ const config = {
       content: { boost: 1 },
       keywords: { boost: 3 }
     } */
-  }]],
-  staticDirectories: ['static'],
+  } ] ],
+  staticDirectories: [ 'static' ],
   presets: [
     [
       'classic',
@@ -76,25 +76,25 @@ const config = {
             /*  current: {
                label: 'v1.0.0',
                path: '1.0.0',
-             }, */         
+             }, */
             "3.0.0": {
-              label: "v3.0.0",             
+              label: "v3.0.0",
             },
             "3.0.3": {
-              label: "v3.0.3",              
+              label: "v3.0.3",
             },
             "3.0.4": {
-              label: "v3.0.4",              
+              label: "v3.0.4",
             },
             "3.0.5": {
-              label: "v3.0.5",              
+              label: "v3.0.5",
             },
             "3.0.6": {
-              label: "v3.0.6",              
+              label: "v3.0.6",
             },
           },
-           includeCurrentVersion: false, // Закомментировать при разработке
-        },        
+          //includeCurrentVersion: false, // Закомментировать при разработке
+        },
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
@@ -158,7 +158,7 @@ const config = {
               {
                 label: 'Full version',
                 href: 'https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-pro-opencart-atributyi-eto-legko',
-              },              
+              },
             ],
           },
           /* {
@@ -192,7 +192,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Comtronics, Built with Docusaurus.`,
+        copyright: `Copyright © ${ new Date().getFullYear() } Comtronics, Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
