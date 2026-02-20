@@ -6,9 +6,9 @@ sidebar_position: 11
 
 The **Redistribute** tool is designed to automate the process of moving attributes from one attribute group to another. It provides several comparison strategies that allow you to reorganize your catalog's structure easily and accurately.
 
-| ![Redistribute Interface](/img/tutorial/opencart_attribute_list.png) |
-| :------------------------------------------------------------------: |
-|                       _Redistribute Interface_                       |
+| ![Redistribute Interface](/img/tutorial/en/v307/redistribute_strict_en.png) |
+| :-------------------------------------------------------------------------: |
+|                          _Redistribute Interface_                           |
 
 ## Overview
 
@@ -56,9 +56,9 @@ To use the AI mode, follow these steps:
 5. Select `ai` in the Mode dropdown.
 6. Click the execute button.
 
-| ![AI Classification Settings](/img/tutorial/opencart_attribute_list.png) |
-| :----------------------------------------------------------------------: |
-|                       _AI Classification Settings_                       |
+| ![AI Classification Settings](/img/tutorial/en/v307/redistribute_ai_en.png) |
+| :-------------------------------------------------------------------------: |
+|                        _AI Classification Settings_                         |
 
 The AI will analyze up to 10 existing attributes from each of your target groups to understand context. It will then intelligently route your unclassified attributes into the most specific and accurate group.
 
@@ -72,6 +72,6 @@ The AI relies on the names and values of your existing attributes to make decisi
 - **Review Before AI:** Test the AI classification on a smaller set of source groups before applying it to your entire "Unknown" group to ensure your target group contexts are clear.
 - **Check the Logs:** Every attribute moved by the Redistribute tool is recorded. Check your logs if you need to trace where a specific attribute was moved.
 
-| ![Redistribute Logs](/img/tutorial/opencart_attribute_list.png) |
-| :-------------------------------------------------------------: |
-|                       _Redistribute Logs_                       |
+| ![Redistribute Logs](/img/tutorial/en/v307/redistribute_log_en.png) |
+| :-----------------------------------------------------------------: |
+|                         _Redistribute Logs_                         |
