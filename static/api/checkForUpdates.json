@@ -1,6 +1,6 @@
 {
-  "latest_version": "3.0.6",
-  "news": "<h4>Updates available!</h4><p class='lead'>Version 3.0.5.</p><p>1. Metadata editing forms are made using a new technology for future compatibility with OpenCart v4.</p><p>22. Added the ability to save/restore all settings (Menu item 'Configuration'). Useful when reinstalling the module.</p>",
+  "latest_version": "3.0.7",
+  "news": "<h4>Updates available!</h4><p class='lead'>Version 3.0.7.</p><p>1. Added the 'Redistribute attributes' tool. This tool allows you to efficiently redistribute attributes among groups. It features several modes, including AI. It is highly useful after importing and parsing data.</p>",
   "well": "<p class='lead'>You are using the latest version of the <span>Attribut<b style='color: #2199C7;'>&</b>co</span> module!</p>",
   "links": "<div class='form-group'><h4>Updates will be available at the following links:</h4><ul class='list-group'><li class='list-group-item'><a class='link' target='_blanc' href='https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-co%21-opencart-atributyi-eto-legko%21'><span class='txt_orange'>Liveopencart.ru</span></a></li></ul></div>",
   "copyright": "<div class='form-group'><h4>Documentation:</h4><ul class='list-group'><li class='list-group-item'><a class='link' target='_blanc' href='https://slhome2010.github.io/attributipro.doc/ru/'><span class='txt_orange'>https://slhome2010.github.io/attributipro.doc/</span></a></li></ul></div><br/><p>Copyright &copy; 2016-2025&nbsp; Comtronics</p>"

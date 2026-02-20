@@ -4,5 +4,6 @@ sidebar_position: 25
 
 # What's New in This Version
 
-1. Metadata editing forms are made using a new technology for future compatibility with OpenCart v4.
-2. Added the ability to save/restore all settings (Menu item 'Configuration'). Useful when reinstalling the module.
+1. Added the 'Redistribute attributes' tool.
+   This tool allows you to efficiently redistribute attributes among groups. It features several modes, including AI.
+   It is highly useful after importing and parsing data.
