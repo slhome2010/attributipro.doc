@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # AI Settings
 
-| ![Attributico AI settings](/img/tutorial.en/v307/settings_ai_ru.png) |
+| ![Attributico AI settings](/img/tutorial/en/v307/settings_ai_en.png) |
 | :------------------------------------------------------------------: |
 |                      _Attributico AI settings_                       |
 
