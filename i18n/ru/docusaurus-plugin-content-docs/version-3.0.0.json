@@ -86,5 +86,13 @@
   "sidebar.tutorialSidebar.category.Unify attributes.link.generated-index.description": {
     "message": "Приведение атрибутов к единой системе или форме.",
     "description": "The generated-index page description for category Unify attributes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sorting": {
+    "message": "Сортировка",
+    "description": "The label for category Sorting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sorting.link.generated-index.description": {
+    "message": "Инструменты для сортировки и перераспределения атрибутов.",
+    "description": "The generated-index page description for category Sorting in sidebar tutorialSidebar"
   }
 }
