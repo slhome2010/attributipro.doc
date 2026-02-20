@@ -60,7 +60,17 @@ For more details, see the [Editing](/module-features/editing.md) section.
 
 The module does not enforce a specific workflow but provides functionality that simplifies manual work and tools for batch processing.
 
-One such tool is [**Category Attributes**](/tools/category-attributes.md).
+Three main tools will help you manage the results of parsing:
+
+- Redistributing attributes into groups: [**Redistribute attributes**](/tools/sorting/redistribute.md);
+- Merging duplicates: [**Merge duplicates**](/tools/sorting/redistribute.md);
+- Category attributes: [**Category attributes**](/tools/category-attributes.md).
+
+</details>
+
+<details>
+  <summary>How to effectively use the **Category attributes** tool?</summary>
+One of the tools is [**Category attributes**](/tools/category-attributes.md).
 
 :::info
 In the settings, set [**`Method`**](/settings/product.md) to **Add duty attributes only to empty ones**.  
@@ -79,8 +89,8 @@ For example, in category `C1`, there is a product `P1` with **Attribute** `A1`, 
 You added **Attribute** `A2` with **Value** `V2`, and after parsing, two more products `P2` and `P3` were added with their own **Attributes** and corresponding **Values**.
 
 | ![Working with empty Duty Templates](/img/tutorial/attribute_category_1.svg) |
-|:--:|
-| *Diagram 1 – Working with empty Duty Templates* |
+| :--------------------------------------------------------------------------: |
+|               _Diagram 1 – Working with empty Duty Templates_                |
 
 Our goal is to unify **Category Attributes**, meaning every product in category `C1` should have the same set of **Attributes**.  
 We apply the **"Category Attributes"** tool.
@@ -93,8 +103,8 @@ For example, **Attribute** `A1` can have **Values** `V1` or `V4`. Which one shou
 To resolve this ambiguity, **Duty Templates** are used. If they are filled, the tool will produce the following result:
 
 | ![Working with filled Duty Templates](/img/tutorial/attribute_category_2.svg) |
-|:--:|
-| *Diagram 2 – Working with filled Duty Templates* |
+| :---------------------------------------------------------------------------: |
+|               _Diagram 2 – Working with filled Duty Templates_                |
 
 Now all **Values** are populated.
 
