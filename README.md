@@ -2,40 +2,76 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Установка (Installation)
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+yarn install
+# или
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Доступные команды (Scripts / package.json)
 
-### Build
+- `yarn start en` / `npm run start en` — Запускает локальный сервер для разработки с английской локализацией (по умолчанию).
+- `yarn start ru` / `npm run start ru` — Запускает локальный сервер для разработки с русской локализацией.
+- `yarn build` / `npm run build` — Собирает готовый статический сайт в директорию `build`.
+- `yarn serve` / `npm run serve` — Запускает локальный сервер для просмотра собранного сайта (используется после сборки `build`).
+- `yarn clear` / `npm run clear` — Очищает кэш Docusaurus (полезно при сбоях сборки, кэшировании удаленных файлов и т.д.).
+- `yarn docusaurus` / `npm run docusaurus` — Базовый вызов интерфейса командной строки CLI Docusaurus.
+- `yarn swizzle` / `npm run swizzle` — Экспорт и кастомизация внутренних React-компонентов темы Docusaurus.
+- `yarn deploy` / `npm run deploy` — Сборка и деплой сайта (например, публикация в ветку `gh-pages` на GitHub Pages).
+- `yarn write-translations en` (и `ru`) — Извлечение строк для перевода и создание/обновление файлов локализации.
+- `yarn write-heading-ids` / `npm run write-heading-ids` — Автоматическое добавление ID к заголовкам в Markdown для стабильных якорных ссылок.
 
+## Работа с версиями (Versioning)
+
+### Создание новой версии
+
+Чтобы создать новую версию документации (зафиксировать текущее состояние папки `docs`), выполните команду:
+
+```bash
+yarn docusaurus docs:version <верия>
+# или
+npm run docusaurus docs:version <версия>
 ```
-$ yarn build
+
+Пример: `yarn docusaurus docs:version 3.0.8`.
+
+> [!IMPORTANT]
+> **После создания новой версии необходимо выполнить следующие шаги:**
+>
+> 1. Добавить новую версию в список меню версий в файле `docusaurus.config.js` (блок `versions`).
+> 2. Отредактировать файл перевода для новой версии в русском разделе: `i18n/ru/docusaurus-plugin-content-docs/version-<версия>.json`.
+>
+> Там необходимо изменить автоматически сгенерированное значение `version.label` с `"Next"` на актуальный номер версии. Если этого не сделать, в языковом меню на русском языке будет отображаться "Next".
+>
+> Правильный пример для версии 3.0.8:
+>
+> ```json
+> "version.label": {
+>     "message": "3.0.8",
+>     "description": "The label for version current"
+> }
+> ```
+
+### Удаление старой версии
+
+Для автоматизированного и полного удаления устаревшей версии в проекте предусмотрен bash-скрипт `remove-version.sh`. Он безопасно удаляет версию из словаря `versions.json`, удаляет копии файлов документации как для английской, так и для русской локализаций, а также очищает кэш.
+
+**Как запустить скрипт:**
+
+В корневой директории проекта выполните в терминале (Git Bash / WSL / Linux / macOS):
+
+```bash
+bash remove-version.sh <версия>
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Пример использования:
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+bash remove-version.sh 3.0.3
 ```
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+> [!WARNING]
+> **После выполнения скрипта необходимо вручную:**
+> Проверить файл конфигурации `docusaurus.config.js`. Если там остались настройки, специфичные для удаляемой версии (например, кастомные лейблы или пути в блоке `versions`), их следует удалить или закомментировать.

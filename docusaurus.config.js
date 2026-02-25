@@ -95,6 +95,9 @@ const config = {
             "3.0.7": {
               label: "v3.0.7",
             },
+            "3.0.8": {
+              label: "v3.0.8",
+            },
           },
           // includeCurrentVersion: false, // Закомментировать при разработке
         },
