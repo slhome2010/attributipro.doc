@@ -96,7 +96,7 @@ const config = {
               label: "v3.0.7",
             },
           },
-          includeCurrentVersion: false, // Закомментировать при разработке
+          // includeCurrentVersion: false, // Закомментировать при разработке
         },
         blog: false,
         theme: {
