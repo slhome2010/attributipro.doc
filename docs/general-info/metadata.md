@@ -22,7 +22,7 @@ These include:
 - Image;
 - Icon;
 - Units of measurement;
-- Status (not currently used).
+- Status ([manage visibility](/opencart-integration/manage_status.md)).
 
 ## Value Metadata
 
@@ -35,7 +35,7 @@ These include:
 - Icon;
 - Units of measurement;
 - Interlinking reference;
-- Status (not currently used).
+- Status ([manage visibility](/opencart-integration/manage_status.md)).
 
 ## Duty Template Metadata
 
