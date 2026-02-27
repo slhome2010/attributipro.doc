@@ -14,9 +14,9 @@ Launch the metadata form using:
 
 Opens in modal window:
 
-| ![Metadata Editing Interface](/img/tutorial/en/v306/attribute_form_306_en.png) |
-| :----------------------------------------------------------------------------: |
-|                          _Attribute Metadata Editor_                           |
+| ![Metadata Editing Interface](/img/tutorial/en/v310/attribute_form_en.png) |
+| :------------------------------------------------------------------------: |
+|                        _Attribute Metadata Editor_                         |
 
 ## Filling out the Duty Template
 

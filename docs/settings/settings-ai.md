@@ -19,3 +19,9 @@ The AI settings tab allows you to configure artificial intelligence integration 
 
 To obtain an API key, register on the OpenAI platform and create a standard API access key in your account.
 You can use inexpensive models for these purposes. For the tasks performed by the module, the basic, affordable models are completely sufficient, allowing you to optimize costs without compromising quality.
+
+## Where AI is Used
+
+- Merging duplicate attributes without data loss using AI, exact or fuzzy matching;
+- Distributing and sorting attributes to appropriate groups using AI, exact or fuzzy matching;
+- Filling in metadata for attributes and their values.

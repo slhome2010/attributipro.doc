@@ -10,9 +10,9 @@ Editing **metadata** differs from editing the [**Duty Template**](/module-featur
 
 The `Attribute Value` field can be filled in manually or selected from ready-made **Values** in the dropdown list at the very top of the form. The list is formed according to [filter](/opencart-integration/value-filter.md) and [view](/opencart-integration/list-view.md) settings.
 
-| ![Value Form](/img/tutorial/en/value_form_305_en.png) |
-| :---------------------------------------------------: |
-|                     _Value Form_                      |
+| ![Value Form](/img/tutorial/en/v310/value_form_en.png) |
+| :----------------------------------------------------: |
+|                      _Value Form_                      |
 
 ## Creating a Link (URL)
 

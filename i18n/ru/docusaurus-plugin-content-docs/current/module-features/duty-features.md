@@ -18,9 +18,9 @@ sidebar_position: 5
 
 Так выглядит форма **Метаданных дежурного шаблона**:
 
-| ![Duty metadata form](/img/tutorial/v306/duty_form_306.png) |
-| :---------------------------------------------------------: |
-|                    _Duty metadata form_                     |
+| ![Duty metadata form](/img/tutorial/v310/duty_form.png) |
+| :-----------------------------------------------------: |
+|                  _Duty metadata form_                   |
 
 Назначение полей ввода и органов управления этой формы аналогичны описанным в [этой статье](/module-features/metadata-editing.md).
 

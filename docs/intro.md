@@ -70,7 +70,7 @@ Attribute Group
   - Remove links to non-existent attributes;
   - Defragment attribute sets and prepare parsing groups;
   - Delete attributes that are not linked to any products;
-  - Merge duplicate attributes without data loss;
+  - Merge duplicate attributes without data loss using AI, exact or fuzzy matching;
   - Automatically generate category-based attributes;
   - Bulk-replace separators in attribute values;
   - Change capitalization for group, attribute, and value names;

@@ -8,9 +8,9 @@ sidebar_position: 4
 
 Форма загружается в модальном окне. Например, форма метаданных **Атрибута** выглядит так:
 
-| ![Metadata editing form](/img/tutorial/v306/attribute_form_306.png) |
-| :-----------------------------------------------------------------: |
-|                  _Attribute metadata editing form_                  |
+| ![Metadata editing form](/img/tutorial/v310/attribute_form.png) |
+| :-------------------------------------------------------------: |
+|                _Attribute metadata editing form_                |
 
 ## Заполнение Дежурного Шаблона
 
