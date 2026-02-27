@@ -47,7 +47,7 @@ Click the 📄 button at the top of the header to auto‑fill all fields with **
 
 You can automatically fill in the form fields using Artificial Intelligence. To do this, click the magic icon button (✨) at the top of the form next to the template button.
 
-The AI will analyze the product name and the current attribute, and then automatically generate:
+The AI will analyze the product name, attribute group, and the current attribute, and then automatically generate:
 
 - A realistic and suitable **Value**
 - A practical **Tooltip** explanation

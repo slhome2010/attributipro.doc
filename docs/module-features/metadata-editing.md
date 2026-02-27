@@ -34,6 +34,20 @@ Opens in modal window:
 Configure template-specific metadata via [dedicated form](/module-features/duty-features.md)  
 :::
 
+## AI Form Fill (Magic Button)
+
+You can automatically fill in the attribute metadata form fields using Artificial Intelligence. To do this, click the magic icon button (✨) at the top of the form.
+
+The AI will analyze the attribute group and the current attribute, and then automatically generate:
+
+- A clear and concise **Description** (used as a Tooltip)
+- An appropriate **Icon** from the Font Awesome set
+- The most suitable **Unit of measurement** from the system
+
+:::note
+The AI does not populate the Duty Template value field. You must configure your OpenAI API key in the settings to use this feature.
+:::
+
 ## Editor Features
 
 ### WYSIWYG Editing
