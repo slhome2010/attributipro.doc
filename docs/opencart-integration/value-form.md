@@ -42,3 +42,18 @@ There is a possibility that you may overwrite existing **Duty Template** data.
 ## Fill form from Duty Template
 
 Click the 📄 button at the top of the header to auto‑fill all fields with **Duty Template** data.
+
+## AI Form Fill (Magic Button)
+
+You can automatically fill in the form fields using Artificial Intelligence. To do this, click the magic icon button (✨) at the top of the form next to the template button.
+
+The AI will analyze the product name and the current attribute, and then automatically generate:
+
+- A realistic and suitable **Value**
+- A practical **Tooltip** explanation
+- An appropriate icon from the **Font Awesome** set
+- The most suitable **Unit of measurement** from those available in the system
+
+:::note
+For this feature to work, you must have an OpenAI API key configured in the module settings. The AI takes into account the currently selected editing language and returns the result in that language.
+:::
