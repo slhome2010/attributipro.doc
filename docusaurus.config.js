@@ -91,10 +91,12 @@ const config = {
             },
             "3.0.6": {
               label: "v3.0.6",
+            },
+            "3.1.0": {
+              label: "v3.1.0",
             }
-
           },
-          // includeCurrentVersion: false, // Закомментировать при разработке
+          includeCurrentVersion: false, // Закомментировать при разработке
         },
         blog: false,
         theme: {
