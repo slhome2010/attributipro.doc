@@ -4,89 +4,75 @@ sidebar_position: 1
 
 # Introduction
 
-The **Attribut&pro** module is an extension designed for managing product attributes (referred to as "характеристики" in Russian-language versions) in online stores built on the OpenCart platform. **Attribut&pro** is an enhanced version of [**Attribut&co**](https://slhome2010.github.io/attributico.doc/).
+The **Attribut&pro** module is the ultimate solution for professional management of product attributes (characteristics) in online stores built on the OpenCart platform. As the senior, extended version of the lighter [**Attribut&co**](https://slhome2010.github.io/attributico.doc/) module, it doesn't just simplify your workflow — it takes catalog administration to a fundamentally new level by adding powerful sales tools like visual metadata (icons, tooltips).
 
 ## Module Mission
 
-The module is designed to:
-
-- Simplify the handling of attributes and their values;
-- Provide a clearer visual representation of the attribute structure;
-- Introduce modern editing technologies;
-- Replace tedious manual work with automated operations and batch processing;
-- Expand the structure of attributes and their values for future use on the frontend.
+Our mission is to bring your attribute database into perfect order, automate the content manager's routine work, and make your store's storefront more conversion-oriented through a clear, informative display of features. Shift from manually filling hundreds of rows by hand to high-tech batch processing and "Smart" management!
 
 ## Core Concept
 
-The core idea is to define a consistent set of attributes for a specific product category and link this set to that category. It is assumed that products within the same category typically share a similar set of attributes. Since OpenCart has a well-developed structure of categories and subcategories, linking attributes to a category—rather than to a manufacturer or other parameter—was chosen as the most logical approach.
+In default OpenCart, attributes often turn into an unmanageable chaos. **Attribut&pro** solves this problem systematically: you construct a logical set of characteristics that are identical for a specific product category, and link this template directly to the **Category**.
 
 Logical structure for linking attributes to categories:
 
 ```bash
 Product Category
-  └── Attribute
-    └── Value (a list of attribute values)
+    └── Attribute
+          └── Value (a list of attribute values)
 ```
 
-The module also provides:
-
-- A tree view of attributes and their values;
-- The ability to assign metadata to each attribute, its value, or default value;
-- Management of this metadata as an integral part of the attribute system.
-
-The structure of attributes and their values is visualized as a tree:
+Now, when adding a product to a category, the necessary set of attributes will be populated automatically (a "default template"). The content manager simply needs to select the correct values. The entire structure is visually clear and presented as a convenient tree:
 
 ```bash
 Attribute Group
-  └── Attribute
-    └── Value (list of attribute values)
+    └── Attribute
+          └── Attribute Value (and its variants)
 ```
 
-### For each element, you can define
+## Key Features
 
-- A description (tooltip);
-- An icon;
-- An image;
-- Units of measurement.
+👑 **PRO Exclusive: Advanced Attribute Metadata**
+Turn boring text characteristics into a powerful sales and SEO tool! You can now attach to each attribute and its value:
 
-## Features
+- 🖼️ **Images and stylish Icons** — visualize features, making it easier for the client to choose.
+- 💡 **Tooltips** — display beautiful, informative descriptions of complex terms on hover.
+- 📏 **Units of Measurement** — maintain strict formatting standards (e.g., kg, mm, pcs) and manage them in bulk.
+- 🔗 **Internal SEO Links** — increase page weight and improve cross-navigation.
+- 🔘 **Status Management** — hide or show attributes with 1 click without deleting them.
+  _All of this can be easily integrated for display on the store's frontend and within product filter modules!_
 
-- Create new groups and attributes within a unified tree structure.
-- Drag-and-drop and copy-paste support:
-  - Copy attributes from one group to another;
-  - Move attributes between groups (reassign to a different group);
-  - Reorder groups and attributes using drag-and-drop;
-  - Add attributes to a category via drag-and-drop;
-  - Move attributes between categories;
-  - Merge attributes without losing their values or links.
-- Filter and search through groups, attributes, and values within the tree.
-- Edit groups, attributes, templates, and values.
-- Use a default template when adding attributes to products.
-- Apply the default template in bulk to products when an attribute is added to a category.
-- Control how values and templates are assigned to products.
-- Instantly view products filtered by specific attributes or values.
-- Built-in tools for organizing and managing attributes:
-  - Find and remove empty attribute values;
-  - Remove links to non-existent attributes;
-  - Defragment attribute sets and prepare parsing groups;
-  - Delete attributes that are not linked to any products;
-  - Merge duplicate attributes without data loss using AI, exact or fuzzy matching;
-  - Automatically generate category-based attributes;
-  - Bulk-replace separators in attribute values;
-  - Change capitalization for group, attribute, and value names;
-  - Attach or remove measurement units from attribute names;
-  - Create filters based on existing attributes and values;
-  - Redistribute and sort attributes to matching groups using AI, exact or fuzzy matching;
-  - Export and import data in SQL or CSV format.
-- Multilingual support:
-  - Work with multiple languages simultaneously;
-  - Clone groups, attributes, or values from one language to another.
-- Metadata support for each attribute or attribute value:
-  - Description;
-  - Image;
-  - Icon;
-  - Units of measurement;
-  - Internal linking URL;
-  - Status.
-- Display metadata on the product page and in frontend filters.
-- Integration with the product form without modifying the OpenCart core.
+🚀 **Total Visibility and Intuitive Control**
+See your entire structure of attributes and values at a glance — as hierarchical trees. Quick search and filtering right in the tree allow you to instantly find the data you need. Forget endless page reloads thanks to full Drag-and-drop and Copy-paste support:
+
+- **Drag & drop** attributes between groups and sort lists with a simple mouse movement.
+- **Smart Merge:** merge attributes without losing populated values or existing product links.
+- Easily copy attributes with a single click.
+
+⚡ **Batch Processing and Automation**
+Get rid of the routine when filling out product cards:
+
+- Assign a "Default template", and the module will automatically substitute the required value when an attribute is added.
+- Bulk-add attributes to all products within a category instantly.
+- Convenient two-way **SQL / CSV Data Import & Export** for backups, migration, or mass editing in Excel.
+
+🧠 **Artificial Intelligence and Deep Cleaning**
+A unique toolkit (utilizing **AI**, exact match, or fuzzy logic) to tidy up your database and establish perfect order:
+
+- Smart search and **duplicate merging** (often accumulated after parsing content).
+- Redistribution and sorting of attributes among groups.
+- Find and remove junk: empty values, broken "lost" links, and unused attributes.
+- Mass case change (capitalize the first letter in 1 click) and value separator replacement.
+- Full attribute defragmentation to prepare a clean baseline for future parsing.
+
+🌍 **Simple Multilingual Support**
+
+- Work with multiple languages simultaneously in parallel.
+- Instantly **clone** your structure (groups, attributes, metadata) from one language to another — the perfect solution for quickly launching new language versions of your store.
+
+🛡️ **No Core Hacks**
+The module integrates smoothly by providing a separate, ultra-fast tab (or modifying the existing one seamlessly) on the product form, featuring pagination and instant AJAX-saving. You won't lose any data if you accidentally close the page!
+
+:::tip
+We suggest you read the [comparative table of modules](/compare-modules.md).
+:::
