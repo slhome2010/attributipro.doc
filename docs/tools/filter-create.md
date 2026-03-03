@@ -2,7 +2,7 @@
 sidebar_position: 17
 ---
 
-# Filter
+# OpenCart Filter
 
 OpenCart has a built-in filter module and everything needed for its creation and configuration. However, this is a very labor-intensive process. Therefore, users prefer to use third-party applications that provide more conveniences in terms of automation. Of course, this costs a considerable amount of money.
 
