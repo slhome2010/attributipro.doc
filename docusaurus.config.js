@@ -92,14 +92,11 @@ const config = {
             "3.0.6": {
               label: "v3.0.6",
             },
-            "3.0.7": {
-              label: "v3.0.7",
-            },
-            "3.0.8": {
-              label: "v3.0.8",
-            },
+            "3.1.0": {
+              label: "v3.1.0",
+            }
           },
-          // includeCurrentVersion: false, // Закомментировать при разработке
+          includeCurrentVersion: false, // Закомментировать при разработке
         },
         blog: false,
         theme: {
