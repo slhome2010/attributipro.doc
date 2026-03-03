@@ -12,6 +12,18 @@ Our mission is to bring your attribute database into perfect order, automate the
 
 ## Core Concept
 
+The module creates a visual logical structure of groups, attributes, and their values, which offers:
+
+- representation of the structure of attributes and their values as a tree;
+- assignment of additional metadata to each attribute, its value, or default value;
+- management of this metadata as an integral part of each attribute, its value, or default value.
+
+```bash
+Attribute Group
+    └── Attribute
+          └── Attribute Value (list of values)
+```
+
 In default OpenCart, attributes often turn into an unmanageable chaos. **Attribut&pro** solves this problem systematically: you construct a logical set of characteristics that are identical for a specific product category, and link this template directly to the **Category**.
 
 Logical structure for linking attributes to categories:
@@ -19,16 +31,10 @@ Logical structure for linking attributes to categories:
 ```bash
 Product Category
     └── Attribute
-          └── Value (a list of attribute values)
+          └── Attribute Value (list of values)
 ```
 
 Now, when adding a product to a category, the necessary set of attributes will be populated automatically (a "default template"). The content manager simply needs to select the correct values. The entire structure is visually clear and presented as a convenient tree:
-
-```bash
-Attribute Group
-    └── Attribute
-          └── Attribute Value (and its variants)
-```
 
 ## Key Features
 
