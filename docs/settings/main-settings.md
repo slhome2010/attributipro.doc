@@ -10,8 +10,7 @@ sidebar_position: 1
 
 | Item                      | Description                                                                                                                                                |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **License Key**           | Enables all features of **Attribut&pro**. More details in [Licensed and _free_ version](/license/free-version.md).                                         |
-| **Attribute Separator**   | Used when a product can have multiple different values for the same attribute. More details in [Terms and Definitions](/general-info/values-templates.md). |
+| **License Key**           | Enables all features of **Attribut&pro**. More details in [Licensed and _free_ version](/license/free-version.md). |
 | **Respect Sort Order**    | If enabled, trees are built based on user-defined order; otherwise, alphabetically.                                                                        |
 | **Smart Scrolling**       | Enables auto-scrolling of tree nodes within a fixed area.                                                                                                  |
 | **Show Empty Values**     | Show or hide empty attribute values. More: [Delete Empty Values](/tools/empty-values.md).                                                                  |

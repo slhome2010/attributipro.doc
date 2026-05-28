@@ -46,7 +46,7 @@ If a **filter** does not support multiple **Values**, it is better to avoid usin
 
 ### **Separator Settings**
 
-The **Value separator** can be set in the **General module settings**. Letters, numbers, quotation marks, and square brackets cannot be used.
+The **Value separator** can be set in the [Multiple Values ​​(Templates)](/settings/multivalue.md). Letters, numbers, quotation marks, and square brackets cannot be used.
 
 Here’s how the **separator** appears in popular **filters**:
 

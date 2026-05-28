@@ -28,7 +28,7 @@ sidebar_position: 3
 :::
 
 :::warning
-Обязательно учтите особенности редактирования **Значений** в описании настройки [Сравнение значений](/settings/comparison.md).
+Обязательно учтите особенности редактирования **Значений** в описании настройки [Множественные значения (Шаблоны)](/settings/multivalue.md).
 :::
 
 <iframe width="100%" height="515" src="https://www.youtube.com/embed/_K9NL4JgAdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
