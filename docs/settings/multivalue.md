@@ -6,7 +6,7 @@ sidebar_position: 7
 
 The **Multiple Values (Templates)** tab (formerly called "Value Comparison") contains settings for handling attributes that consist of several distinct values separated by a special character.
 
-| ![Multiple Values Tab](/img/tutorial/en/v311/tab_multiple.png) |
+| ![Multiple Values Tab](/img/tutorial/en/v311/tab_multiple_en.png) |
 | :-------------------------------------------------------: |
 | _Multiple values and comparison settings_                |
 

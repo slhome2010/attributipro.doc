@@ -28,7 +28,7 @@ If changes are made to a **Template**, it affects all products where this **Attr
 :::
 
 :::warning
-Be sure to consider the peculiarities of editing **Values** in the description of the [Value Comparison](/settings/comparison.md) setting.
+Be sure to consider the peculiarities of editing **Values** in the description of the [Multiple Values ​​(Templates)](/settings/multivalue.md) setting.
 :::
 
 <iframe width="100%" height="515" src="https://www.youtube.com/embed/_K9NL4JgAdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

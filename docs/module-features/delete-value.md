@@ -44,7 +44,7 @@ To avoid ambiguity, the module provides several deletion modes.
 
 Deleting **Templates** (nodes with the parent **Templates**) is always done by an exact match of the field in the product with the entire **Template**.
 
-Deleting **Values** (nodes with the parent **Values**) depends on the [Value Comparison](/settings/comparison.md) setting. In any case, this is deletion by the occurrence of a sample (**Value**) within the product field. The setting allows comparing each **Value** written separated by a delimiter against the sample.
+Deleting **Values** (nodes with the parent **Values**) depends on the [Multiple Values ​​(Templates)](/settings/multivalue.md) setting. In any case, this is deletion by the occurrence of a sample (**Value**) within the product field. The setting allows comparing each **Value** written separated by a delimiter against the sample.
 
 | ![Auto deleting Template](/img/tutorial/en/delete_value_3_en.png) |
 | :---------------------------------------------------------------: |
