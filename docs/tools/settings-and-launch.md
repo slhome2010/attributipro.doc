@@ -9,7 +9,7 @@ The `Command` column features the button used to launch a given tool (task). Whi
 
 Additional settings are located in the *`Settings`* column and vary depending on the selected task.
 
-| ![Tools tab](/img/tutorial/en/tools_menu_en.png) |
+| ![Tools tab](/img/tutorial/en/v311/tools_menu_en.png) |
 |:--:|
 | *Tools tab and table* |
 

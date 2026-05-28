@@ -9,7 +9,7 @@ sidebar_position: 1
 
 Дополнительные настройки находятся в колонке *`Настройки`* и меняются в зависимости от задачи.
 
-| ![Вкладка *инструменты*](/img/tutorial/tools_menu.png) |
+| ![Вкладка *инструменты*](/img/tutorial/v311/tools_menu.png) |
 |:--:|
 | *Tools tab and table* |
 
